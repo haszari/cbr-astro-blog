@@ -1,0 +1,15 @@
+
+.icon-beatport:before { content: '\e800'; } /* '' */
+.icon-bluesky:before { content: '\e801'; } /* '' */
+.icon-mastodon:before { content: '\e802'; } /* '' */
+.icon-tiktok:before { content: '\e803'; } /* '' */
+.icon-soundcloud:before { content: '\f089'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-youtube:before { content: '\f16a'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-apple:before { content: '\f179'; } /* '' */
+.icon-google:before { content: '\f1a0'; } /* '' */
+.icon-spotify:before { content: '\f1bc'; } /* '' */
+.icon-amazon:before { content: '\f270'; } /* '' */
+.icon-facebook-squared:before { content: '\f308'; } /* '' */
+.icon-bandcamp:before { content: '\f32b'; } /* '' */
