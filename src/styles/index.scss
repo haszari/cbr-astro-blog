@@ -1,0 +1,254 @@
+
+@use './_globals.scss';
+
+body {
+  margin: 0;
+
+  font-family: globals.$default-sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: globals.$dark-bg-b;
+  color: globals.$text;
+}
+
+
+a {
+  color: globals.$link;
+  text-decoration: none;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.PageContent, .Header, .Footer {
+  max-width: 400px;
+  margin: auto;
+  font-size: 0.8em;
+
+  @media only screen and (min-width: globals.$small) {
+    max-width: calc(100% - 1.5em);
+    font-size: 0.8em;
+  }
+
+  @media only screen and (min-width: globals.$medium) {
+    max-width: min( 900px, calc(100% - 2em) );
+    font-size: 1.2em;
+  }
+}
+
+.Header-menuBar {  
+  padding: 1em 1em 0.5em;
+  .SiteTitle {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+}
+
+.Header .Header-menuBar-small {
+  .SiteLogo {
+    width: 2em;
+  };
+  .SiteTitle {
+    font-size: 1em;
+  }
+
+  @media only screen and (min-width: globals.$small) {
+    .SiteLogo {
+      width: 3em;
+    };
+    .SiteTitle {
+      font-size: 1.4em;
+    }
+  }
+}
+
+.Header-fullBleedImage {
+  position: relative;
+  
+  .FullBleedImage {
+    display: block;
+    max-height: 16em;
+  }
+  
+  .Header-menuBar-small {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.Header-fullBleedImage {
+  max-width: 100%;
+
+  @media only screen and (min-width: globals.$small) {
+    max-width: 100%;
+  }
+
+  @media only screen and (min-width: globals.$medium) {
+    max-width: 100%;
+  }
+}
+
+
+.Header-menuBar, .Footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  font-family: 'Hedvig Letters Serif';
+  color: globals.$text;
+
+
+  a {
+    // Override header links to look like regular text.
+    color: globals.$text;
+  }
+    
+  .SiteLogo {
+    width: 3em;
+  };
+
+  @media only screen and (min-width: globals.$small) {
+    .SiteLogo {
+      width: 7em;
+    };
+    .SiteTitle {
+      font-size: 2em;
+    }
+  }
+}
+
+.Footer {
+  padding: 1em;
+  align-items: center;
+
+  .SiteLogo {
+    width: 4em;
+  };
+  .SiteTitle {
+    font-size: 80%;
+  }
+  .HomeLink {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  .Menu {
+    display: flex;
+    gap: 1em;
+  }
+  .Footer .Menu a {
+    padding: 1em 0.5em;
+  }
+
+  .Footer-slant {
+    position: absolute;
+    background: globals.$dark-bg-b;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: -1;
+    transform: skewY(1.5deg);
+  }
+}
+
+.BlogGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1em;
+
+  margin-top: 1em;
+
+  .BlogGrid-postCard {
+    max-width: 280px;
+
+    h4 {
+      margin-block-start: 0.7em;
+      margin-block-end: 0.7em;
+    }
+  }
+}
+
+.SocialIcons {
+  .Icons {
+    display: flex;
+    gap: 0.6em;
+    justify-content: center;
+  }
+  .PlatformIcon {
+    font-size: 1.5em;
+  }
+}
+
+.Media.YouTube {
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 56.25%;
+  }
+
+  iframe {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.Profile-Haszari {
+  text-align: center;
+
+  .ProfilePic .gatsby-image-wrapper {
+    border-radius: 9999px;
+  }
+
+  .Links {
+    margin-bottom: 2em;
+  }
+
+  .Row, .Row-flip {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+    
+    .Media {
+      width: 45%;
+    }
+  }
+  .Row {
+    flex-direction: row;
+    text-align: left;
+  }
+  .Row-flip {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+
+  @media only screen and (max-width: globals.$medium) {
+    .Row, .Row-flip {
+      flex-direction: column-reverse;
+      align-items: center;
+    text-align: center;
+      
+      .Media, .Copy {
+        width: 80%;
+      }
+    }
+  }
+
+    @media only screen and (max-width: globals.$small) {
+    .Row, .Row-flip {
+      .Media, .Copy {
+        width: 100%;
+      }
+    }
+  }
+
+}

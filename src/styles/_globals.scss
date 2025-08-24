@@ -1,0 +1,26 @@
+// Shorthand variables for our three fonts.
+// Fonts are loaded by fonts.scss. 
+$default-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+$hedvig-serif: 'Hedvig Letters Serif', 'Georgia', serif;
+$hedvig-sans: 'Hedvig Letters Sans', 'Geneva', 'Verdana', sans-serif;
+
+// Responsive breakpoints.
+$small: 450px;
+$medium: 900px;
+
+// Colours.
+$dark-bg-a: #343433;
+$dark-bg-b: #222626;
+$text: #f3f1f3;
+$link: #35ffe1;
+
+// Reusable elements.
+@mixin full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
