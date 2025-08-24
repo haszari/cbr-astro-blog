@@ -164,6 +164,12 @@ a {
   .BlogGrid-postCard {
     max-width: 280px;
 
+    img {
+      object-fit: cover;
+      width: 280px;
+      height: 280px;
+    }
+
     h4 {
       margin-block-start: 0.7em;
       margin-block-end: 0.7em;
