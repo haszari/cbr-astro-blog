@@ -10,7 +10,7 @@ function ReleaseList({ releases }) {
   const rows = releases.map(( { data: releaseInfo, id } ) => ( 
     <HomePageSlantRelease
       key={id}
-      coverImage={releaseInfo.image} 
+      coverImage={releaseInfo.cover} 
       title={releaseInfo.title}
       artist={releaseInfo.artist}
       listenLinks={releaseInfo.listenLinks}

@@ -18,6 +18,8 @@ function HomePageSlantRelease({ title, artist, coverImage, listenLinks, linkToPa
     )
   }
   
+  console.log(JSON.stringify(coverImage));
+
   return (
     <div className="Release HomePageSlantRelease">
       <div className="Release-slant"></div>
@@ -32,8 +34,8 @@ function HomePageSlantRelease({ title, artist, coverImage, listenLinks, linkToPa
           </div>
           <MaybeLinkToRelease>
             <div className="Release-cover">
-              { coverImage && <GatsbyImage 
-                image={coverImage} 
+              { coverImage && <img 
+                src={coverImage.src} 
                 alt={title}
               /> }
             </div>

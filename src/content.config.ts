@@ -18,11 +18,12 @@ const blog = defineCollection({
 
 const releases = defineCollection({
   loader: file("src/content/data/releases.yml"),
-  schema: () => 
+  schema: ({ image }) => 
 		z.object({
 			artist: z.string(),
 			title: z.string(),
 			releaseDate: z.coerce.date(),
+			cover: image().optional(),
 
 			listenLinks: z.object({
 				soundcloud: z.string().optional().or(z.null()),
