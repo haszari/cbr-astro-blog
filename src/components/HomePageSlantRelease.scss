@@ -1,0 +1,75 @@
+@use '../styles/_globals.scss';
+
+@use './Release-base.scss';
+
+.Release.HomePageSlantRelease {
+  @include globals.full-width;
+
+  .Release-slant {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1em;
+    bottom: -1em;
+    z-index: -1;
+  }
+  
+  .Release-content {
+    .Release-info {
+      text-align: right;
+      margin: 1em;
+      width: 30%;
+    }
+  }
+
+  &:nth-child(odd) {
+    .ListenIcons {
+      justify-content: flex-end;
+    }
+    .Release-slant {
+      background-color: globals.$dark-bg-a;
+      clip-path: polygon(
+        0% 8%,
+        100% 0%, 
+        100% 100%,
+        0% 92%
+      ); 
+    }
+  }
+
+  &:nth-child(even) {
+    .Release-slant {
+      // Fall through to background colour - lighter trapezoid on odd releases.
+      display: none;
+    }
+    .ListenIcons {
+      justify-content: flex-start;
+    }
+    
+    .Release-content {
+      flex-direction: row-reverse;
+      
+      .Release-info {
+        text-align: left;
+      }
+    }
+  }
+
+  .gatsby-image-wrapper, img {
+    max-width: 200px;
+  }
+
+  @media only screen and (min-width: globals.$small) {
+    .gatsby-image-wrapper, img {
+      max-width: 250px;
+    }  
+  }
+
+  @media only screen and (min-width: globals.$medium) {
+    .gatsby-image-wrapper, img {
+      max-width: 300px;
+    }
+  }
+
+}
+

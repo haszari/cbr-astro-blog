@@ -1,0 +1,410 @@
+
+
+- slug: "CBR019"
+  artist: "Haszari"
+  title: "Galley Listing"
+  cover: "covers/cbr019.jpg"
+  releaseDate: 2025-06-16
+  listenLinks:
+    soundcloud: https://soundcloud.com/haszari/galley-listing
+    bandcamp: https://haszari.bandcamp.com/album/galley-listing
+    youtube: https://www.youtube.com/watch?v=0w1eabnixOA
+    beatport: https://www.beatport.com/release/galley-listing/5185001
+    spotify: https://open.spotify.com/album/2lErQXsyS9Nfak5HNFxPGW
+    apple: https://music.apple.com/nz/album/galley-listing-single/1827314937
+  blurb:
+    "Galley Listing is a dark dub techno riff on Sinking Galley, Haszari's ancient undersea collaboration with Kathia Rudametkin. 
+    Galley Listing takes place centuries prior to Sinking Galley – the ship's in rough seas and about to capsize!"
+
+
+- slug: "CBR015b"
+  artist: "Haszari + Kathia Rudametkin"
+  title: "Sinking Galley (Foison remix)"
+  cover: "covers/cbr015b.jpg"
+  releaseDate: 2025-01-17
+  listenLinks:
+    bandcamp: ""
+    apple: https://music.apple.com/nz/album/sinking-galley-foison-remix-single/1793414532
+    spotify: https://open.spotify.com/album/4vcNmPIPjpG0GqsO8IvmXS
+    beatport: https://www.beatport.com/release/sinking-galley-foison-remix/4916728
+    soundcloud: ""
+    youtube: ""
+
+- slug: "CBR018"
+  artist: "Haszari"
+  title: "Photic Reflex"
+  cover: "covers/cbr018.jpg"
+  releaseDate: 2024-11-08
+  listenLinks:
+    bandcamp: "https://haszari.bandcamp.com/album/photic-reflex"
+    apple: "https://music.apple.com/nz/album/photic-reflex/1767698565"
+    spotify: "https://open.spotify.com/track/493A8LZIcc9lHH12FFg41x"
+    youtube: "https://www.youtube.com/watch?v=jvwrGqgitQY"
+    soundcloud: "https://soundcloud.com/haszari/sets/photic-reflex"
+    beatport: "https://www.beatport.com/release/photic-reflex/4728557"
+
+- slug: "CBR017"
+  artist: "Haszari"
+  title: "Gumdrop"
+  cover: "covers/cbr017.jpg"
+  releaseDate: 2024-07-25
+  listenLinks:
+    bandcamp: "https://haszari.bandcamp.com/album/gumdrop"
+    apple: "https://music.apple.com/nz/album/gumdrop-single/1752777315"
+    spotify: "https://open.spotify.com/album/527xLMruqY12PKSGiLpAGN"
+    youtube: ""
+    beatport: "https://www.beatport.com/release/gumdrop/4668330"
+    soundcloud: "https://soundcloud.com/haszari/gumdrop"
+
+- slug: "CBR016"
+  artist: "Haszari"
+  title: "Parkplatz-Schlurfen"
+  cover: "covers/cbr016.jpg"
+  releaseDate: 2024-04-11
+  listenLinks:
+    bandcamp: "https://haszari.bandcamp.com/track/parkplatz-schlurfen"
+    apple: "https://music.apple.com/nz/album/parkplatz-schlurfen-single/1738651266"
+    spotify: "https://open.spotify.com/track/4vNzgGgjFgqH0ednZYXGu4"
+    youtube: "https://www.youtube.com/watch?v=pigBaeAeopY"
+    soundcloud: "https://soundcloud.com/haszari/parkplatz-schlurfen"
+    beatport: ""
+
+- slug: "CBR015"
+  artist: "Haszari + Kathia Rudametkin"
+  title: "Sinking Galley"
+  cover: "covers/cbr015.jpg"
+  releaseDate: 2024-05-16
+  listenLinks:
+    bandcamp: "https://haszari.bandcamp.com/album/sinking-galley"
+    apple: "https://music.apple.com/nz/album/sinking-galley-single/1738027420"
+    spotify: "https://open.spotify.com/album/7E6THW1fuTtlbKVyFiB4nR"
+    beatport: ""
+    soundcloud: "https://soundcloud.com/haszari/sets/sinking-galley"
+    youtube: "https://www.youtube.com/playlist?list=OLAK5uy_l0dMdedamavdwNSF3LwvF5fa5ipFSWgJw"
+
+- slug: "CBR014"
+  artist: "MÖM"
+  title: "Circles (Haszari remix)"
+  cover: "covers/cbr014.jpg"
+  releaseDate: 2024-03-14
+  listenLinks:
+    spotify: "https://open.spotify.com/track/6pJaBauTLGnOXmftByYXXy"
+    apple: "https://music.apple.com/nz/album/circles-haszari-remix-single/1729992649"
+    youtube: https://www.youtube.com/watch?v=_rjy-E4Bo1o"
+    amazon: "https://www.amazon.com/music/player/albums/B0CVB52QP8"
+    bandcamp: ""
+    beatport: ""
+    soundcloud: ""
+
+- slug: "CBR013"
+  artist: "Haszari"
+  title: "Mivova"
+  cover: "covers/cbr013.jpg"
+  releaseDate: 2023-08-24
+  listenLinks:
+    bandcamp: "https://haszari.bandcamp.com/track/mivova"
+    spotify: "https://open.spotify.com/track/1LT74dnJv99LnD4imbfiun"
+    beatport: ""
+    soundcloud: "https://soundcloud.com/haszari/mivova"
+    apple: "https://music.apple.com/nz/album/mivova/1726131737"
+    youtube: "https://www.youtube.com/watch?v=kLNKjf87-XQ"
+
+- artist: "Haszari"
+  title: "It Was Coming On"
+  slug: "CBR012"
+  cover: "covers/cbr012.jpg"
+  releaseDate: 2023-08-24
+  listenLinks:
+    bandcamp: "https://haszari.bandcamp.com/album/it-was-coming-on"
+    apple: "https://apple.co/3YMc0It"
+    spotify: "https://open.spotify.com/album/3pbxP8blS5TgZNBSgwyTtZ"
+    youtube: "https://www.youtube.com/watch?v=6BTpManfZR4&list=OLAK5uy_lGSLvT4fOiL0kVxrvkUoxg5whtfGhxJls"
+    soundcloud: "https://soundcloud.com/haszari/it-was-coming-on?in=haszari/sets/tracks"
+
+- slug: "CBR011"
+  artist: "Sharkweek"
+  title: "Sumiyoshi"
+  cover: "covers/cbr011.jpg"
+  releaseDate: 2023-03-02
+  listenLinks:
+    bandcamp: ""
+    spotify: https://open.spotify.com/album/1T8BcpycDs3G3m9o2YFxBt
+    beatport: https://www.beatport.com/release/sumiyoshi/4675507
+    soundcloud: ""
+    apple: https://music.apple.com/nz/album/sumiyoshi-ep/1760394720
+    youtube: "https://youtube.com/playlist?list=OLAK5uy_lCYqnXPKIplrrJd7HRQPO5SidUFDf924M&si=u9isiy1EpqqzeyMz"
+
+- slug: "CBR010"
+  artist: "Haszari"
+  title: "Like So"
+  cover: "covers/cbr010.jpg"
+  releaseDate: 2022-07-12
+  listenLinks:
+    bandcamp: https://haszari.bandcamp.com/album/like-so-2
+    apple: https://music.apple.com/nz/album/like-so-ep/1735285069
+    spotify: https://open.spotify.com/album/0FLrP3bllGVrraM3rLhrNW
+    beatport: ""
+    soundcloud: ""
+    youtube: "https://youtube.com/playlist?list=OLAK5uy_k4VMckd4D4kZ7l26Da8PRhpAfHkJzW3FE"
+
+- slug: "CBR009"
+  artist: "Haszari"
+  title: "Foundation Slab"
+  cover: "covers/cbr009.jpg"
+  releaseDate: 2022-04-01
+  listenLinks:
+    bandcamp: ""
+    spotify: https://open.spotify.com/album/69lOXg1ZpgQcaMvyWBlbT7
+    apple: https://music.apple.com/nz/album/foundation-slab-ep/1726749663
+    youtube: https://youtube.com/playlist?list=OLAK5uy_n1Yg3g28nxfywGzHEEwDoI_wz3UziIqsU
+    beatport: ""
+    soundcloud: ""
+
+- slug: "CBR008"
+  artist: "Haszari"
+  title: "Redline Train"
+  cover: "covers/cbr008.jpg"
+  releaseDate: 2021-08-26
+  listenLinks:
+    bandcamp: ""
+    spotify: https://open.spotify.com/album/2BYP241jHsFNjUdnw7vc8i
+    beatport: https://www.beatport.com/release/redline-train/4675503"
+    soundcloud: ""
+    apple: https://music.apple.com/nz/album/redline-train-ep/1760398672
+    youtube: https://youtube.com/playlist?list=OLAK5uy_lKMJsc62Cs91gNdw9SEDqwhvrFKc0AZrc
+
+- slug: "CBR007"
+  artist: "Haszari"
+  title: "Eggs For Tea"
+  cover: "covers/cbr007.jpg"
+  releaseDate: 2020-05-21
+  listenLinks:
+    bandcamp:
+    spotify: https://open.spotify.com/album/2G1FNR11Vw2LBILc67LsIS
+    beatport:
+    soundcloud:
+    apple: https://music.apple.com/nz/album/eggs-for-tea-single/1708819054
+    youtube: https://youtube.com/playlist?list=OLAK5uy_mBCthYPhvPm3Hxn5kjBJdYPGh7r6BLfG4
+
+- slug: "CBR006"
+  artist: "Haszari"
+  title: "Other People Are Having Breakfast"
+  cover: "covers/cbr006.jpg"
+  remixers:
+  - "Espionage"
+  releaseDate: 2019-05-20
+  listenLinks:
+    bandcamp:
+    spotify: https://open.spotify.com/album/5f5oj0sO5R21JXFrkj6FbI
+    beatport: https://www.beatport.com/release/other-people-are-having-breakfast/4704688
+    soundcloud:
+    apple: https://music.apple.com/nz/album/other-people-are-having-breakfast-single/1759495645
+    youtube: https://youtube.com/playlist?list=OLAK5uy_lGmLcDJ_AvEUEAi-RIN-cT48vEnfRYeko
+
+- slug: "CBR005b"
+  title: "Padded Cell"
+  artist: "Haszari"
+  cover: "covers/cbr005b.jpg"
+  remixers:
+  - "Nikolozi"
+  - "nsu"
+  colours:
+    background: "#c61647"
+  releaseDate: 2017-02-22
+  listenLinks:
+    spotify: "https://open.spotify.com/album/3nZK807I6PZI3DVymT35vl"
+    apple: "https://itunes.apple.com/us/album/padded-cell-single/id1200706796?uo=4&app=music&at=1001lry3"
+    youtube: "https://youtube.com/playlist?list=OLAK5uy_mEqyLRJCUIDDaJq9LIQwVFhB9ofXE3puQ"
+    amazon: "http://www.amazon.com/gp/product/B01NAYTDLW"
+    beatport: "https://www.beatport.com/release/padded-cell/4704690"
+
+- slug: "CBR005a"
+  title: "Fuzzy Motion"
+  artist: "Nikolozi"
+  cover: "covers/cbr005a.jpg"
+  remixers:
+  - "Haszari"
+  - "nsu"
+  colours:
+    background: "#33002e"
+  releaseDate: 2017-02-15
+  listenLinks:
+    spotify: "https://open.spotify.com/album/6fysfToZ3QcK3NF4WPiUYE"
+    apple: https://geo.itunes.apple.com/us/album/fuzzy-motion-single/id1200706497
+    youtube: "https://youtube.com/playlist?list=OLAK5uy_m9ZAeSClLxKcTKaRreJc9hxY5_mNo9EOY"
+    amazon: "https://www.amazon.com/Fuzzy-Motion-Nikolozi/dp/B01N16H5TX"
+    beatport: "https://www.beatport.com/release/fuzzy-motion/4707419"
+
+- slug: "CBR004b"
+  title: "RE: Memory"
+  artist: "SoNic Smith"
+  cover: "covers/cbr004b.jpg"
+  remixers:
+  - "Haszari"
+  - "nsu"
+  colours:
+    background: "#89000d"
+  releaseDate: 2012-08-30
+  listenLinks:
+    spotify: "https://open.spotify.com/album/1sK6Pni3PhF6iTjxzC9WMK"
+    apple: "https://itunes.apple.com/us/album/re-memory-single/id1175897729?uo=4&app=music"
+    youtube: "https://www.youtube.com/playlist?list=OLAK5uy_k69kCfaYUp5OTpXIvl874hB85a7dbtlgU"
+    amazon: "http://www.amazon.com/gp/product/B01N04D2Z0"
+    beatport: "https://www.beatport.com/release/re-memory/4707409"
+
+- slug: "CBR004a"
+  title: "Blood Orange"
+  artist: "Haszari"
+  cover: "covers/cbr004a.jpg"
+  remixers:
+  - "SoNic Smith"
+  - "nsu"
+  colours:
+    background: "#e3001c"
+  releaseDate: 2012-08-23
+  listenLinks:
+    spotify: "https://open.spotify.com/album/2Jfysi3ktit9ZIdyFDuY7d"
+    apple: "https://itunes.apple.com/us/album/blood-orange-ep/id1175893872?uo=4&app=music"
+    youtube: "https://www.youtube.com/playlist?list=OLAK5uy_mkRzWGa5ArL3yG0-QHYrljvJYhi1PJYDs"
+    amazon: "http://www.amazon.com/gp/product/B01MYLP58L"
+    beatport: "https://www.beatport.com/release/blood-orange/4720098"
+
+- slug: "CBR003b"
+  title: "Neutron Star MMX"
+  artist: "nsu"
+  cover: "covers/cbr003b.jpg"
+  remixers:
+  - "Haszari"
+  - "Aural Trash"
+  - "Snake Charmer"
+  - "Greg Churchill"
+  colours:
+    background: "#f75c21"
+  releaseDate: 2010-09-23
+  listenLinks:
+    spotify: "https://open.spotify.com/album/64BBGrJVJJ68tmiFWj4syz"
+    apple: "https://itunes.apple.com/us/album/neutron-star-mmx-ep/id1175890606?uo=4&app=music"
+    youtube: "https://www.youtube.com/playlist?list=OLAK5uy_mBLjBfGiguaUtUwJAA5uxvxEIQQk9CWJU"
+    amazon: "http://www.amazon.com/gp/product/B01N04D5JD"
+    beatport: https://www.beatport.com/release/neutron-star-mmx/4756558
+
+- slug: "CBR003a"
+  title: "It's Not Real"
+  artist: "Haszari"
+  cover: "covers/cbr003a.jpg"
+  remixers:
+  - "nsu"
+  - "Aural Trash"
+  - "Snake Charmer"
+  - "Greg Churchill"
+  colours:
+    background: "#051966"
+  releaseDate: 2010-09-16
+  listenLinks:
+    spotify: "https://open.spotify.com/album/63YdghfUuwS4BfIdVTQD9d"
+    apple: "https://itunes.apple.com/us/album/its-not-real-ep/id1175884694?uo=4&app=music"
+    youtube: "https://www.youtube.com/playlist?list=OLAK5uy_lQVDJ9dTt3lP5rMiC-q_K9UQB-2LvN-_s"
+    amazon: "http://www.amazon.com/gp/product/B01N3RF0T7"
+    beatport: https://www.beatport.com/release/its-not-real/4760875
+
+- slug: "CBR002b"
+  title: "Small Firm Peppermints"
+  artist: "Sharkweek"
+  cover: "covers/cbr002b.jpg"
+  remixers:
+  - "SoNic Smith"
+  - "Haszari"
+  colours:
+    background: "#f00001"
+  releaseDate: 2010-03-12
+  listenLinks:
+    spotify: "https://open.spotify.com/album/6qelxqzkMKEE15USaPdKel"
+    apple: "https://itunes.apple.com/us/album/small-firm-peppermints-single/id1175777746?uo=4&app=music"
+    youtube: "https://youtube.com/playlist?list=OLAK5uy_kvnNMWEKBpj1tiSNx5ugy0rfnj5Fxfpp8&si=8YzXjsHDyUVGiEcn"
+    amazon: "http://www.amazon.com/gp/product/B01MYLH0I4"
+
+- slug: "CBR002a"
+  title: "Wii Break"
+  artist: "SoNic Smith"
+  cover: "covers/cbr002a.jpg"
+  remixers:
+  - "Sharkweek"
+  - "Haszari"
+  colours:
+    background: "#5a6a6c"
+  releaseDate: 2010-03-05
+  listenLinks:
+    spotify: "https://open.spotify.com/album/5bxqxWez7DIdd1veKzD4Gs"
+    apple: "https://itunes.apple.com/us/album/wii-break-single/id1175722432?uo=4&app=music"
+    youtube: "https://www.youtube.com/playlist?list=OLAK5uy_n_v0skUHSjYtEKqmUZzwcO4iIdtMSyUL8"
+    amazon: "http://www.amazon.com/gp/product/B01MQHLRIJ"
+    beatport: https://www.beatport.com/release/wii-break/4760872
+
+
+- slug: "CBR001b"
+  title: "The Jacket"
+  artist: "Haszari"
+  cover: "covers/cbr001b.jpg"
+  remixers:
+  - "SoNic Smith"
+  - "Stray Theories"
+  colours:
+    background: "#5e2204"
+  releaseDate: 2009-05-23
+  listenLinks:
+    bandcamp:
+    spotify: "https://open.spotify.com/album/62C7AEVpYoDBvW815KwQRp"
+    apple: "https://itunes.apple.com/us/album/the-jacket-ep/id1175874775?uo=4&app=music"
+    youtube: "https://www.youtube.com/playlist?list=OLAK5uy_kdQT1z0kS2d2dVa1M-pCZb9On0-tKj9oA"
+    amazon: "http://www.amazon.com/gp/product/B01N3N9AOS"
+    beatport: https://www.beatport.com/release/the-jacket/4786081
+
+- slug: "CBR001a"
+  title: "Ladies Style"
+  artist: "SoNic Smith"
+  cover: "covers/cbr001a.jpg"
+  remixers:
+  - "Haszari"
+  - "Stray Theories"
+  colours:
+    background: "#88568b"
+  releaseDate: 2009-05-22
+  listenLinks:
+    spotify: "https://open.spotify.com/album/6MAwIp8gXcCYGc8tfDXFzH"
+    apple: ""  # Ladies Style is MIA on apple?
+    youtube: "https://www.youtube.com/playlist?list=OLAK5uy_kcG2aUBh7dFlAJTerwL7C9u1tOgEQ8Sfw"
+    amazon: "http://www.amazon.com/gp/product/B01MTM2XGC"
+    beatport: https://www.beatport.com/release/ladies-style/4812352
+
+- slug: "GAMER004"
+  title: "Bad Reception 2.0"
+  artist: "Angry Suzy"
+  cover: "covers/gamer004.jpg"
+  label: Gamer Music
+  releaseDate: 2025-04-11
+  remixers:
+    - "Haszari"
+  listenLinks:
+    bandcamp: 'https://gamermusicrecords.bandcamp.com/track/bad-reception-20-haszari-accoustic-handshake-remix'
+    apple: 'https://music.apple.com/nz/album/bad-reception-haszari-accoustic-handshake-remix/1803791528'
+    spotify: 'https://open.spotify.com/track/0jyg8tR1w2MiadRq0GN9lU'
+    beatport: 'https://www.beatport.com/release/bad-reception-20/5001155'
+    youtube: ''
+    amazon: ''
+
+- slug: "GAMER003"
+  title: "Shed Out"
+  artist: "Haszari"
+  cover: "covers/gamer003.jpg"
+  label: Gamer Music
+  releaseDate: 2023-11-28
+  remixers:
+    - "Angry Suzy"
+    - "Robz"
+  listenLinks:
+    bandcamp: 'https://gamermusicrecords.bandcamp.com/album/haszari-shed-out-ep'
+    apple: 'https://music.apple.com/nz/album/shed-out-ep/1714643509'
+    spotify: 'https://open.spotify.com/album/6uZFuiv8aihvv1gH6MYxr0'
+    beatport: 'https://www.beatport.com/release/shed-out/4325388'
+    youtube: ''
+    amazon: ''

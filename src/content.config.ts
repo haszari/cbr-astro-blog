@@ -1,5 +1,5 @@
 import { defineCollection, z } from 'astro:content';
-import { glob } from 'astro/loaders';
+import { glob, file } from 'astro/loaders';
 
 const blog = defineCollection({
 	// Load Markdown and MDX files in the `src/content/blog/` directory.
@@ -16,4 +16,29 @@ const blog = defineCollection({
 		}),
 });
 
-export const collections = { blog };
+const releases = defineCollection({
+  loader: file("src/content/data/releases.yml"),
+  schema: () => 
+		z.object({
+			artist: z.string(),
+			title: z.string(),
+			releaseDate: z.coerce.date(),
+
+			listenLinks: z.object({
+				soundcloud: z.string().optional().or(z.null()),
+				bandcamp: z.string().optional().or(z.null()),
+				youtube: z.string().optional().or(z.null()),
+				beatport: z.string().optional().or(z.null()),
+				spotify: z.string().optional().or(z.null()),
+				apple: z.string().optional().or(z.null()),
+			}),
+
+			description: z.string().optional(),
+			blurb: z.string().optional(),
+		})
+});
+
+export const collections = { 
+	blog,
+	releases
+};

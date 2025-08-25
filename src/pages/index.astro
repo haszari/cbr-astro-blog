@@ -1,18 +1,29 @@
 ---
+import { getCollection } from 'astro:content';
+
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+
+import ReleaseList from '../components/ReleaseList.jsx';
+
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+const releases = (await getCollection('releases')).sort(
+	(a, b) => b.data.releaseDate.valueOf() - a.data.releaseDate.valueOf(),
+);
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<link rel="stylesheet" href="/fontello/css/fontawesome-musicstores.css">
 	</head>
 	<body>
 		<Header />
 		<main>
+			<ReleaseList releases={releases} />
 		</main>
 		<Footer />
 	</body>

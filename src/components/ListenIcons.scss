@@ -1,0 +1,47 @@
+@use '../styles/_globals.scss';
+
+
+.ListenIcons {
+  margin-top: 0.5em;
+  font-size: 120%;
+  color: globals.$link;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.1em 0.5em;
+  
+  // We have labels so the icons make more sense in screen readers (ESLint warning).
+  // Hide them so we get "logo-only" look.
+  // This might hide them from screen readers though.
+  // Yep confirmed: https://www.a11yproject.com/posts/how-to-hide-content/
+  // TODO hide this more responsibly or find a better way to add a reader-only label.
+  label {
+    display: none;
+  }
+  // Reset fontello icon margins (using flex gap instead).
+  a span::before {
+    margin: 0;
+  }
+
+  // Zero the fontello-provided icon margin so it aligns nicely.
+  // This is a bit messy.
+  // a:first-child  span::before {
+  //   margin-left: 0;
+  // }
+  // a:last-child span::before  {
+  //   margin-right: 0;
+  // }
+
+  // Amazon icon is not properly aligned IMO.
+  .icon-amazon {
+    position: relative;
+    top: 2px;
+  }
+
+  // Apple icon can be a bit bigger and higher because the leaf doesn't really affect centre of gravity.
+  .icon-apple {
+    position: relative;
+    font-size: 105%;
+    top: -2px;
+  }
+}
