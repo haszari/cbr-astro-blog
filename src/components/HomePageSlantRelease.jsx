@@ -18,8 +18,6 @@ function HomePageSlantRelease({ title, artist, coverImage, listenLinks, linkToPa
     )
   }
   
-  console.log(JSON.stringify(coverImage));
-
   return (
     <div className="Release HomePageSlantRelease">
       <div className="Release-slant"></div>
