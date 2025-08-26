@@ -1,0 +1,40 @@
+@use '../styles/_globals.scss';
+
+
+.ListenButtons {
+  margin: 1.5em 0 0.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.8em;
+  align-items: center;
+
+  font-size: 1.4em;
+  @media only screen and (min-width: globals.$medium) {
+    font-size: 1em;
+  }
+
+  a {
+    color: globals.$dark-bg-b;
+    background-color: globals.$link;
+    padding: 0.35em 0.8em 0.4em 0.3em;
+    border-radius: 1em;
+  }
+
+  a span::before {
+    font-size: 110%;
+  }
+
+  // Amazon icon is not properly aligned IMO.
+  .icon-amazon {
+    position: relative;
+    top: 2px;
+  }
+
+  // Apple icon can be a bit bigger and higher because the leaf doesn't really affect centre of gravity.
+  .icon-apple {
+    position: relative;
+    top: -1px;
+  }
+}

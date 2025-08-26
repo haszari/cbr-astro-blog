@@ -1,0 +1,40 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+import VerticalStackRelease from '../components/VerticalStackRelease.jsx';
+
+type Props = CollectionEntry<'release'>['data'];
+
+
+// soundcloud: z.string().optional().or(z.null()),
+// bandcamp: z.string().optional().or(z.null()),
+// youtube: z.string().optional().or(z.null()),
+// beatport: z.string().optional().or(z.null()),
+// spotify: z.string().optional().or(z.null()),
+// apple: z.string().optional().or(z.null()),
+
+const { slug, artist, title, releaseDate, cover, listenLinks, description, blurb } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+
+	<body>
+		<Header />
+		<VerticalStackRelease
+			coverImage={cover} 
+			title={title}
+			artist={artist}
+			listenLinks={listenLinks}
+			blurb={blurb}
+		/>
+		<Footer />
+	</body>
+</html>
