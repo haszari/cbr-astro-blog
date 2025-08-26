@@ -1,6 +1,7 @@
 
 
-- artist: "Haszari"
+- slug: haszari 
+  name: "Haszari"
   socialLinks:
     bluesky: https://bsky.app/profile/haszari.bsky.social
     instagram: https://www.instagram.com/haszari

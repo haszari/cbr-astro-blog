@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+import HaszariProfile from '../components/HaszariProfile.jsx';
+
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<main class="PageContent Profile-Haszari">
+			<HaszariProfile />
+		</main>
+		<Footer />
+	</body>
+</html>

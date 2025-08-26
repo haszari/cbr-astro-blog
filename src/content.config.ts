@@ -16,6 +16,8 @@ const blog = defineCollection({
 		}),
 });
 
+// TODO could validate many of these as URLs, even verify domain.
+
 const releases = defineCollection({
   loader: file("src/content/data/releases.yml"),
   schema: ({ image }) => 
@@ -39,7 +41,39 @@ const releases = defineCollection({
 		})
 });
 
+const artists = defineCollection({
+  loader: file("src/content/data/artists.yml"),
+  schema: ({ image }) => 
+		z.object({
+			name: z.string(),
+			socialLinks: z.object({
+				soundcloud: z.string().optional().or(z.null()),
+				bandcamp: z.string().optional().or(z.null()),
+				youtube: z.string().optional().or(z.null()),
+				beatport: z.string().optional().or(z.null()),
+				spotify: z.string().optional().or(z.null()),
+				apple: z.string().optional().or(z.null()),
+				
+				bluesky: z.string().optional().or(z.null()),
+				instagram: z.string().optional().or(z.null()),
+				tiktok: z.string().optional().or(z.null()),
+				facebook: z.string().optional().or(z.null()),
+				mastodon: z.string().optional().or(z.null()),
+				gravatar: z.string().optional().or(z.null()),
+				twitterx: z.string().optional().or(z.null()),
+				tumblr: z.string().optional().or(z.null()),
+				threads: z.string().optional().or(z.null()),
+				linkedin: z.string().optional().or(z.null()),
+
+				mixcloud: z.string().optional().or(z.null()),
+
+			})
+		})
+});
+
+
 export const collections = { 
 	blog,
-	releases
+	releases,
+	artists
 };
