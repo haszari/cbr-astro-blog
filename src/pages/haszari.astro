@@ -8,7 +8,8 @@ import Header from '../components/Header.astro';
 import HaszariProfile from '../components/HaszariProfile.jsx';
 
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
-
+const artists = (await getCollection('artists'));
+const haszari = artists[0];
 ---
 
 <!doctype html>
@@ -18,7 +19,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	</head>
 	<body>
 		<main class="PageContent Profile-Haszari">
-			<HaszariProfile />
+			<HaszariProfile data={haszari.data} />
 		</main>
 		<Footer />
 	</body>

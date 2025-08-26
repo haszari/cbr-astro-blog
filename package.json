@@ -16,6 +16,7 @@
     "@types/react": "^19.1.11",
     "@types/react-dom": "^19.1.7",
     "astro": "^5.13.3",
+    "classnames": "^2.5.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "sass": "^1.90.0",

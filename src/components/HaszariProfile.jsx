@@ -1,3 +1,5 @@
+import classnames from 'classnames';
+
 /*
 Using a React component for this page temporarily, 
 since it's implemented as a React nest in Gatsby site.
@@ -38,7 +40,9 @@ function SocialIconsGroup({ title, className, items }) {
 const HaszariPage = ({data}) => {
   // const profilePic = getImage( data?.allFile?.nodes[0] );
 
-  const { socialLinks } = { socialLinks: [] };
+  console.log(JSON.stringify(data));
+
+  const { socialLinks } = data;
   const socialPlatforms = [
     "instagram",
     "youtube",
@@ -66,9 +70,9 @@ const HaszariPage = ({data}) => {
     return ( url && { key, url } );
   });
 
-  // const musicIcons = (<SocialIconsGroup title='Listen' items={listen} />);
+  const musicIcons = (<SocialIconsGroup title='Listen' items={listen} />);
 
-  // const socialIcons = (<SocialIconsGroup title='Follow' items={social} />);
+  const socialIcons = (<SocialIconsGroup title='Follow' items={social} />);
 
   return (
 		<>
@@ -77,8 +81,7 @@ const HaszariPage = ({data}) => {
         {/* <GatsbyImage image={profilePic} /> */}
       </div>
       <div className='Links'>
-        {/* { musicIcons }
-        { socialIcons } */}
+        { musicIcons }
       </div>
 
       <div className="Row-flip">
@@ -98,6 +101,10 @@ const HaszariPage = ({data}) => {
           <p>My original music is all about the space between sounds.</p>
           <p>You might classify it as tech-house, dub, ambient or breakbeat.</p>
         </div>
+      </div>
+
+      <div className='Links'>
+        { socialIcons } 
       </div>
 
       <div className="Row-flip">
