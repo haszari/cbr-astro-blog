@@ -20,6 +20,10 @@ a {
   cursor: pointer;
 }
 
+img {
+  object-fit: cover;
+}
+
 .PageContent, .Header, .Footer {
   max-width: 400px;
   margin: auto;
@@ -211,8 +215,11 @@ a {
 .Profile-Haszari {
   text-align: center;
 
-  .ProfilePic .gatsby-image-wrapper {
+  .ProfilePic img {
     border-radius: 9999px;
+    width: 340px;
+    height: 340px;
+
   }
 
   .Links {

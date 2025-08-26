@@ -1,5 +1,7 @@
 import classnames from 'classnames';
 
+import haszariProfilePic from '../assets/haszari.jpg';
+
 /*
 Using a React component for this page temporarily, 
 since it's implemented as a React nest in Gatsby site.
@@ -78,7 +80,7 @@ const HaszariPage = ({data}) => {
 		<>
 			<h1>Haszari</h1>
       <div className="ProfilePic">
-        {/* <GatsbyImage image={profilePic} /> */}
+        <img src={haszariProfilePic.src} />
       </div>
       <div className='Links'>
         { musicIcons }
