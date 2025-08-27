@@ -9,6 +9,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://cartoonbeats.com',
+    site: 'https://haszari.github.io',
+    base: '/cbr-astro-blog',
     integrations: [mdx(), sitemap(), react()],
 });
