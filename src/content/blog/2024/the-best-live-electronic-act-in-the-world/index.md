@@ -63,15 +63,10 @@ Go deeper to find out how they do it:
 - Good reviews from [**MusicTech**](https://musictech.com/news/events/the-chemical-brothers-live-review-o2-arena/) and [**The Guardian**](https://www.theguardian.com/music/2019/nov/22/chemical-brothers-review-a-glorious-meaningless-sensory-overload).
 - **This live set from **Glastonbury** is similar to what I experienced**.
 
-<!-- wp:quote -->
-<blockquote class="wp-block-quote">
-There's no point having that many pieces of equipment if you're not going tospend the time
-
-**programming**
-
-**planning**
-
-**creating something**.
-
-<cite>Adam Smith</cite></blockquote>
-<!-- /wp:quote -->
+> There's no point having that many pieces of equipment if you're not going tospend the time
+> 
+> - **programming**
+> - **planning**
+> - **creating something**.
+>
+> *Adam Smith*
