@@ -9,6 +9,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://cartoonbeats.com',
-    integrations: [mdx(), sitemap(), react()],
+  site: 'https://cartoonbeats.com',
+  integrations: [mdx(), sitemap(), react()],
 });
