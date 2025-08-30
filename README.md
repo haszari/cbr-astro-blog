@@ -9,4 +9,4 @@ https://cartoonbeats.com
 
 Deploys automatically to GitHub Pages on every push to `main` branch [using standard workflow](./.github/workflows/deploy.yml).
 
-Built with [Astro](https://docs.astro.build)/.
+Built with [Astro](https://docs.astro.build).
