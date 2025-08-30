@@ -57,12 +57,11 @@ On the way out the screen was left with Love is All – from *Swoon*.
 
 Go deeper to find out how they do it:
 
-- Sound on Sound interview with their tech guy Matt Cox, who has been with them since 1996.
-- Semi Permanent article on their long time visual collaborators Adam Smith &amp; Marcus Lyall.
-
-And a video covering similar info, and listing many specific models of light/laser.
-- Good reviews from MusicTech and The Guardian.
-- This live set from Glastonbury is similar to what I experienced.
+- [**Sound on Sound** interview with their tech guy **Matt Cox**](https://www.soundonsound.com/people/matt-cox-midi-tech-chemical-brothers), who has been with them since 1996.
+- [**Semi Permanent** article on their long time visual collaborators **Adam Smith** & **Marcus Lyall**](https://www.semipermanent.com/stories/chemical-brothers-live).
+  - And a [video covering similar info, and listing many specific models of light/laser](https://www.youtube.com/watch?v=_vU9fK493Z4).
+- Good reviews from [**MusicTech**](https://musictech.com/news/events/the-chemical-brothers-live-review-o2-arena/) and [**The Guardian**](https://www.theguardian.com/music/2019/nov/22/chemical-brothers-review-a-glorious-meaningless-sensory-overload).
+- **This live set from **Glastonbury** is similar to what I experienced**.
 
 <!-- wp:quote -->
 <blockquote class="wp-block-quote">
