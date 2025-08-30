@@ -1,9 +1,21 @@
 ---
+import { Image } from 'astro:assets';
+
 import { SITE_TITLE } from "../consts";
+const { title = SITE_TITLE, short, wide, image } = Astro.props;
+let outerClasses = "Header";
+if (wide || image) {
+  outerClasses += " Header-fullBleedImage";
+}
+let navClasses = "Header-menuBar";
+if (short) {
+  navClasses += " Header-menuBar-small";
+}
 ---
 
-<header class="Header">
-  <nav class="Header-menuBar">
+<header class={outerClasses}>
+  { image && <Image src={image} class="FullBleedImage" alt=""/> }
+  <nav class={navClasses}>
     <a href="/">
       <img
         class="SiteLogo"
@@ -11,6 +23,6 @@ import { SITE_TITLE } from "../consts";
         alt="Cartoon Beats Reality logo"
       />
 		</a>
-    <a class="SiteTitle" href="/">{SITE_TITLE}</a>
+    <a class="Title" href="/">{title}</a>
   </nav>
 </header>
