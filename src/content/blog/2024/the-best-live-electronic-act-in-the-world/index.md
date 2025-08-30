@@ -63,10 +63,10 @@ Go deeper to find out how they do it:
 - Good reviews from [**MusicTech**](https://musictech.com/news/events/the-chemical-brothers-live-review-o2-arena/) and [**The Guardian**](https://www.theguardian.com/music/2019/nov/22/chemical-brothers-review-a-glorious-meaningless-sensory-overload).
 - **This live set from **Glastonbury** is similar to what I experienced**.
 
-> There's no point having that many pieces of equipment if you're not going tospend the time
+> There's no point having that many pieces of equipment if you're not going to spend the time
 > 
 > - **programming**
 > - **planning**
-> - **creating something**.
+> - **creating** something.
 >
-> *Adam Smith*
+> <span class="small">*Chemical Brothers collaborator **Adam Smith***</span>

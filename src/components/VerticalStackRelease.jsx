@@ -10,7 +10,7 @@ import "./VerticalStackRelease.scss"
 
 function VerticalStackRelease({ title, artist, coverImage, listenLinks, blurb }) {
   return (
-    <div className="Release VerticalStackRelease">
+    <div className="PageContent Release VerticalStackRelease">
       <div className="Release-content">
         <div className="Release-info">
           <div className="Release-info-title">{title}</div>

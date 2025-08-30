@@ -18,8 +18,8 @@
     }
 
     .Release-cover {
-      .gatsby-image-wrapper, img {
-        max-width: 70vw;
+      img {
+        max-width: min(600px, 70vw);
       }
 
     }
