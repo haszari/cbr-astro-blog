@@ -20,7 +20,7 @@ function PlatformIcon({ platform, url }) {
 function SocialIconsGroup({ title, className, items }) {
   const social = items.map(({url, key}) => {
     if (!key || !url) {return};
-    return ( url && <PlatformIcon platform={key} url={url} />);
+    return ( url && <PlatformIcon key={key} platform={key} url={url} />);
   });
 
   const classes = classnames([
@@ -42,7 +42,7 @@ function SocialIconsGroup({ title, className, items }) {
 const HaszariPage = ({data}) => {
   // const profilePic = getImage( data?.allFile?.nodes[0] );
 
-  console.log(JSON.stringify(data));
+  // console.log(JSON.stringify(data));
 
   const { socialLinks } = data;
   const socialPlatforms = [
@@ -88,7 +88,7 @@ const HaszariPage = ({data}) => {
 
       <div className="Row-flip">
         <div className="Media">
-          <iframe loading="lazy" height="314" width="400"  scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1672812102&amp;color=%230c0404&amp;auto_play=true&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false&amp;visual=true"></iframe>
+          <iframe loading="lazy" height="314" width="400"  scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1672812102&amp;color=%230c0404&amp;auto_play=true&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false&amp;visual=true"></iframe>
         </div>
         <div className="Copy">
           <p>My sets weave through minimal, techno, and house – eclectic with a consistent groove. Never too serious to get down.</p>
@@ -97,7 +97,7 @@ const HaszariPage = ({data}) => {
 
       <div className="Row">
         <div className="Media">
-          <iframe width="100%" height="352" src="https://open.spotify.com/embed/playlist/0hGwn4tIEtJXtzLF9Uihy5?utm_source=generator" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-Media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe width="100%" height="352" src="https://open.spotify.com/embed/playlist/0hGwn4tIEtJXtzLF9Uihy5?utm_source=generator" frameborder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-Media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
         <div className="Copy">
           <p>My original music is all about the space between sounds.</p>
@@ -111,7 +111,7 @@ const HaszariPage = ({data}) => {
 
       <div className="Row-flip">
         <div className="Media YouTube">
-          <iframe width="480" src="https://www.youtube.com/embed/RQ6fk0km2xM?si=yVRQyJa-RGZQXHLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="480" src="https://www.youtube.com/embed/RQ6fk0km2xM?si=yVRQyJa-RGZQXHLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div className="Copy">
           <p>I’m obsessed with the challenge of playing electronic music live.</p>
