@@ -54,6 +54,7 @@ const artists = defineCollection({
 				beatport: z.string().optional().or(z.null()),
 				spotify: z.string().optional().or(z.null()),
 				apple: z.string().optional().or(z.null()),
+				residentadvisor: z.string().optional().or(z.null()),
 				
 				bluesky: z.string().optional().or(z.null()),
 				instagram: z.string().optional().or(z.null()),
