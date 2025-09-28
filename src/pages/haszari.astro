@@ -9,17 +9,17 @@ import HaszariProfile from '../components/HaszariProfile.jsx';
 
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 const artists = (await getCollection('artists'));
-const haszari = artists[0];
+const artist = artists[0];
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead title={artist.data.name} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
 		<main class="PageContent Profile-Haszari">
-			<HaszariProfile data={haszari.data} />
+			<HaszariProfile data={artist.data} />
 		</main>
 		<Footer />
 	</body>
