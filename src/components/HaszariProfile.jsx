@@ -64,6 +64,7 @@ const HaszariPage = ({data}) => {
     "apple",
     "spotify",
     "beatport",
+    "residentadvisor",
     "youtube",  
   ];
   const listen = listenPlatforms.map((key) => {
