@@ -1,4 +1,12 @@
 
+- slug: "cbr020"
+  artist: "Anika D"
+  title: "Owls"
+  cover: "./covers/cbr020.jpg"
+  releaseDate: 2025-10-30
+  blurb:
+    "Anika's textured take on d&b and a meditative dub rework from Haszari. Forthcoming - release date 30 Oct 2025. "
+
 
 - slug: "cbr019"
   artist: "Haszari"
