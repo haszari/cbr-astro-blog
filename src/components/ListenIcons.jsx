@@ -13,6 +13,8 @@ function ListenIcon({ store, url }) {
 }
 
 function ListenIcons({ links }) {
+  if (!links) return null;
+
   let listenElements = Object.keys(links).map(store => {
     const url = links[store];
     return (url && <ListenIcon key={store} store={store} url={url} />);

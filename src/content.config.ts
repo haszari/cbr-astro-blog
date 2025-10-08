@@ -35,7 +35,7 @@ const releases = defineCollection({
 				beatport: z.string().optional().or(z.null()),
 				spotify: z.string().optional().or(z.null()),
 				apple: z.string().optional().or(z.null()),
-			}),
+			}).optional(),
 
 			description: z.string().optional(),
 			blurb: z.string().optional(),
