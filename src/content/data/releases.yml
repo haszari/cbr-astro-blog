@@ -1,4 +1,19 @@
 
+- slug: "cbr021"
+  artist: "Haszari"
+  title: "Kip Kapsalon"
+  cover: "./covers/cbr021.jpg"
+  releaseDate: 2025-12-11
+  blurb:
+    "Coming soon! An acid-drenched squelchy & deep tech chugger, perfect for your hot sunny afternoon festival set."
+  listenLinks:
+    bandcamp: 
+    soundcloud: https://soundcloud.com/haszari/sets/kip-kapsalon
+    youtube: 
+    apple: 
+    beatport: 
+    spotify: 
+
 - slug: "cbr020"
   artist: "Anika D"
   title: "Owls"
