@@ -5,14 +5,14 @@
   cover: "./covers/cbr021.jpg"
   releaseDate: 2025-12-11
   blurb:
-    "Coming soon! An acid-drenched squelchy & deep tech chugger, perfect for your hot sunny afternoon festival set."
+    "An acid-drenched squelchy & deep tech chugger, perfect for your hot sunny afternoon festival set."
   listenLinks:
     bandcamp: https://haszari.bandcamp.com/album/kip-kapsalon
     soundcloud: https://soundcloud.com/haszari/sets/kip-kapsalon
-    youtube: 
-    apple: 
+    youtube: https://www.youtube.com/watch?v=O13xWkNk2Lk&list=OLAK5uy_n5hVBrif0vvfaJ7cBrpRrGLd4uqGcC-CQ
+    apple: https://music.apple.com/nz/album/kip-kapsalon-single/1856335953
     beatport: 
-    spotify: 
+    spotify: https://open.spotify.com/album/38g9tAvSFzY3lXv3kBxmuT?si=4nglavbrTMy4aOwhxPzPrQ
 
 - slug: "cbr020"
   artist: "Anika D"
