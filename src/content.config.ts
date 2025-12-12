@@ -27,6 +27,12 @@ const releases = defineCollection({
 			title: z.string(),
 			releaseDate: z.coerce.date(),
 			cover: image().optional(),
+			colours: z.object({
+				background: z.string().optional(),
+				text: z.string().optional(),
+				accent: z.string().optional(),
+				accentText: z.string().optional(),
+			}).optional(),
 
 			listenLinks: z.object({
 				soundcloud: z.string().optional().or(z.null()),

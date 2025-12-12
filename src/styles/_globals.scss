@@ -10,10 +10,15 @@ $small: 450px;
 $medium: 900px;
 
 // Colours.
-$dark-bg-a: #343433;
-$dark-bg-b: #222626;
-$text: #f3f1f3;
-$link: #35ffe1;
+// NOTE: These values are mirrored as default fallbacks in
+// `src/components/BaseHead.astro`. Keep them in sync when updating.
+$dark-bg-alt: #343433;
+$dark-bg: var(--site-backgroumd, #222626);
+$text: var(--site-text, white);
+// Links AND buttons.
+$linkButton: var(--site-accent, #35ffe1);
+// Text on buttons might need to be a different colour
+$linkButtonText: var(--site-accent-text,  black);
 
 // Reusable elements.
 @mixin full-width {

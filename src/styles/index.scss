@@ -7,13 +7,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: globals.$dark-bg-b;
-  color: globals.$text;
+    /* Use runtime CSS variables when provided by `BaseHead` (release-specific colours),
+      otherwise fall back to the SCSS defaults in `_globals.scss`. */
+    background: var(--site-bg, globals.$dark-bg);
+    color: var(--site-text, globals.$text);
 }
 
 
 a {
-  color: globals.$link;
+  color: globals.$linkButton;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer;
@@ -173,7 +175,7 @@ blockquote p {
 
   .Footer-slant {
     position: absolute;
-    background: globals.$dark-bg-b;
+    background: globals.$dark-bg-alt;
     left: 0;
     right: 0;
     height: 100px;

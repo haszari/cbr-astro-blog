@@ -4,6 +4,11 @@
   title: "Kip Kapsalon"
   cover: "./covers/cbr021.jpg"
   releaseDate: 2025-12-11
+  colours:
+    background: "#000037"
+    text: "white"
+    accent: "#e50057"
+    accentText: white
   blurb:
     "An acid-drenched squelchy & deep tech chugger, perfect for your hot sunny afternoon festival set."
   listenLinks:
@@ -19,6 +24,11 @@
   title: "Owls"
   cover: "./covers/cbr020.jpg"
   releaseDate: 2025-10-30
+  colours:
+    background: "#010e00"
+    text: white
+    accent: "#bfcd43"
+    accentText: black
   blurb:
     "Anika's textured take on intelligent d&b – and a meditative dub rework from Haszari."
   listenLinks:
