@@ -17,13 +17,39 @@ type Props = CollectionEntry<'release'>['data'];
 // spotify: z.string().optional().or(z.null()),
 // apple: z.string().optional().or(z.null()),
 
-const { slug, artist, title, releaseDate, cover, listenLinks, description, blurb } = Astro.props;
+const { slug, artist, title, releaseDate, cover, listenLinks, description, blurb, colours } = Astro.props;
+
+// Pluck custom page/content colours (or defaults) out of props into const for use in styles below.
+// The defaults are also double defined in _globals.scss.
+const background = colours?.background ?? '#222626';
+const text = colours?.text ?? '#f3f1f3';
+const accent = colours?.accent ?? '#35ffe1';
+const accentText = colours?.accentText ?? 'black';
+
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={description} />
+
+		<style define:vars={{ background, text, accent, accentText }}>
+			/* Define CSS vars for custom page colours. */
+			:root {
+				--site-bg: var(--background); 
+				--site-text: var(--text);
+				--site-accent: var(--accent); 
+				--site-accent-text: var(--accentText); 
+			}
+
+			/* Tweak page styles with custom page colours. These variables can also be used in general or component styles to make them "page theme aware". */
+			html, body {
+				background-color: var(--site-bg);
+				color: var(--site-text);
+			}
+			a { color: var(--site-accent); }
+		</style>
+
 	</head>
 
 	<body>
