@@ -45,6 +45,11 @@
   title: "Galley Listing"
   cover: "./covers/cbr019.jpg"
   releaseDate: 2025-06-16
+  colours:
+    background: "#cfc6c0"
+    text: "#100001"
+    accent: "#4a0a04"
+    accentText: white
   listenLinks:
     soundcloud: https://soundcloud.com/haszari/galley-listing
     bandcamp: https://haszari.bandcamp.com/album/galley-listing
