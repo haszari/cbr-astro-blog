@@ -67,6 +67,11 @@
   title: "Sinking Galley (Foison remix)"
   cover: "./covers/cbr015b.jpg"
   releaseDate: 2025-01-17
+  colours:
+    background: "#573f3b"
+    text: "#ddeffa"
+    accent: "#ddeffa"
+    accentText: "#2f0504"
   listenLinks:
     bandcamp: ""
     apple: https://music.apple.com/nz/album/sinking-galley-foison-remix-single/1793414532
@@ -80,6 +85,11 @@
   title: "Photic Reflex"
   cover: "./covers/cbr018.jpg"
   releaseDate: 2024-11-08
+  colours:
+    background: "#fff5aa"
+    text: "#290001"
+    accent: "#910102"
+    accentText: "#ecf0e5"
   listenLinks:
     bandcamp: "https://haszari.bandcamp.com/album/photic-reflex"
     apple: "https://music.apple.com/nz/album/photic-reflex/1767698565"
@@ -93,6 +103,11 @@
   title: "Gumdrop"
   cover: "./covers/cbr017.jpg"
   releaseDate: 2024-07-25
+  colours:
+    background: "#f9f8da"
+    text: "#003c58"
+    accent: "#ff6d00"
+    accentText: "#0a142a"
   listenLinks:
     bandcamp: "https://haszari.bandcamp.com/album/gumdrop"
     apple: "https://music.apple.com/nz/album/gumdrop-single/1752777315"
@@ -106,6 +121,11 @@
   title: "Parkplatz-Schlurfen"
   cover: "./covers/cbr016.jpg"
   releaseDate: 2024-04-11
+  colours:
+    background: "#a99714"
+    text: "#000a23"
+    accent: "#bc0000"
+    accentText: "#ebf0f2"
   listenLinks:
     bandcamp: "https://haszari.bandcamp.com/track/parkplatz-schlurfen"
     apple: "https://music.apple.com/nz/album/parkplatz-schlurfen-single/1738651266"
@@ -119,6 +139,11 @@
   title: "Sinking Galley"
   cover: "./covers/cbr015.jpg"
   releaseDate: 2024-05-16
+  colours:
+    background: "#573f3b"
+    text: "#ddeffa"
+    accent: "#ddeffa"
+    accentText: "#2f0504"
   listenLinks:
     bandcamp: "https://haszari.bandcamp.com/album/sinking-galley"
     apple: "https://music.apple.com/nz/album/sinking-galley-single/1738027420"
@@ -132,6 +157,11 @@
   title: "Circles (Haszari remix)"
   cover: "./covers/cbr014.jpg"
   releaseDate: 2024-03-14
+  colours:
+    background: "#827949"
+    text: "#100d05"
+    accent: "#b7230b"
+    accentText: "#fefeee"
   listenLinks:
     spotify: "https://open.spotify.com/track/6pJaBauTLGnOXmftByYXXy"
     apple: "https://music.apple.com/nz/album/circles-haszari-remix-single/1729992649"
@@ -146,6 +176,11 @@
   title: "Mivova"
   cover: "./covers/cbr013.jpg"
   releaseDate: 2023-08-24
+  colours:
+    background: "#acaea8"
+    text: "#040000"
+    accent: "#4a9e93"
+    accentText: "#eafefe"
   listenLinks:
     bandcamp: "https://haszari.bandcamp.com/track/mivova"
     spotify: "https://open.spotify.com/track/1LT74dnJv99LnD4imbfiun"
@@ -159,6 +194,11 @@
   slug: "cbr012"
   cover: "./covers/cbr012.jpg"
   releaseDate: 2023-08-24
+  colours:
+    background: "#b9f7ff"
+    text: "#620092"
+    accent: "#b10078"
+    accentText: "#efea97"
   listenLinks:
     bandcamp: "https://haszari.bandcamp.com/album/it-was-coming-on"
     apple: "https://apple.co/3YMc0It"
@@ -171,6 +211,11 @@
   title: "Sumiyoshi"
   cover: "./covers/cbr011.jpg"
   releaseDate: 2023-03-02
+  colours:
+    background: "#d7e0dc"
+    text: "#1b1112"
+    accent: "#8e0d00"
+    accentText: "#d7e9fe"
   listenLinks:
     bandcamp: ""
     spotify: https://open.spotify.com/album/1T8BcpycDs3G3m9o2YFxBt
@@ -184,6 +229,11 @@
   title: "Like So"
   cover: "./covers/cbr010.jpg"
   releaseDate: 2022-07-12
+  colours:
+    background: "#040000"
+    text: "#f3f1f3"
+    accent: "#d40009"
+    accentText: "#f3f1f3"
   listenLinks:
     bandcamp: https://haszari.bandcamp.com/album/like-so-2
     apple: https://music.apple.com/nz/album/like-so-ep/1735285069
@@ -197,6 +247,11 @@
   title: "Foundation Slab"
   cover: "./covers/cbr009.jpg"
   releaseDate: 2022-04-01
+  colours:
+    background: "#ebeae5"
+    text: "#01000b"
+    accent: "#f60000"
+    accentText: "#eeeeec"
   listenLinks:
     bandcamp: ""
     spotify: https://open.spotify.com/album/69lOXg1ZpgQcaMvyWBlbT7
@@ -210,6 +265,11 @@
   title: "Redline Train"
   cover: "./covers/cbr008.jpg"
   releaseDate: 2021-08-26
+  colours:
+    background: "#ebebeb"
+    text: "#2d2523"
+    accent: "#620f30"
+    accentText: "#fefefe"
   listenLinks:
     bandcamp: ""
     spotify: https://open.spotify.com/album/2BYP241jHsFNjUdnw7vc8i
@@ -223,6 +283,11 @@
   title: "Eggs For Tea"
   cover: "./covers/cbr007.jpg"
   releaseDate: 2020-05-21
+  colours:
+    background: "#fbdecc"
+    text: "#2a0202"
+    accent: "#9f0001"
+    accentText: "#f6ffff"
   listenLinks:
     bandcamp:
     spotify: https://open.spotify.com/album/2G1FNR11Vw2LBILc67LsIS
@@ -238,6 +303,11 @@
   remixers:
   - "Espionage"
   releaseDate: 2019-05-20
+  colours:
+    background: "#040000"
+    text: "#c6b2a1"
+    accent: "#b11905"
+    accentText: "#c6b2a1"
   listenLinks:
     bandcamp:
     spotify: https://open.spotify.com/album/5f5oj0sO5R21JXFrkj6FbI
@@ -255,6 +325,9 @@
   - "nsu"
   colours:
     background: "#c61647"
+    accent: "#3c0831"
+    text: white
+    accentText: white
   releaseDate: 2017-02-22
   listenLinks:
     spotify: "https://open.spotify.com/album/3nZK807I6PZI3DVymT35vl"
@@ -272,6 +345,9 @@
   - "nsu"
   colours:
     background: "#33002e"
+    accent: "#d51346"
+    text: white
+    accentText: white
   releaseDate: 2017-02-15
   listenLinks:
     spotify: "https://open.spotify.com/album/6fysfToZ3QcK3NF4WPiUYE"
@@ -289,6 +365,9 @@
   - "nsu"
   colours:
     background: "#89000d"
+    accent: black
+    text: "#fafafa"
+    accentText: "#fafafa"
   releaseDate: 2012-08-30
   listenLinks:
     spotify: "https://open.spotify.com/album/1sK6Pni3PhF6iTjxzC9WMK"
@@ -306,6 +385,9 @@
   - "nsu"
   colours:
     background: "#e3001c"
+    accent: "#590f14"
+    text: "#fafafa"
+    accentText: "#fafafa"
   releaseDate: 2012-08-23
   listenLinks:
     spotify: "https://open.spotify.com/album/2Jfysi3ktit9ZIdyFDuY7d"
@@ -325,6 +407,9 @@
   - "Greg Churchill"
   colours:
     background: "#f75c21"
+    accent: "#2e2076"
+    text: white
+    accentText: white
   releaseDate: 2010-09-23
   listenLinks:
     spotify: "https://open.spotify.com/album/64BBGrJVJJ68tmiFWj4syz"
@@ -344,6 +429,9 @@
   - "Greg Churchill"
   colours:
     background: "#051966"
+    accent: "#f30050"
+    text: white
+    accentText: white
   releaseDate: 2010-09-16
   listenLinks:
     spotify: "https://open.spotify.com/album/63YdghfUuwS4BfIdVTQD9d"
@@ -361,6 +449,9 @@
   - "Haszari"
   colours:
     background: "#f00001"
+    accent: "#472a15"
+    text: white
+    accentText: white
   releaseDate: 2010-03-12
   listenLinks:
     spotify: "https://open.spotify.com/album/6qelxqzkMKEE15USaPdKel"
@@ -377,6 +468,9 @@
   - "Haszari"
   colours:
     background: "#5a6a6c"
+    accent: "#f10101"
+    text: white
+    accentText: white
   releaseDate: 2010-03-05
   listenLinks:
     spotify: "https://open.spotify.com/album/5bxqxWez7DIdd1veKzD4Gs"
@@ -395,6 +489,9 @@
   - "Stray Theories"
   colours:
     background: "#5e2204"
+    accent: "#e3b5e9"
+    text: white
+    accentText: black
   releaseDate: 2009-05-23
   listenLinks:
     bandcamp:
@@ -412,7 +509,10 @@
   - "Haszari"
   - "Stray Theories"
   colours:
-    background: "#88568b"
+    background: "#a878aa"
+    accent: "#151213"
+    text: white
+    accentText: white
   releaseDate: 2009-05-22
   listenLinks:
     spotify: "https://open.spotify.com/album/6MAwIp8gXcCYGc8tfDXFzH"
