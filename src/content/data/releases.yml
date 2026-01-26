@@ -5,10 +5,10 @@
   cover: "./covers/cbr022.jpg"
   releaseDate: 2025-12-11
   colours:
-    background: "#03d5e9"
-    text: "#030202"
-    accent: "#e20004"
-    accentText: "#030202"
+    background: "#383632"
+    text: "#a0e2e3"
+    accent: "#fe0000"
+    accentText: "#dce2e5"
   blurb:
     "Forthcoming - 6 March 2025"
   listenLinks:
