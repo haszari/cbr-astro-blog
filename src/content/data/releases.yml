@@ -1,4 +1,24 @@
 
+- slug: "cbr022"
+  artist: "Haszari"
+  title: "Wet Paint"
+  cover: "./covers/cbr022.jpg"
+  releaseDate: 2025-12-11
+  colours:
+    background: "#03d5e9"
+    text: "#030202"
+    accent: "#e20004"
+    accentText: "#030202"
+  blurb:
+    "Forthcoming - 6 March 2025"
+  listenLinks:
+    bandcamp: 
+    soundcloud: 
+    youtube: 
+    apple: 
+    beatport: 
+    spotify: 
+
 - slug: "cbr021"
   artist: "Haszari"
   title: "Kip Kapsalon"
