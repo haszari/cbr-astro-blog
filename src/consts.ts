@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = 'Cartoon Beats Reality';
 export const SITE_DESCRIPTION = 'Abstract music, art, photograpy & culture from Tāmaki Makaurau';
+export const GOOGLE_ANALYTICS_MEASUREMENT_ID = 'G-LTWT2RM827';
