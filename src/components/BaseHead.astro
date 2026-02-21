@@ -82,5 +82,12 @@ const { title, description = SITE_DESCRIPTION, image = FallbackImage } = Astro.p
   }
   gtag('js', new Date())
   gtag('config', measurementId)
+	// Track pageviews on client-side transitions.
+  document.addEventListener('astro:after-swap', () => {
+    gtag('event', 'page_view', {
+      page_path: window.location.pathname,
+      page_title: document.title,
+    });
+  });
 </script>
 </script>
