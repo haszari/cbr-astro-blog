@@ -10,14 +10,14 @@
     accent: "#fe0000"
     accentText: "#dce2e5"
   blurb:
-    "Forthcoming - 6 March 2025"
+    "Minimal, unnerving, amen-powered low-budget horror movie breakbeat."
   listenLinks:
-    bandcamp: 
-    soundcloud: 
-    youtube: 
-    apple: 
+    bandcamp: https://haszari.bandcamp.com/album/wet-paint
+    soundcloud: https://soundcloud.com/haszari/sets/wet-paint-ep
+    youtube: https://youtube.com/playlist?list=OLAK5uy_mtAdR-FDAtR4_PL-UNf1JaXc60sG_J_9g&si=lPrJ1OcPNe0Gi6vM
+    apple: https://music.apple.com/nz/album/wet-paint-single/1874668444
     beatport: 
-    spotify: 
+    spotify: https://open.spotify.com/album/531DTFTLvyXvGuYX1nH8QE?si=LsofIUulRlKq_JBWV18PqA
 
 - slug: "cbr021"
   artist: "Haszari"
