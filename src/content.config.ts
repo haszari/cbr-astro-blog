@@ -74,6 +74,7 @@ const artists = defineCollection({
 				linkedin: z.string().optional().or(z.null()),
 
 				mixcloud: z.string().optional().or(z.null()),
+				propel: z.string().optional().or(z.null()),
 
 			})
 		})

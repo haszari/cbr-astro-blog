@@ -52,6 +52,8 @@ const HaszariPage = ({data}) => {
     "facebook",
     "mastodon",
     "tiktok",
+    "propel",
+    "residentadvisor",
   ];
   const social = socialPlatforms.map((key) => {
     if (!key) {return};
@@ -64,7 +66,6 @@ const HaszariPage = ({data}) => {
     "apple",
     "spotify",
     "beatport",
-    "residentadvisor",
     "youtube",  
   ];
   const listen = listenPlatforms.map((key) => {
