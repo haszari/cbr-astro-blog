@@ -52,6 +52,7 @@ const HaszariPage = ({data}) => {
     "facebook",
     "mastodon",
     "tiktok",
+    "propel"
   ];
   const social = socialPlatforms.map((key) => {
     if (!key) {return};
