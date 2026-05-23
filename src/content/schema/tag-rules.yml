@@ -1,0 +1,67 @@
+# Tag normalization rules
+# Applied after normalizeTag() — split first, then synonym merge.
+
+# Split compound tags into individual tags
+split:
+  # NZ-centric genre compounds
+  "New Zealand Electronica": ["New Zealand", "Electronica"]
+  "New Zealand Hip Hop": ["New Zealand", "Hip Hop"]
+  "New Zealand Music": ["New Zealand", "Music"]
+  "New Zealand Rap": ["New Zealand", "Rap"]
+  "New Zealand Rock": ["New Zealand", "Rock"]
+  "Auckland Rap": ["Auckland", "Rap"]
+  "Bush Tech": ["Bush", "Tech"]
+  "Bush Techno": ["Bush", "Techno"]
+
+  # Common genre+genre compounds (not subgenre names)
+  "Electronic Pop": ["Electronic", "Pop"]
+  "Electronic Rock": ["Electronic", "Rock"]
+  "Pop Rock": ["Pop", "Rock"]
+  "Punk Rock": ["Punk", "Rock"]
+  "Alternative Dance": ["Alternative", "Dance"]
+  "Alternative Pop": ["Alternative", "Pop"]
+  "Alternative Rock": ["Alternative", "Rock"]
+  "Ambient Electronic": ["Ambient", "Electronic"]
+  "Drone Ambient": ["Drone", "Ambient"]
+  "Experimental Electronic": ["Experimental", "Electronic"]
+
+  # Genre+genre where both halves stand alone
+  "Bedroom Pop": ["Bedroom", "Pop"]
+  "Contemporary Jazz": ["Contemporary", "Jazz"]
+  "Techno Industrial": ["Techno", "Industrial"]
+  "Dub Reggae": ["Dub", "Reggae"]
+  "Electro House": ["Electro", "House"]
+  "Electro Funk": ["Electro", "Funk"]
+  "Electro Techno": ["Electro", "Techno"]
+  "Funk Soul": ["Funk", "Soul"]
+  "Jazz Funk": ["Jazz", "Funk"]
+  "Jazz Rock": ["Jazz", "Rock"]
+  "Post Rock Instrumental": ["Post Rock", "Instrumental"]
+
+
+# Map synonyms to a canonical tag
+synonym:
+  "Bass": ["Bass Music"]
+  "Drum & Bass": ["Drum And Bass", "Drum And Basss", "Drum Bass", "Drum N Bass", "Drum N' Bass", "Drumnbass", "dnb", "d'n'b"]
+  "Breakbeat": ["Break Beat", "Breakbeats", "Breaks Etc", "Breaks.", "Breaks"]
+  "Deep House": ["Deep House Music", "Deephouse"]
+  "Dubstep": ["Dupstep"]
+  "Dance": ["Dance Music"]
+  "Electronic": ["Electronic Music", "Electronica", "Electronica Ambient Experimental", "Electronica Experimental", "Mish Mash Electronic Music"]
+  "Experimental": ["Experiemental", "Avantgarde"]
+  "Glitch Hop": ["Glichhop"]
+  "Hip Hop": ["Hip Hop Rap", "Hip Hip", "Hiphop", "Hiphop Rap", "Hiphopbeats"]
+  "House": ["House Music"]
+  "IDM": ["Idmf"]
+  "Old School": ["Oldschool"]
+  "Hip House": ["Rap House"]
+  "Rock": ["Rock Roll"]
+  "Synth Pop": ["Synthpop"]
+  "Soundtrack": ["Soundtrack Music"]
+  "Waiata": ["Maori Music"]
+  "Electro Pop": ["Electropop"]
+  "Techno": ["Techno.", "Techno And Variations"]
+  "Melodic House": ["Melodic House Techno"]
+  "Trip Hop": ["Triphop"]
+  "NZ": ["New Zealand", "Newzealand", "Newzealandmusic", "Nzmusic", "Nz Music", "Nz Hiphop", "Nz House Music", "Nz Youth Choir", "NZG"]
+  "UK Garage": ["Ukg", "Ukgarage"]
