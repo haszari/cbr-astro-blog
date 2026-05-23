@@ -1,7 +1,5 @@
 ---
-import fs from 'node:fs';
-import path from 'node:path';
-import yaml from 'js-yaml';
+import { getCollection } from 'astro:content';
 
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
@@ -11,8 +9,7 @@ import ArtistDirectory from '../components/ArtistDirectory.jsx';
 
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
-const ymlPath = path.resolve(process.cwd(), 'src/content/data/nz-artists.yml');
-const artists = yaml.load(fs.readFileSync(ymlPath, 'utf-8'));
+const artists = (await getCollection('nzArtists')).map((entry) => entry.data);
 ---
 
 <!doctype html>

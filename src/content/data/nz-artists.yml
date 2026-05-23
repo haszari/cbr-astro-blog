@@ -1,963 +1,1326 @@
-# NZ Artists
-- artist: 2XM
+- slug: "2xm"
+  name: "2XM"
   lastReleaseYear: 2023
   styles:
-    - Breakbeat
-    - House
-- artist: A.GIRL
+    - "Breakbeat"
+    - "House"
+- slug: "a-girl"
+  name: "A.GIRL"
   lastReleaseYear: 2024
-- artist: Aaradhna
+- slug: "aaradhna"
+  name: "Aaradhna"
   lastReleaseYear: 2013
-- artist: Abby Lee
+- slug: "abby-lee"
+  name: "Abby Lee"
   lastReleaseYear: 2013
-- artist: Acid Police
+- slug: "acid-police"
+  name: "Acid Police"
   lastReleaseYear: 2021
   styles:
-    - Techno
-- artist: Actual
+    - "Techno"
+- slug: "actual"
+  name: "Actual"
   lastReleaseYear: 2024
-- artist: AGFC
+- slug: "agfc"
+  name: "AGFC"
   lastReleaseYear: 2011
-- artist: Akcept
+- slug: "akcept"
+  name: "Akcept"
   lastReleaseYear: 2022
-- artist: Ali Payami
+- slug: "ali-payami"
+  name: "Ali Payami"
   lastReleaseYear: 2011
-- artist: Ali Storm
+- slug: "ali-storm"
+  name: "Ali Storm"
   styles:
-    - House
-- artist: Alice Agnes
+    - "House"
+- slug: "alice-agnes"
+  name: "Alice Agnes"
   lastReleaseYear: 2022
   styles:
-    - House
-    - Techno
-- artist: Alphabethead
+    - "House"
+    - "Techno"
+- slug: "alphabethead"
+  name: "Alphabethead"
   styles:
-    - Breakbeat
-    - Electronica
-- artist: Amb
+    - "Breakbeat"
+    - "Electronica"
+- slug: "amb"
+  name: "Amb"
   lastReleaseYear: 2012
-- artist: Amez
+- slug: "amez"
+  name: "Amez"
   lastReleaseYear: 2023
-- artist: AndWahn
+- slug: "andwahn"
+  name: "AndWahn"
   lastReleaseYear: 2024
   styles:
-    - Breakbeat
-    - Techno
-- artist: Andy Crump
+    - "Breakbeat"
+    - "Techno"
+- slug: "andy-crump"
+  name: "Andy Crump"
   lastReleaseYear: 2009
-- artist: Angela Fisken
+- slug: "angela-fisken"
+  name: "Angela Fisken"
   lastReleaseYear: 2012
-- artist: Anika D
+- slug: "anika-d"
+  name: "Anika D"
   lastReleaseYear: 2025
-- artist: ANNASASSIN
+- slug: "annasassin"
+  name: "ANNASASSIN"
   lastReleaseYear: 2025
-- artist: Anodyne Industries
+- slug: "anodyne-industries"
+  name: "Anodyne Industries"
   lastReleaseYear: 2011
-- artist: Antiform
+- slug: "antiform"
+  name: "Antiform"
   lastReleaseYear: 2008
-- artist: Antix
+- slug: "antix"
+  name: "Antix"
   lastReleaseYear: 2010
-- artist: AP
+- slug: "ap"
+  name: "AP"
   lastReleaseYear: 2025
-- artist: AP3X
+- slug: "ap3x"
+  name: "AP3X"
   lastReleaseYear: 2010
-- artist: arc X
+- slug: "arc-x"
+  name: "arc X"
   styles:
-    - Electronica
-    - Techno
-- artist: Arli Liberman
+    - "Electronica"
+    - "Techno"
+- slug: "arli-liberman"
+  name: "Arli Liberman"
   lastReleaseYear: 2025
-- artist: Aroha
+- slug: "aroha"
+  name: "Aroha"
   styles:
-    - Breakbeat
-    - House
-    - Techno
-- artist: Aural Trash
+    - "Breakbeat"
+    - "House"
+    - "Techno"
+- slug: "aural-trash"
+  name: "Aural Trash"
   lastReleaseYear: 2013
-- artist: Axiomata
+- slug: "axiomata"
+  name: "Axiomata"
   lastReleaseYear: 2006
-- artist: Azure
+- slug: "azure"
+  name: "Azure"
   lastReleaseYear: 2021
   styles:
-    - Breakbeat
-    - Electronica
-    - Techno
-- artist: Baby Zionov
+    - "Breakbeat"
+    - "Electronica"
+    - "Techno"
+- slug: "baby-zionov"
+  name: "Baby Zionov"
   lastReleaseYear: 2022
-- artist: Bahns
+- slug: "bahns"
+  name: "Bahns"
   styles:
-    - Techno
-- artist: Baitercell
+    - "Techno"
+- slug: "baitercell"
+  name: "Baitercell"
   lastReleaseYear: 2005
-- artist: Baynk
-- artist: Beat Mafia
+- slug: "baynk"
+  name: "Baynk"
+- slug: "beat-mafia"
+  name: "Beat Mafia"
   lastReleaseYear: 2013
-- artist: BENEE
+- slug: "benee"
+  name: "BENEE"
   lastReleaseYear: 2019
-- artist: Benson (feat. Willie C)
+- slug: "benson-feat-willie-c"
+  name: "Benson (feat. Willie C)"
   lastReleaseYear: 2011
-- artist: Blaze Tripp
+- slug: "blaze-tripp"
+  name: "Blaze Tripp"
   lastReleaseYear: 2010
-- artist: Blem
+- slug: "blem"
+  name: "Blem"
   lastReleaseYear: 2025
-- artist: Bomb Dylan
+- slug: "bomb-dylan"
+  name: "Bomb Dylan"
   lastReleaseYear: 2020
-- artist: Borderline
+- slug: "borderline"
+  name: "Borderline"
   lastReleaseYear: 2010
-- artist: Brandn Shiraz
+- slug: "brandn-shiraz"
+  name: "Brandn Shiraz"
   lastReleaseYear: 2025
-- artist: Breaks Co-Op
+- slug: "breaks-co-op"
+  name: "Breaks Co-Op"
   lastReleaseYear: 1997
-- artist: Brondinski
+- slug: "brondinski"
+  name: "Brondinski"
   lastReleaseYear: 2010
-- artist: Caldera
+- slug: "caldera"
+  name: "Caldera"
   lastReleaseYear: 2015
-- artist: Campiz
+- slug: "campiz"
+  name: "Campiz"
   lastReleaseYear: 2010
-- artist: Carrier
+- slug: "carrier"
+  name: "Carrier"
   lastReleaseYear: 2025
   styles:
-    - Dub
-    - Techno
-- artist: Caru
+    - "Dub"
+    - "Techno"
+- slug: "caru"
+  name: "Caru"
   lastReleaseYear: 2026
-- artist: Cavell
+- slug: "cavell"
+  name: "Cavell"
   lastReleaseYear: 2012
-- artist: CHAII
+- slug: "chaii"
+  name: "CHAII"
   lastReleaseYear: 2020
-- artist: Chaos in the CBD
+- slug: "chaos-in-the-cbd"
+  name: "Chaos in the CBD"
   lastReleaseYear: 2025
-- artist: Charlie Mumbles
+- slug: "charlie-mumbles"
+  name: "Charlie Mumbles"
   lastReleaseYear: 2010
-- artist: Che Fu
+- slug: "che-fu"
+  name: "Che Fu"
   lastReleaseYear: 2001
-- artist: Chores
+- slug: "chores"
+  name: "Chores"
   lastReleaseYear: 2013
-- artist: Church
+- slug: "church"
+  name: "Church"
   lastReleaseYear: 2025
-- artist: Cicada
+- slug: "cicada"
+  name: "Cicada"
   lastReleaseYear: 2009
-- artist: Circuit
+- slug: "circuit"
+  name: "Circuit"
   lastReleaseYear: 2011
-- artist: Clay
+- slug: "clay"
+  name: "Clay"
   lastReleaseYear: 2025
-- artist: Clear Path Ensemble
+- slug: "clear-path-ensemble"
+  name: "Clear Path Ensemble"
   lastReleaseYear: 2025
-- artist: Computers Want Me Dead
+- slug: "computers-want-me-dead"
+  name: "Computers Want Me Dead"
   lastReleaseYear: 2010
-- artist: Concord Dawn
+- slug: "concord-dawn"
+  name: "Concord Dawn"
   lastReleaseYear: 2012
-- artist: Corin
+- slug: "corin"
+  name: "Corin"
   lastReleaseYear: 2011
-- artist: Cross The Noughts
+- slug: "cross-the-noughts"
+  name: "Cross The Noughts"
   lastReleaseYear: 2011
-- artist: Crystal Fighters
+- slug: "crystal-fighters"
+  name: "Crystal Fighters"
   lastReleaseYear: 2010
-- artist: CTFD
+- slug: "ctfd"
+  name: "CTFD"
   lastReleaseYear: 2012
-- artist: Current Bias
+- slug: "current-bias"
+  name: "Current Bias"
   lastReleaseYear: 2023
-- artist: Cusp
+- slug: "cusp"
+  name: "Cusp"
   lastReleaseYear: 2020
   styles:
-    - Progressive
-    - Techno
-- artist: CYXQRD
+    - "Progressive"
+    - "Techno"
+- slug: "cyxqrd"
+  name: "CYXQRD"
   lastReleaseYear: 2025
-- artist: Daft Punk
+- slug: "daft-punk"
+  name: "Daft Punk"
   lastReleaseYear: 2013
-- artist: Dan Aux
+- slug: "dan-aux"
+  name: "Dan Aux"
   lastReleaseYear: 2025
   styles:
-    - Breakbeat
-    - House
-    - Techno
-- artist: Daniel Farley
+    - "Breakbeat"
+    - "House"
+    - "Techno"
+- slug: "daniel-farley"
+  name: "Daniel Farley"
   lastReleaseYear: 2012
-- artist: Danny T
+- slug: "danny-t"
+  name: "Danny T"
   lastReleaseYear: 2012
-- artist: Darren Clark
+- slug: "darren-clark"
+  name: "Darren Clark"
   styles:
-    - House
-- artist: Dave Cox
+    - "House"
+- slug: "dave-cox"
+  name: "Dave Cox"
   lastReleaseYear: 2022
-- artist: Dbldbl
+- slug: "dbldbl"
+  name: "Dbldbl"
   lastReleaseYear: 2021
-- artist: DeadForest
+- slug: "deadforest"
+  name: "DeadForest"
   lastReleaseYear: 2019
-- artist: Deadset
+- slug: "deadset"
+  name: "Deadset"
   lastReleaseYear: 2007
-- artist: Deceptikonz
+- slug: "deceptikonz"
+  name: "Deceptikonz"
   lastReleaseYear: 2002
-- artist: Deepchild
+- slug: "deepchild"
+  name: "Deepchild"
   lastReleaseYear: 2008
-- artist: deepState
+- slug: "deepstate"
+  name: "deepState"
   lastReleaseYear: 2021
   styles:
-    - Breakbeat
-    - EDM
-- artist: Dera Meelan
+    - "Breakbeat"
+    - "EDM"
+- slug: "dera-meelan"
+  name: "Dera Meelan"
   lastReleaseYear: 2019
-- artist: Derty Sesh
+- slug: "derty-sesh"
+  name: "Derty Sesh"
   lastReleaseYear: 2012
-- artist: Destroy Disco
+- slug: "destroy-disco"
+  name: "Destroy Disco"
   lastReleaseYear: 2009
-- artist: Devil Theory
+- slug: "devil-theory"
+  name: "Devil Theory"
   lastReleaseYear: 2010
-- artist: Diem Redux
+- slug: "diem-redux"
+  name: "Diem Redux"
   styles:
-    - Breakbeat
-    - Electro
-    - Electronica
-    - Techno
-- artist: Ditto
+    - "Breakbeat"
+    - "Electro"
+    - "Electronica"
+    - "Techno"
+- slug: "ditto"
+  name: "Ditto"
   lastReleaseYear: 2013
-- artist: DJ Hat
+- slug: "dj-hat"
+  name: "DJ Hat"
   lastReleaseYear: 2011
-- artist: DJ Simon Dallow
+- slug: "dj-simon-dallow"
+  name: "DJ Simon Dallow"
   styles:
-    - Breakbeat
-    - Electronica
-    - Techno
-- artist: Double Negative
+    - "Breakbeat"
+    - "Electronica"
+    - "Techno"
+- slug: "double-negative"
+  name: "Double Negative"
   lastReleaseYear: 2009
-- artist: Doug Thomas
+- slug: "doug-thomas"
+  name: "Doug Thomas"
   lastReleaseYear: 2022
-- artist: Dr. Love Gland
+- slug: "dr-love-gland"
+  name: "Dr. Love Gland"
   lastReleaseYear: 1997
   styles:
-    - Breakbeat
-    - Electronica
-- artist: Dudley Benson
+    - "Breakbeat"
+    - "Electronica"
+- slug: "dudley-benson"
+  name: "Dudley Benson"
   lastReleaseYear: 2022
   styles:
-    - Electronica
-- artist: Duo Alias
+    - "Electronica"
+- slug: "duo-alias"
+  name: "Duo Alias"
   lastReleaseYear: 2018
   styles:
-    - Techno
-- artist: Durez
+    - "Techno"
+- slug: "durez"
+  name: "Durez"
   lastReleaseYear: 2011
-- artist: Dusty
+- slug: "dusty"
+  name: "Dusty"
   lastReleaseYear: 2023
-- artist: Eamonn Fevah
+- slug: "eamonn-fevah"
+  name: "Eamonn Fevah"
   styles:
-    - House
-    - Minimal
-    - Progressive
-    - Techno
-- artist: Eavesdrop
+    - "House"
+    - "Minimal"
+    - "Progressive"
+    - "Techno"
+- slug: "eavesdrop"
+  name: "Eavesdrop"
   lastReleaseYear: 2012
-- artist: Ebb
+- slug: "ebb"
+  name: "Ebb"
   lastReleaseYear: 2022
   styles:
-    - Breakbeat
-    - Dubstep
-    - Techno
-- artist: Eden Burns
+    - "Breakbeat"
+    - "Dubstep"
+    - "Techno"
+- slug: "eden-burns"
+  name: "Eden Burns"
   lastReleaseYear: 2025
   styles:
-    - Breakbeat
-    - House
-    - Techno
-- artist: Emerson Todd
+    - "Breakbeat"
+    - "House"
+    - "Techno"
+- slug: "emerson-todd"
+  name: "Emerson Todd"
   lastReleaseYear: 2010
-- artist: EMILIE
+- slug: "emilie"
+  name: "EMILIE"
   lastReleaseYear: 2024
-- artist: EMWA
+- slug: "emwa"
+  name: "EMWA"
   styles:
-    - EDM
-- artist: Eo
+    - "EDM"
+- slug: "eo"
+  name: "Eo"
   lastReleaseYear: 2025
-- artist: Epsilon-Blue
+- slug: "epsilon-blue"
+  name: "Epsilon-Blue"
   lastReleaseYear: 1997
-- artist: Esdee
+- slug: "esdee"
+  name: "Esdee"
   lastReleaseYear: 2006
-- artist: eszsa
+- slug: "eszsa"
+  name: "eszsa"
   lastReleaseYear: 2022
   styles:
-    - Electronica
-    - House
-- artist: Eyeliner / Disasteradio
+    - "Electronica"
+    - "House"
+- slug: "eyeliner-disasteradio"
+  name: "Eyeliner / Disasteradio"
   styles:
-    - Breakbeat
-    - Electro
-- artist: Fanau Spa
+    - "Breakbeat"
+    - "Electro"
+- slug: "fanau-spa"
+  name: "Fanau Spa"
   lastReleaseYear: 2018
-- artist: Farley
+- slug: "farley"
+  name: "Farley"
   lastReleaseYear: 2011
-- artist: Fazerdaze
+- slug: "fazerdaze"
+  name: "Fazerdaze"
   lastReleaseYear: 2023
-- artist: Feral
+- slug: "feral"
+  name: "Feral"
   lastReleaseYear: 2016
-- artist: Fiord
+- slug: "fiord"
+  name: "Fiord"
   lastReleaseYear: 2010
-- artist: Flash
+- slug: "flash"
+  name: "Flash"
   lastReleaseYear: 2012
-- artist: Flek C
+- slug: "flek-c"
+  name: "Flek C"
   lastReleaseYear: 2008
-- artist: Flipperty
+- slug: "flipperty"
+  name: "Flipperty"
   lastReleaseYear: 2006
-- artist: Fog
+- slug: "fog"
+  name: "Fog"
   lastReleaseYear: 2010
-- artist: Frank Booker
+- slug: "frank-booker"
+  name: "Frank Booker"
   styles:
-    - House
-- artist: Frost
+    - "House"
+- slug: "frost"
+  name: "Frost"
   styles:
-    - Techno
-- artist: Funk 'n' Slo Cuts
+    - "Techno"
+- slug: "funk-n-slo-cuts"
+  name: "Funk 'n' Slo Cuts"
   lastReleaseYear: 2007
-- artist: Funk'n'SloCuts
+- slug: "funknslocuts"
+  name: "Funk'n'SloCuts"
   styles:
-    - Breakbeat
-- artist: Funkdamunk
+    - "Breakbeat"
+- slug: "funkdamunk"
+  name: "Funkdamunk"
   lastReleaseYear: 2012
-- artist: Future
+- slug: "future"
+  name: "Future"
   lastReleaseYear: 2026
-- artist: Gang Violins
+- slug: "gang-violins"
+  name: "Gang Violins"
   lastReleaseYear: 2025
-- artist: GASP
+- slug: "gasp"
+  name: "GASP"
   lastReleaseYear: 2013
-- artist: Geosync
+- slug: "geosync"
+  name: "Geosync"
   styles:
-    - Ambient
-    - Electronica
-    - Techno
-- artist: Go Nuclear
+    - "Ambient"
+    - "Electronica"
+    - "Techno"
+- slug: "go-nuclear"
+  name: "Go Nuclear"
   styles:
-    - Breakbeat
-    - Electro
-- artist: Goose
+    - "Breakbeat"
+    - "Electro"
+- slug: "goose"
+  name: "Goose"
   lastReleaseYear: 2023
-- artist: Gotye
+- slug: "gotye"
+  name: "Gotye"
   lastReleaseYear: 2011
-- artist: Green Velvet
+- slug: "green-velvet"
+  name: "Green Velvet"
   lastReleaseYear: 2013
-- artist: Greg Churchill
+- slug: "greg-churchill"
+  name: "Greg Churchill"
   lastReleaseYear: 2012
-- artist: Grouch
+- slug: "grouch"
+  name: "Grouch"
   lastReleaseYear: 2010
-- artist: Harvo
+- slug: "harvo"
+  name: "Harvo"
   lastReleaseYear: 2022
   styles:
-    - Breakbeat
-    - House
-    - Techno
-- artist: Haszari
+    - "Breakbeat"
+    - "House"
+    - "Techno"
+- slug: "haszari"
+  name: "Haszari"
   lastReleaseYear: 2025
   styles:
-    - Breakbeat
-    - Dub
-    - House
-    - Minimal
-    - Techno
-- artist: Headland
+    - "Breakbeat"
+    - "Dub"
+    - "House"
+    - "Minimal"
+    - "Techno"
+- slug: "headland"
+  name: "Headland"
   lastReleaseYear: 2022
   styles:
-    - Dub
-    - Dubstep
-    - Techno
-- artist: Holloway
+    - "Dub"
+    - "Dubstep"
+    - "Techno"
+- slug: "holloway"
+  name: "Holloway"
   lastReleaseYear: 2023
-- artist: Hooky
+- slug: "hooky"
+  name: "Hooky"
   styles:
-    - House
-- artist: Hot Fuzz
+    - "House"
+- slug: "hot-fuzz"
+  name: "Hot Fuzz"
   lastReleaseYear: 2011
-- artist: House Of Downtown
+- slug: "house-of-downtown"
+  name: "House Of Downtown"
   lastReleaseYear: 2000
-- artist: Hyan
+- slug: "hyan"
+  name: "Hyan"
   lastReleaseYear: 2025
-- artist: Ike Zwanniken
+- slug: "ike-zwanniken"
+  name: "Ike Zwanniken"
   styles:
-    - Breakbeat
-- artist: Industrial Nature
+    - "Breakbeat"
+- slug: "industrial-nature"
+  name: "Industrial Nature"
   lastReleaseYear: 2022
-- artist: Isaac Chambers
+- slug: "isaac-chambers"
+  name: "Isaac Chambers"
   lastReleaseYear: 2020
   styles:
-    - Dub
-    - Progressive
-    - Techno
-- artist: Itchy Brothers
+    - "Dub"
+    - "Progressive"
+    - "Techno"
+- slug: "itchy-brothers"
+  name: "Itchy Brothers"
   styles:
-    - House
-    - Techno
-- artist: IVY
+    - "House"
+    - "Techno"
+- slug: "ivy"
+  name: "IVY"
   lastReleaseYear: 2025
-- artist: Ixxe13
+- slug: "ixxe13"
+  name: "Ixxe13"
   styles:
-    - Ambient
-    - Breakbeat
-    - Electronica
-    - Minimal
-    - Techno
-- artist: jACQ
+    - "Ambient"
+    - "Breakbeat"
+    - "Electronica"
+    - "Minimal"
+    - "Techno"
+- slug: "jacq"
+  name: "jACQ"
   lastReleaseYear: 2013
-- artist: Jagā
+- slug: "jag"
+  name: "Jagā"
   styles:
-    - Breakbeat
-    - Electronica
-    - Techno
-- artist: Jamie Doesn't Like Salad
+    - "Breakbeat"
+    - "Electronica"
+    - "Techno"
+- slug: "jamie-doesnt-like-salad"
+  name: "Jamie Doesn't Like Salad"
   lastReleaseYear: 2025
-- artist: JARNA
+- slug: "jarna"
+  name: "JARNA"
   lastReleaseYear: 2025
-- artist: Jay Knight
+- slug: "jay-knight"
+  name: "Jay Knight"
   styles:
-    - Breakbeat
-    - Dubstep
-    - Jungle
-- artist: Jerkboy
+    - "Breakbeat"
+    - "Dubstep"
+    - "Jungle"
+- slug: "jerkboy"
+  name: "Jerkboy"
   lastReleaseYear: 2012
-- artist: Jerry Watts
+- slug: "jerry-watts"
+  name: "Jerry Watts"
   styles:
-    - Breakbeat
-    - Electronica
-    - Techno
-- artist: Jet Jaguar
+    - "Breakbeat"
+    - "Electronica"
+    - "Techno"
+- slug: "jet-jaguar"
+  name: "Jet Jaguar"
   lastReleaseYear: 2020
   styles:
-    - Ambient
-    - Breakbeat
-    - Electronica
-- artist: Joel Armstrong
+    - "Ambient"
+    - "Breakbeat"
+    - "Electronica"
+- slug: "joel-armstrong"
+  name: "Joel Armstrong"
   lastReleaseYear: 2010
-- artist: Jolyon Petch
+- slug: "jolyon-petch"
+  name: "Jolyon Petch"
   lastReleaseYear: 2010
-- artist: Jorgensen
+- slug: "jorgensen"
+  name: "Jorgensen"
   lastReleaseYear: 2007
-- artist: Jousey
+- slug: "jousey"
+  name: "Jousey"
   lastReleaseYear: 2025
-- artist: Juni
+- slug: "juni"
+  name: "Juni"
   lastReleaseYear: 2026
-- artist: Junus Orca
+- slug: "junus-orca"
+  name: "Junus Orca"
   lastReleaseYear: 2021
   styles:
-    - Ambient
-    - Electronica
-    - Techno
-- artist: K-Lab
+    - "Ambient"
+    - "Electronica"
+    - "Techno"
+- slug: "k-lab"
+  name: "K-Lab"
   lastReleaseYear: 2011
-- artist: K+Lab
+- slug: "k-lab"
+  name: "K+Lab"
   lastReleaseYear: 2012
-- artist: Kadyn Webster
+- slug: "kadyn-webster"
+  name: "Kadyn Webster"
   lastReleaseYear: 2023
   styles:
-    - Breakbeat
-    - Techno
-- artist: Kaishandao
+    - "Breakbeat"
+    - "Techno"
+- slug: "kaishandao"
+  name: "Kaishandao"
   lastReleaseYear: 2025
-- artist: Kamandi
+- slug: "kamandi"
+  name: "Kamandi"
   styles:
-    - Acid
-    - Techno
-- artist: Kane Spindler
+    - "Acid"
+    - "Techno"
+- slug: "kane-spindler"
+  name: "Kane Spindler"
   lastReleaseYear: 2025
-- artist: Keanu Raves
+- slug: "keanu-raves"
+  name: "Keanu Raves"
   lastReleaseYear: 2024
   styles:
-    - Breakbeat
-    - Techno
-- artist: Kédu Carlö
+    - "Breakbeat"
+    - "Techno"
+- slug: "k-du-carl"
+  name: "Kédu Carlö"
   styles:
-    - House
-    - Techno
-- artist: Keepsakes
+    - "House"
+    - "Techno"
+- slug: "keepsakes"
+  name: "Keepsakes"
   lastReleaseYear: 2026
   styles:
-    - Techno
-- artist: Kennedy
+    - "Techno"
+- slug: "kennedy"
+  name: "Kennedy"
   lastReleaseYear: 2022
-- artist: Kennedy (aka Gene Kennedy)
+- slug: "kennedy-aka-gene-kennedy"
+  name: "Kennedy (aka Gene Kennedy)"
   styles:
-    - House
-- artist: Kidz In Space
+    - "House"
+- slug: "kidz-in-space"
+  name: "Kidz In Space"
   lastReleaseYear: 2011
-- artist: Kiljoy
+- slug: "kiljoy"
+  name: "Kiljoy"
   styles:
-    - Drum & Bass
-- artist: Kingsland Housing Project
+    - "Drum & Bass"
+- slug: "kingsland-housing-project"
+  name: "Kingsland Housing Project"
   lastReleaseYear: 2001
-- artist: Koincide
+- slug: "koincide"
+  name: "Koincide"
   lastReleaseYear: 2011
-- artist: Kolab
+- slug: "kolab"
+  name: "Kolab"
   lastReleaseYear: 2011
-- artist: Kora
+- slug: "kora"
+  name: "Kora"
   lastReleaseYear: 2007
-- artist: Kōroto
+- slug: "k-roto"
+  name: "Kōroto"
   lastReleaseYear: 2024
-- artist: Kraus
+- slug: "kraus"
+  name: "Kraus"
   styles:
-    - Ambient
-    - Electro
-    - Electronica
-- artist: Kyle Bourke
+    - "Ambient"
+    - "Electro"
+    - "Electronica"
+- slug: "kyle-bourke"
+  name: "Kyle Bourke"
   lastReleaseYear: 2011
-- artist: Ladyhawke
+- slug: "ladyhawke"
+  name: "Ladyhawke"
   lastReleaseYear: 2009
-- artist: Lainey
+- slug: "lainey"
+  name: "Lainey"
   lastReleaseYear: 2020
-- artist: Laugh 'n' Gas
+- slug: "laugh-n-gas"
+  name: "Laugh 'n' Gas"
   lastReleaseYear: 1997
-- artist: Laughin’ Gas
+- slug: "laughin-gas"
+  name: "Laughin’ Gas"
   styles:
-    - Breakbeat
-    - Electronica
-- artist: LEISURE
+    - "Breakbeat"
+    - "Electronica"
+- slug: "leisure"
+  name: "LEISURE"
   lastReleaseYear: 2022
-- artist: Leno Lovecraft
+- slug: "leno-lovecraft"
+  name: "Leno Lovecraft"
   styles:
-    - Electro
-    - Electronica
-    - Space Dub
-- artist: Leo McKinnon
+    - "Electro"
+    - "Electronica"
+    - "Space Dub"
+- slug: "leo-mckinnon"
+  name: "Leo McKinnon"
   lastReleaseYear: 2025
-- artist: Locuste
+- slug: "locuste"
+  name: "Locuste"
   lastReleaseYear: 1997
-- artist: Lorde
+- slug: "lorde"
+  name: "Lorde"
   lastReleaseYear: 2018
-- artist: Lowquid
+- slug: "lowquid"
+  name: "Lowquid"
   lastReleaseYear: 2018
   styles:
-    - Electronica
-- artist: Lucien Johnson
+    - "Electronica"
+- slug: "lucien-johnson"
+  name: "Lucien Johnson"
   lastReleaseYear: 2021
-- artist: Lukas
+- slug: "lukas"
+  name: "Lukas"
   lastReleaseYear: 2012
-- artist: Luke Walker
+- slug: "luke-walker"
+  name: "Luke Walker"
   lastReleaseYear: 2010
-- artist: Luna City Express
+- slug: "luna-city-express"
+  name: "Luna City Express"
   lastReleaseYear: 2010
-- artist: Luther
+- slug: "luther"
+  name: "Luther"
   styles:
-    - Breakbeat
-    - Electro
-    - Techno
-- artist: LXTricity
+    - "Breakbeat"
+    - "Electro"
+    - "Techno"
+- slug: "lxtricity"
+  name: "LXTricity"
   styles:
-    - Dubstep
-    - EDM
-    - House
-- artist: M2MYU
+    - "Dubstep"
+    - "EDM"
+    - "House"
+- slug: "m2myu"
+  name: "M2MYU"
   lastReleaseYear: 2022
   styles:
-    - House
-- artist: Magik J
+    - "House"
+- slug: "magik-j"
+  name: "Magik J"
   lastReleaseYear: 2013
-- artist: Magik Johnson
+- slug: "magik-johnson"
+  name: "Magik Johnson"
   lastReleaseYear: 2012
-- artist: Malente
+- slug: "malente"
+  name: "Malente"
   lastReleaseYear: 2007
-- artist: MANTHYNG
+- slug: "manthyng"
+  name: "MANTHYNG"
   lastReleaseYear: 2010
-- artist: Matipo Pyramid
+- slug: "matipo-pyramid"
+  name: "Matipo Pyramid"
   lastReleaseYear: 1997
-- artist: Matty G
+- slug: "matty-g"
+  name: "Matty G"
   lastReleaseYear: 2010
-- artist: MayaVanya
+- slug: "mayavanya"
+  name: "MayaVanya"
   lastReleaseYear: 2011
-- artist: Mayflymusic
-- artist: MELODOWNZ
+- slug: "mayflymusic"
+  name: "Mayflymusic"
+- slug: "melodownz"
+  name: "MELODOWNZ"
   lastReleaseYear: 2025
-- artist: Mikael Wills
+- slug: "mikael-wills"
+  name: "Mikael Wills"
   lastReleaseYear: 2012
-- artist: Minuit
+- slug: "minuit"
+  name: "Minuit"
   lastReleaseYear: 2008
-- artist: Modern Chair
+- slug: "modern-chair"
+  name: "Modern Chair"
   styles:
-    - Electronica
-    - Techno
-- artist: Module
+    - "Electronica"
+    - "Techno"
+- slug: "module"
+  name: "Module"
   lastReleaseYear: 2007
-- artist: Mokotron
+- slug: "mokotron"
+  name: "Mokotron"
   lastReleaseYear: 2024
-- artist: Monkey Boots
+- slug: "monkey-boots"
+  name: "Monkey Boots"
   styles:
-    - House
-- artist: Mono/Loco
+    - "House"
+- slug: "mono-loco"
+  name: "Mono/Loco"
   lastReleaseYear: 2025
   styles:
-    - House
-- artist: Montel2099
+    - "House"
+- slug: "montel2099"
+  name: "Montel2099"
   styles:
-    - EDM
-- artist: Moston
+    - "EDM"
+- slug: "moston"
+  name: "Moston"
   lastReleaseYear: 2007
-- artist: Mr Meaty Boy
+- slug: "mr-meaty-boy"
+  name: "Mr Meaty Boy"
   styles:
-    - Electro
-    - Techno
-- artist: Mr Squatch
+    - "Electro"
+    - "Techno"
+- slug: "mr-squatch"
+  name: "Mr Squatch"
   lastReleaseYear: 2009
-- artist: Murmur Tooth
-- artist: Myd
+- slug: "murmur-tooth"
+  name: "Murmur Tooth"
+- slug: "myd"
+  name: "Myd"
   lastReleaseYear: 2010
-- artist: N.A.M.E.
+- slug: "n-a-m-e"
+  name: "N.A.M.E."
   lastReleaseYear: 2009
-- artist: Nasty Genuis
+- slug: "nasty-genuis"
+  name: "Nasty Genuis"
   lastReleaseYear: 2007
-- artist: Nathan Haines
+- slug: "nathan-haines"
+  name: "Nathan Haines"
   lastReleaseYear: 2025
-- artist: Nice Girl
+- slug: "nice-girl"
+  name: "Nice Girl"
   lastReleaseYear: 2022
   styles:
-    - House
-    - Techno
-- artist: Nick Collings
+    - "House"
+    - "Techno"
+- slug: "nick-collings"
+  name: "Nick Collings"
   lastReleaseYear: 2013
-- artist: nickname
+- slug: "nickname"
+  name: "nickname"
   lastReleaseYear: 2023
-- artist: Nila
+- slug: "nila"
+  name: "Nila"
   styles:
-    - Progressive
-    - Techno
-- artist: nineteen79
+    - "Progressive"
+    - "Techno"
+- slug: "nineteen79"
+  name: "nineteen79"
   lastReleaseYear: 2025
   styles:
-    - House
-    - Progressive
-    - Techno
-- artist: Ninjastep
+    - "House"
+    - "Progressive"
+    - "Techno"
+- slug: "ninjastep"
+  name: "Ninjastep"
   lastReleaseYear: 2010
-- artist: Noob
+- slug: "noob"
+  name: "Noob"
   lastReleaseYear: 2010
-- artist: Nort
+- slug: "nort"
+  name: "Nort"
   lastReleaseYear: 2011
-- artist: North Shore Pony Club
+- slug: "north-shore-pony-club"
+  name: "North Shore Pony Club"
   lastReleaseYear: 2012
-- artist: nsu
+- slug: "nsu"
+  name: "nsu"
   lastReleaseYear: 2011
-- artist: Nuance
+- slug: "nuance"
+  name: "Nuance"
   lastReleaseYear: 2022
-- artist: Odyssey
+- slug: "odyssey"
+  name: "Odyssey"
   lastReleaseYear: 2012
-- artist: Offmode)
+- slug: "offmode"
+  name: "Offmode)"
   lastReleaseYear: 2006
-- artist: Oliver Prince
+- slug: "oliver-prince"
+  name: "Oliver Prince"
   lastReleaseYear: 2023
-- artist: Olux
+- slug: "olux"
+  name: "Olux"
   lastReleaseYear: 2013
-- artist: OMC
-- artist: Onanon
+- slug: "omc"
+  name: "OMC"
+- slug: "onanon"
+  name: "Onanon"
   lastReleaseYear: 2008
-- artist: Opiuo
+- slug: "opiuo"
+  name: "Opiuo"
   lastReleaseYear: 2010
-- artist: Optimus Gryme
+- slug: "optimus-gryme"
+  name: "Optimus Gryme"
   lastReleaseYear: 2011
-- artist: Organikismness
+- slug: "organikismness"
+  name: "Organikismness"
   lastReleaseYear: 2009
   styles:
-    - Drum & Bass
-    - Dub
-    - Dubstep
-- artist: Owlziz
+    - "Drum & Bass"
+    - "Dub"
+    - "Dubstep"
+- slug: "owlziz"
+  name: "Owlziz"
   styles:
-    - Breakbeat
-    - Dubstep
-- artist: P-Money
+    - "Breakbeat"
+    - "Dubstep"
+- slug: "p-money"
+  name: "P-Money"
   lastReleaseYear: 2012
-- artist: P1rate
+- slug: "p1rate"
+  name: "P1rate"
   lastReleaseYear: 2011
-- artist: Pacific Heights
+- slug: "pacific-heights"
+  name: "Pacific Heights"
   styles:
-    - Ambient
-    - Drum & Bass
-    - Electronica
-- artist: Paige Julia
+    - "Ambient"
+    - "Drum & Bass"
+    - "Electronica"
+- slug: "paige-julia"
+  name: "Paige Julia"
   lastReleaseYear: 2021
   styles:
-    - Breakbeat
-    - Electronica
-- artist: Parallel Dance Ensemble
+    - "Breakbeat"
+    - "Electronica"
+- slug: "parallel-dance-ensemble"
+  name: "Parallel Dance Ensemble"
   lastReleaseYear: 2012
-- artist: Patella
+- slug: "patella"
+  name: "Patella"
   lastReleaseYear: 2023
   styles:
-    - House
-    - Minimal
-- artist: Peace Division
+    - "House"
+    - "Minimal"
+- slug: "peace-division"
+  name: "Peace Division"
   lastReleaseYear: 2006
-- artist: Pearly*
+- slug: "pearly"
+  name: "Pearly*"
   lastReleaseYear: 2025
-- artist: Perverse
+- slug: "perverse"
+  name: "Perverse"
   lastReleaseYear: 2012
-- artist: Peter Hobbs
+- slug: "peter-hobbs"
+  name: "Peter Hobbs"
   lastReleaseYear: 2025
-- artist: Pharley
+- slug: "pharley"
+  name: "Pharley"
   lastReleaseYear: 2012
-- artist: Philippa McIntyre
+- slug: "philippa-mcintyre"
+  name: "Philippa McIntyre"
   styles:
-    - House
-- artist: Piecemeal
+    - "House"
+- slug: "piecemeal"
+  name: "Piecemeal"
   lastReleaseYear: 2025
-- artist: Pig Out
+- slug: "pig-out"
+  name: "Pig Out"
   lastReleaseYear: 2010
-- artist: Pitch Black
+- slug: "pitch-black"
+  name: "Pitch Black"
   lastReleaseYear: 2006
-- artist: Placeholder
+- slug: "placeholder"
+  name: "Placeholder"
   lastReleaseYear: 2025
-- artist: PNC
+- slug: "pnc"
+  name: "PNC"
   lastReleaseYear: 2009
-- artist: PocketLipps
+- slug: "pocketlipps"
+  name: "PocketLipps"
   lastReleaseYear: 2025
-- artist: Projector Mix
+- slug: "projector-mix"
+  name: "Projector Mix"
   lastReleaseYear: 2015
-- artist: ProN
+- slug: "pron"
+  name: "ProN"
   lastReleaseYear: 2013
-- artist: Quaker
+- slug: "quaker"
+  name: "Quaker"
   lastReleaseYear: 1997
-- artist: Quarks
+- slug: "quarks"
+  name: "Quarks"
   lastReleaseYear: 2010
-- artist: Radley
+- slug: "radley"
+  name: "Radley"
   styles:
-    - House
-- artist: RAIZA BIZA
+    - "House"
+- slug: "raiza-biza"
+  name: "RAIZA BIZA"
   lastReleaseYear: 2019
-- artist: Reasxn
+- slug: "reasxn"
+  name: "Reasxn"
   lastReleaseYear: 2025
-- artist: Reed
+- slug: "reed"
+  name: "Reed"
   styles:
-    - House
-- artist: Reeps
+    - "House"
+- slug: "reeps"
+  name: "Reeps"
   lastReleaseYear: 2010
-- artist: Revus
+- slug: "revus"
+  name: "Revus"
   lastReleaseYear: 2025
-- artist: Rhian Sheehan
+- slug: "rhian-sheehan"
+  name: "Rhian Sheehan"
   lastReleaseYear: 2025
-- artist: Roadkill
+- slug: "roadkill"
+  name: "Roadkill"
   lastReleaseYear: 2013
-- artist: Rob Salmon
+- slug: "rob-salmon"
+  name: "Rob Salmon"
   lastReleaseYear: 2008
-- artist: Robot Humour
+- slug: "robot-humour"
+  name: "Robot Humour"
   lastReleaseYear: 2011
-- artist: Roc Raida
+- slug: "roc-raida"
+  name: "Roc Raida"
   lastReleaseYear: 2002
-- artist: Rohann
+- slug: "rohann"
+  name: "Rohann"
   lastReleaseYear: 2011
-- artist: Roots
+- slug: "roots"
+  name: "Roots"
   lastReleaseYear: 2026
-- artist: Rotor
+- slug: "rotor"
+  name: "Rotor"
   lastReleaseYear: 1997
-- artist: Rotor+
+- slug: "rotor"
+  name: "Rotor+"
   styles:
-    - Ambient
-    - Electronica
-    - Minimal
-    - Techno
-- artist: Ryan Enzed
+    - "Ambient"
+    - "Electronica"
+    - "Minimal"
+    - "Techno"
+- slug: "ryan-enzed"
+  name: "Ryan Enzed"
   lastReleaseYear: 2011
-- artist: Sal Valentine And The Babyshakes
+- slug: "sal-valentine-and-the-babyshakes"
+  name: "Sal Valentine And The Babyshakes"
   lastReleaseYear: 2013
-- artist: Salmonella Dub
+- slug: "salmonella-dub"
+  name: "Salmonella Dub"
   lastReleaseYear: 1997
-- artist: Sam Hill
+- slug: "sam-hill"
+  name: "Sam Hill"
   lastReleaseYear: 2010
-- artist: Sanoi
+- slug: "sanoi"
+  name: "Sanoi"
   lastReleaseYear: 2022
-- artist: Timmy Schumacher
-  alias: Schumacher
+- slug: "timmy-schumacher"
+  name: "Timmy Schumacher"
   lastReleaseYear: 2005
-- artist: Sentient
+- slug: "sentient"
+  name: "Sentient"
   lastReleaseYear: 2012
-- artist: Serpico (aka Serpico Beats)
+- slug: "serpico-aka-serpico-beats"
+  name: "Serpico (aka Serpico Beats)"
   styles:
-    - Breakbeat
-    - House
-- artist: Shallow Taxi Club
+    - "Breakbeat"
+    - "House"
+- slug: "shallow-taxi-club"
+  name: "Shallow Taxi Club"
   styles:
-    - House
-- artist: Shapeshifter
+    - "House"
+- slug: "shapeshifter"
+  name: "Shapeshifter"
   lastReleaseYear: 2006
-- artist: Sharkweek
+- slug: "sharkweek"
+  name: "Sharkweek"
   lastReleaseYear: 2025
   styles:
-    - Dub
-    - Electronica
-- artist: Shiner
+    - "Dub"
+    - "Electronica"
+- slug: "shiner"
+  name: "Shiner"
   lastReleaseYear: 1997
-- artist: Shli
+- slug: "shli"
+  name: "Shli"
   lastReleaseYear: 2025
   styles:
-    - Breakbeat
-    - Techno
-- artist: SickDrumz
+    - "Breakbeat"
+    - "Techno"
+- slug: "sickdrumz"
+  name: "SickDrumz"
   lastReleaseYear: 2013
-- artist: Signer
+- slug: "signer"
+  name: "Signer"
   lastReleaseYear: 2000
-- artist: Silk Cut
-- artist: Six60
+- slug: "silk-cut"
+  name: "Silk Cut"
+- slug: "six60"
+  name: "Six60"
   lastReleaseYear: 2011
-- artist: Skellig
+- slug: "skellig"
+  name: "Skellig"
   lastReleaseYear: 2025
-- artist: Skymning
+- slug: "skymning"
+  name: "Skymning"
   lastReleaseYear: 2021
   styles:
-    - Breakbeat
-    - Dubstep
-    - Techno
-- artist: Smashproof
+    - "Breakbeat"
+    - "Dubstep"
+    - "Techno"
+- slug: "smashproof"
+  name: "Smashproof"
   lastReleaseYear: 2009
-- artist: Soane
+- slug: "soane"
+  name: "Soane"
   lastReleaseYear: 1998
-- artist: Social Sport
+- slug: "social-sport"
+  name: "Social Sport"
   lastReleaseYear: 2025
   styles:
-    - Breakbeat
-    - Techno
-- artist: Sola Rosa
+    - "Breakbeat"
+    - "Techno"
+- slug: "sola-rosa"
+  name: "Sola Rosa"
   lastReleaseYear: 2005
-- artist: Son.sine
+- slug: "son-sine"
+  name: "Son.sine"
   lastReleaseYear: 2019
   styles:
-    - Minimal
-    - Techno
-- artist: SoNic Smith
+    - "Minimal"
+    - "Techno"
+- slug: "sonic-smith"
+  name: "SoNic Smith"
   lastReleaseYear: 2013
-- artist: Sonic Space Lab
+- slug: "sonic-space-lab"
+  name: "Sonic Space Lab"
   styles:
-    - Breakbeat
-    - Electro
-- artist: Soulfoundation
+    - "Breakbeat"
+    - "Electro"
+- slug: "soulfoundation"
+  name: "Soulfoundation"
   lastReleaseYear: 2023
   styles:
-    - House
-- artist: SPA
+    - "House"
+- slug: "spa"
+  name: "SPA"
   lastReleaseYear: 2009
-- artist: Speech Act Theory
-- artist: Spoonhead
+- slug: "speech-act-theory"
+  name: "Speech Act Theory"
+- slug: "spoonhead"
+  name: "Spoonhead"
   lastReleaseYear: 2011
-- artist: Squeezer
+- slug: "squeezer"
+  name: "Squeezer"
   lastReleaseYear: 2011
-- artist: Squeezer Project
+- slug: "squeezer-project"
+  name: "Squeezer Project"
   lastReleaseYear: 2010
-- artist: Steve Angello
+- slug: "steve-angello"
+  name: "Steve Angello"
   lastReleaseYear: 2009
-- artist: Strawpeople
+- slug: "strawpeople"
+  name: "Strawpeople"
   lastReleaseYear: 1997
-- artist: Stray Theories
+- slug: "stray-theories"
+  name: "Stray Theories"
   lastReleaseYear: 2019
-- artist: Suede
+- slug: "suede"
+  name: "Suede"
   lastReleaseYear: 2025
-- artist: Sugar James
+- slug: "sugar-james"
+  name: "Sugar James"
   lastReleaseYear: 2022
-- artist: Sunship
+- slug: "sunship"
+  name: "Sunship"
   lastReleaseYear: 2016
-- artist: Supergroove
+- slug: "supergroove"
+  name: "Supergroove"
   lastReleaseYear: 1994
-- artist: Suspectsystem (Cusp
+- slug: "suspectsystem-cusp"
+  name: "Suspectsystem (Cusp"
   lastReleaseYear: 2006
-- artist: SWIDT
+- slug: "swidt"
+  name: "SWIDT"
   lastReleaseYear: 2024
-- artist: Syzygy
+- slug: "syzygy"
+  name: "Syzygy"
   lastReleaseYear: 2022
   styles:
-    - Breakbeat
-    - Techno
-- artist: Tali
+    - "Breakbeat"
+    - "Techno"
+- slug: "tali"
+  name: "Tali"
   styles:
-    - Drum & Bass
-- artist: Talliss
-- artist: Teknizm
+    - "Drum & Bass"
+- slug: "talliss"
+  name: "Talliss"
+- slug: "teknizm"
+  name: "Teknizm"
   lastReleaseYear: 2013
-- artist: Terra Nine
+- slug: "terra-nine"
+  name: "Terra Nine"
   styles:
-    - Acid
-    - Breakbeat
-    - Drum & Bass
-    - Dub
-- artist: Texture
+    - "Acid"
+    - "Breakbeat"
+    - "Drum & Bass"
+    - "Dub"
+- slug: "texture"
+  name: "Texture"
   lastReleaseYear: 2005
   styles:
-    - Dubstep
-    - Techno
-- artist: The Adults
+    - "Dubstep"
+    - "Techno"
+- slug: "the-adults"
+  name: "The Adults"
   lastReleaseYear: 2011
-- artist: The Bats
+- slug: "the-bats"
+  name: "The Bats"
   lastReleaseYear: 1997
-- artist: The Mechanism
+- slug: "the-mechanism"
+  name: "The Mechanism"
   lastReleaseYear: 2012
-- artist: The Mint Chicks
+- slug: "the-mint-chicks"
+  name: "The Mint Chicks"
   lastReleaseYear: 2007
-- artist: The Nightcrawlers
+- slug: "the-nightcrawlers"
+  name: "The Nightcrawlers"
   lastReleaseYear: 2010
-- artist: the nomad
+- slug: "the-nomad"
+  name: "the nomad"
   lastReleaseYear: 2014
-- artist: The Odd Chaps
+- slug: "the-odd-chaps"
+  name: "The Odd Chaps"
   lastReleaseYear: 2013
-- artist: The Shocking and Stunning
+- slug: "the-shocking-and-stunning"
+  name: "The Shocking and Stunning"
   styles:
-    - Electro
-    - Electronica
-- artist: The Sloppy 5ths
+    - "Electro"
+    - "Electronica"
+- slug: "the-sloppy-5ths"
+  name: "The Sloppy 5ths"
   lastReleaseYear: 2012
-- artist: Tim Corin
+- slug: "tim-corin"
+  name: "Tim Corin"
   lastReleaseYear: 2010
-- artist: Tim Green
+- slug: "tim-green"
+  name: "Tim Green"
   lastReleaseYear: 2010
-- artist: Tim Richards
+- slug: "tim-richards"
+  name: "Tim Richards"
   lastReleaseYear: 2010
-- artist: Tipene
+- slug: "tipene"
+  name: "Tipene"
   lastReleaseYear: 2012
-- artist: Tokyo Street Gang
+- slug: "tokyo-street-gang"
+  name: "Tokyo Street Gang"
   lastReleaseYear: 2010
-- artist: Tom Cosm
+- slug: "tom-cosm"
+  name: "Tom Cosm"
   lastReleaseYear: 2008
-- artist: Tom Piper
+- slug: "tom-piper"
+  name: "Tom Piper"
   lastReleaseYear: 2012
-- artist: Toolbox
+- slug: "toolbox"
+  name: "Toolbox"
   lastReleaseYear: 1999
-- artist: Toronja
+- slug: "toronja"
+  name: "Toronja"
   lastReleaseYear: 2022
   styles:
-    - Electro
-    - Techno
-- artist: Tourist
+    - "Electro"
+    - "Techno"
+- slug: "tourist"
+  name: "Tourist"
   lastReleaseYear: 2022
-- artist: Trei
+- slug: "trei"
+  name: "Trei"
   lastReleaseYear: 2010
-- artist: Triangle
+- slug: "triangle"
+  name: "Triangle"
   lastReleaseYear: 2010
-- artist: Trig
+- slug: "trig"
+  name: "Trig"
   styles:
-    - Techno
-- artist: Triggs
-- artist: Troffman
+    - "Techno"
+- slug: "triggs"
+  name: "Triggs"
+- slug: "troffman"
+  name: "Troffman"
   lastReleaseYear: 1999
-- artist: Tyree
+- slug: "tyree"
+  name: "Tyree"
   lastReleaseYear: 2012
-- artist: Uber Driver
+- slug: "uber-driver"
+  name: "Uber Driver"
   lastReleaseYear: 2022
   styles:
-    - Electro
-    - Techno
-- artist: Undertow
+    - "Electro"
+    - "Techno"
+- slug: "undertow"
+  name: "Undertow"
   lastReleaseYear: 2010
-- artist: Unit 23
+- slug: "unit-23"
+  name: "Unit 23"
   lastReleaseYear: 1997
-- artist: Vanessa Worm
+- slug: "vanessa-worm"
+  name: "Vanessa Worm"
   styles:
-    - Breakbeat
-    - Techno
-- artist: Vibrasphere
+    - "Breakbeat"
+    - "Techno"
+- slug: "vibrasphere"
+  name: "Vibrasphere"
   lastReleaseYear: 2008
-- artist: Weird Together
+- slug: "weird-together"
+  name: "Weird Together"
   lastReleaseYear: 2013
-- artist: Will Marshall
+- slug: "will-marshall"
+  name: "Will Marshall"
   lastReleaseYear: 2012
-- artist: William Breakspear
+- slug: "william-breakspear"
+  name: "William Breakspear"
   lastReleaseYear: 2011
-- artist: Winter
+- slug: "winter"
+  name: "Winter"
   lastReleaseYear: 2012
-- artist: Wumbo
+- slug: "wumbo"
+  name: "Wumbo"
   styles:
-    - Breakbeat
-    - EDM
-- artist: Xtra Joss
+    - "Breakbeat"
+    - "EDM"
+- slug: "xtra-joss"
+  name: "Xtra Joss"
   lastReleaseYear: 2025
-- artist: Yaw Boateng
+- slug: "yaw-boateng"
+  name: "Yaw Boateng"
   lastReleaseYear: 2013
-- artist: Yuhei Kubo
+- slug: "yuhei-kubo"
+  name: "Yuhei Kubo"
   lastReleaseYear: 2009
-- artist: Zerzilla
+- slug: "zerzilla"
+  name: "Zerzilla"

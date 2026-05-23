@@ -81,8 +81,19 @@ const artists = defineCollection({
 });
 
 
+const nzArtists = defineCollection({
+  loader: file("src/content/data/nz-artists.yml"),
+  schema: z.object({
+    slug: z.string(),
+    name: z.string(),
+    lastReleaseYear: z.coerce.number().optional(),
+    styles: z.array(z.string()).optional(),
+  }),
+});
+
 export const collections = { 
 	blog,
 	releases,
-	artists
+	artists,
+	nzArtists
 };

@@ -64,8 +64,8 @@ function ArtistDirectory({ artists }) {
 
       <div className="ArtistDirectory-artists">
         {filteredArtists.map((entry) => (
-          <span key={entry.artist}>
-            <strong>{entry.artist}</strong>
+          <span key={entry.slug}>
+            <strong>{entry.name}</strong>
           </span>
         ))}
       </div>
