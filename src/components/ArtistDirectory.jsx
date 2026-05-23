@@ -1,5 +1,6 @@
 import * as React from "react"
 
+import { normalizeTag } from "../lib/normalize-tag"
 import "./ArtistDirectory.scss"
 
 const MIN_FONT_SIZE = 0.8
@@ -13,50 +14,70 @@ function getTagSize(count, minCount, maxCount) {
 
 function ArtistDirectory({ artists }) {
   const [activeStyle, setActiveStyle] = React.useState(null)
+  const [activeLocation, setActiveLocation] = React.useState(null)
 
   const styleCounts = {}
+  const locationCounts = {}
   for (const entry of artists) {
     if (entry.styles) {
       for (const style of entry.styles) {
-        styleCounts[style] = (styleCounts[style] || 0) + 1
+        const key = normalizeTag(style)
+        styleCounts[key] = (styleCounts[key] || 0) + 1
+      }
+    }
+    if (entry.locations) {
+      for (const loc of entry.locations) {
+        const key = normalizeTag(loc)
+        locationCounts[key] = (locationCounts[key] || 0) + 1
       }
     }
   }
 
-  const sortedStyles = Object.keys(styleCounts).sort()
-  const counts = Object.values(styleCounts)
-  const minCount = Math.min(...counts)
-  const maxCount = Math.max(...counts)
+  const visibleStyles = Object.keys(styleCounts).filter((s) => styleCounts[s] > 1)
+  const sortedStyles = visibleStyles.sort()
+  const counts = visibleStyles.map((s) => styleCounts[s])
+  const minCount = counts.length ? Math.min(...counts) : 1
+  const maxCount = counts.length ? Math.max(...counts) : 1
 
-  const filteredArtists = activeStyle
-    ? artists.filter((entry) => entry.styles && entry.styles.includes(activeStyle))
-    : artists
+  const visibleLocations = Object.keys(locationCounts).filter((l) => locationCounts[l] > 1)
+  const sortedLocations = visibleLocations.sort()
+  const locCounts = sortedLocations.map((l) => locationCounts[l])
+  const locMinCount = locCounts.length ? Math.min(...locCounts) : 1
+  const locMaxCount = locCounts.length ? Math.max(...locCounts) : 1
+
+  const filteredArtists = artists.filter((entry) => {
+    if (activeStyle && (!entry.styles || !entry.styles.some((s) => normalizeTag(s) === activeStyle))) return false
+    if (activeLocation && (!entry.locations || !entry.locations.some((l) => normalizeTag(l) === activeLocation))) return false
+    return true
+  })
+
+  const hasActiveFilter = activeStyle || activeLocation
 
   return (
     <div className="ArtistDirectory">
       <div className="ArtistDirectory-tags">
-        {activeStyle && (
+        {hasActiveFilter && (
           <button
             className="ArtistDirectory-tagPill"
-            onClick={() => setActiveStyle(null)}
+            onClick={() => { setActiveStyle(null); setActiveLocation(null) }}
           >
             <span className="ArtistDirectory-tagLabel">✕ clear</span>
           </button>
         )}
-        {sortedStyles.map((style) => (
+        {sortedStyles.map((tag) => (
           <span
-            key={style}
-            className={`ArtistDirectory-tagPill${style === activeStyle ? " is-active" : ""}`}
+            key={tag}
+            className={`ArtistDirectory-tagPill${tag === activeStyle ? " is-active" : ""}`}
           >
             <button
               className="ArtistDirectory-tagLabel"
-              onClick={() => setActiveStyle(style === activeStyle ? null : style)}
+              onClick={() => setActiveStyle(tag === activeStyle ? null : tag)}
               style={{
-                fontSize: `${getTagSize(styleCounts[style], minCount, maxCount)}rem`,
+                fontSize: `${getTagSize(styleCounts[tag], minCount, maxCount)}rem`,
               }}
             >
-              {style}
-              <span className="ArtistDirectory-tagCount">{styleCounts[style]}</span>
+              {tag}
+              <span className="ArtistDirectory-tagCount">{styleCounts[tag]}</span>
             </button>
           </span>
         ))}
@@ -71,7 +92,29 @@ function ArtistDirectory({ artists }) {
       </div>
 
       {filteredArtists.length === 0 && (
-        <p>No artists match this style.</p>
+        <p>No artists match the selected filters.</p>
+      )}
+
+      {sortedLocations.length > 0 && (
+        <div className="ArtistDirectory-tags ArtistDirectory-tags--locations">
+          {sortedLocations.map((tag) => (
+            <span
+              key={tag}
+              className={`ArtistDirectory-tagPill ArtistDirectory-tagPill--location${tag === activeLocation ? " is-active" : ""}`}
+            >
+              <button
+                className="ArtistDirectory-tagLabel"
+                onClick={() => setActiveLocation(tag === activeLocation ? null : tag)}
+                style={{
+                  fontSize: `${getTagSize(locationCounts[tag], locMinCount, locMaxCount)}rem`,
+                }}
+              >
+                {tag}
+                <span className="ArtistDirectory-tagCount">{locationCounts[tag]}</span>
+              </button>
+            </span>
+          ))}
+        </div>
       )}
     </div>
   )

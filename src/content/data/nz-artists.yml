@@ -1,1326 +1,3127 @@
-- slug: "2xm"
-  name: "2XM"
-  lastReleaseYear: 2023
+- slug: 2xm
+  name: 2XM
   styles:
-    - "Breakbeat"
-    - "House"
-- slug: "a-girl"
-  name: "A.GIRL"
-  lastReleaseYear: 2024
-- slug: "aaradhna"
-  name: "Aaradhna"
-  lastReleaseYear: 2013
-- slug: "abby-lee"
-  name: "Abby Lee"
-  lastReleaseYear: 2013
-- slug: "acid-police"
-  name: "Acid Police"
-  lastReleaseYear: 2021
-  styles:
-    - "Techno"
-- slug: "actual"
-  name: "Actual"
-  lastReleaseYear: 2024
-- slug: "agfc"
-  name: "AGFC"
-  lastReleaseYear: 2011
-- slug: "akcept"
-  name: "Akcept"
-  lastReleaseYear: 2022
-- slug: "ali-payami"
-  name: "Ali Payami"
-  lastReleaseYear: 2011
-- slug: "ali-storm"
-  name: "Ali Storm"
-  styles:
-    - "House"
-- slug: "alice-agnes"
-  name: "Alice Agnes"
-  lastReleaseYear: 2022
-  styles:
-    - "House"
-    - "Techno"
-- slug: "alphabethead"
-  name: "Alphabethead"
-  styles:
-    - "Breakbeat"
-    - "Electronica"
-- slug: "amb"
-  name: "Amb"
-  lastReleaseYear: 2012
-- slug: "amez"
-  name: "Amez"
-  lastReleaseYear: 2023
-- slug: "andwahn"
-  name: "AndWahn"
-  lastReleaseYear: 2024
-  styles:
-    - "Breakbeat"
-    - "Techno"
-- slug: "andy-crump"
-  name: "Andy Crump"
-  lastReleaseYear: 2009
-- slug: "angela-fisken"
-  name: "Angela Fisken"
-  lastReleaseYear: 2012
-- slug: "anika-d"
-  name: "Anika D"
-  lastReleaseYear: 2025
-- slug: "annasassin"
-  name: "ANNASASSIN"
-  lastReleaseYear: 2025
-- slug: "anodyne-industries"
-  name: "Anodyne Industries"
-  lastReleaseYear: 2011
-- slug: "antiform"
-  name: "Antiform"
-  lastReleaseYear: 2008
-- slug: "antix"
-  name: "Antix"
-  lastReleaseYear: 2010
-- slug: "ap"
-  name: "AP"
-  lastReleaseYear: 2025
-- slug: "ap3x"
-  name: "AP3X"
-  lastReleaseYear: 2010
-- slug: "arc-x"
-  name: "arc X"
-  styles:
-    - "Electronica"
-    - "Techno"
-- slug: "arli-liberman"
-  name: "Arli Liberman"
-  lastReleaseYear: 2025
-- slug: "aroha"
-  name: "Aroha"
-  styles:
-    - "Breakbeat"
-    - "House"
-    - "Techno"
-- slug: "aural-trash"
-  name: "Aural Trash"
-  lastReleaseYear: 2013
-- slug: "axiomata"
-  name: "Axiomata"
-  lastReleaseYear: 2006
-- slug: "azure"
-  name: "Azure"
-  lastReleaseYear: 2021
-  styles:
-    - "Breakbeat"
-    - "Electronica"
-    - "Techno"
-- slug: "baby-zionov"
-  name: "Baby Zionov"
-  lastReleaseYear: 2022
-- slug: "bahns"
-  name: "Bahns"
-  styles:
-    - "Techno"
-- slug: "baitercell"
-  name: "Baitercell"
-  lastReleaseYear: 2005
-- slug: "baynk"
-  name: "Baynk"
-- slug: "beat-mafia"
-  name: "Beat Mafia"
-  lastReleaseYear: 2013
-- slug: "benee"
-  name: "BENEE"
-  lastReleaseYear: 2019
-- slug: "benson-feat-willie-c"
-  name: "Benson (feat. Willie C)"
-  lastReleaseYear: 2011
-- slug: "blaze-tripp"
-  name: "Blaze Tripp"
-  lastReleaseYear: 2010
-- slug: "blem"
-  name: "Blem"
-  lastReleaseYear: 2025
-- slug: "bomb-dylan"
-  name: "Bomb Dylan"
+  - Breakbeat
+  - House
+- slug: a-girl
+  name: A.GIRL
+- slug: aaradhna
+  name: Aaradhna
+- slug: abby-lee
+  name: Abby Lee
+- slug: acid-police
+  name: Acid Police
+  bandcamp: acidpolice92
   lastReleaseYear: 2020
-- slug: "borderline"
-  name: "Borderline"
-  lastReleaseYear: 2010
-- slug: "brandn-shiraz"
-  name: "Brandn Shiraz"
-  lastReleaseYear: 2025
-- slug: "breaks-co-op"
-  name: "Breaks Co-Op"
-  lastReleaseYear: 1997
-- slug: "brondinski"
-  name: "Brondinski"
-  lastReleaseYear: 2010
-- slug: "caldera"
-  name: "Caldera"
+  styles:
+  - Techno
+- slug: actual
+  name: Actual
   lastReleaseYear: 2015
-- slug: "campiz"
-  name: "Campiz"
-  lastReleaseYear: 2010
-- slug: "carrier"
-  name: "Carrier"
+  styles:
+  - Doom Pop
+  - Alternative
+  - Psychedelic
+  locations:
+  - Los Angeles
+- slug: agfc
+  name: AGFC
+- slug: akcept
+  name: Akcept
+- slug: ali-payami
+  name: Ali Payami
+- slug: ali-storm
+  name: Ali Storm
+  styles:
+  - House
+- slug: alice-agnes
+  name: Alice Agnes
+  styles:
+  - House
+  - Techno
+- slug: alphabethead
+  name: Alphabethead
   lastReleaseYear: 2025
   styles:
-    - "Dub"
-    - "Techno"
-- slug: "caru"
-  name: "Caru"
+  - Bad Taste
+  - Bass
+  - Bass Music
+  - Beat Tape
+  - Beats
+  - Electronic
+  - Hip Hop
+  - Instrumental
+  - Rap
+  - Scratching
+  - Turntablism
+  - Video Game
+  - Video Game Music
+  - Xena
+  locations:
+  - Aotearoa
+  - Whanganui
+- slug: amb
+  name: Amb
+- slug: amez
+  name: Amez
+- slug: andwahn
+  name: AndWahn
   lastReleaseYear: 2026
-- slug: "cavell"
-  name: "Cavell"
-  lastReleaseYear: 2012
-- slug: "chaii"
-  name: "CHAII"
-  lastReleaseYear: 2020
-- slug: "chaos-in-the-cbd"
-  name: "Chaos in the CBD"
+  styles:
+  - '140'
+  - Bass Music
+  - Breakbeat
+  - Dub
+  - Dubstep
+  - Electro
+  - Electronic
+  - Footwork
+  - Garage
+  - Grime
+  - Jungle
+  - Rnb
+  - Uk Garage
+  locations:
+  - Auckland
+- slug: andy-crump
+  name: Andy Crump
+- slug: angela-fisken
+  name: Angela Fisken
+- slug: anika-d
+  name: Anika D
+  lastReleaseYear: 2026
+  styles:
+  - Ambient
+  - Ambient Electronic
+  - Anotherbughunt
+  - Atmospheric
+  - Cinematic
+  - Cyberpunk
+  - Dark
+  - Dark Ambient
+  - Datacode
+  - Deep
+  - Drum And Bass
+  - Electronic
+  - Enceladus
+  - Experimental
+  - Floating
+  - Futuristic
+  - Game Music
+  - Gamemusic
+  - Horror
+  - Machine Sounds
+  - Mothership
+  - Neurofunk
+  - Neurofunk Dnb
+  - Saturn
+  - Sci Fi
+  - Sound Design
+  - Soundscape
+  - Soundtrack
+  - Space
+  locations:
+  - Belgrade
+- slug: annasassin
+  name: ANNASASSIN
   lastReleaseYear: 2025
-- slug: "charlie-mumbles"
-  name: "Charlie Mumbles"
-  lastReleaseYear: 2010
-- slug: "che-fu"
-  name: "Che Fu"
-  lastReleaseYear: 2001
-- slug: "chores"
-  name: "Chores"
-  lastReleaseYear: 2013
-- slug: "church"
-  name: "Church"
-  lastReleaseYear: 2025
-- slug: "cicada"
-  name: "Cicada"
-  lastReleaseYear: 2009
-- slug: "circuit"
-  name: "Circuit"
+  styles:
+  - Break Beat
+  - Breakbeat
+  - Breakbeat Techno
+  - Breaks
+  - Chill
+  - Dance
+  - Deep House
+  - Electrobodymusic
+  - Electroclash
+  - Electronic
+  - Electronica
+  - Electronica Experimental
+  - House
+  - Indie Dance
+  - Indie Electronica
+  - Indie House
+  - Minimal Techno
+  - New Zealand Music
+  - Nu Disco
+  - Tech House
+  - Techno
+  locations:
+  - New Zealand
+- slug: anodyne-industries
+  name: Anodyne Industries
   lastReleaseYear: 2011
-- slug: "clay"
-  name: "Clay"
-  lastReleaseYear: 2025
-- slug: "clear-path-ensemble"
-  name: "Clear Path Ensemble"
-  lastReleaseYear: 2025
-- slug: "computers-want-me-dead"
-  name: "Computers Want Me Dead"
-  lastReleaseYear: 2010
-- slug: "concord-dawn"
-  name: "Concord Dawn"
-  lastReleaseYear: 2012
-- slug: "corin"
-  name: "Corin"
+  styles:
+  - Anodyne Industries
+  - Bass
+  - Bassline
+  - Breaks
+  - Dark
+  - Darkstep
+  - Deep
+  - Dnb
+  - Drum And Bass
+  - Drum Bass
+  - Drumstep
+  - Dubstep
+  - Electronic
+  - Electronica
+  - Glitch
+  - Glitch Hop
+  - Halfstep
+  - Heavy Bass
+  - Idm
+  - Idmf
+  - Netlabel
+  - Neuro
+  - Remix
+  - Sf
+  - Whomp
+  locations:
+  - Bay Area
+  - Oakland
+- slug: antiform
+  name: Antiform
+- slug: antix
+  name: Antix
   lastReleaseYear: 2011
-- slug: "cross-the-noughts"
-  name: "Cross The Noughts"
-  lastReleaseYear: 2011
-- slug: "crystal-fighters"
-  name: "Crystal Fighters"
-  lastReleaseYear: 2010
-- slug: "ctfd"
-  name: "CTFD"
-  lastReleaseYear: 2012
-- slug: "current-bias"
-  name: "Current Bias"
-  lastReleaseYear: 2023
-- slug: "cusp"
-  name: "Cusp"
-  lastReleaseYear: 2020
   styles:
-    - "Progressive"
-    - "Techno"
-- slug: "cyxqrd"
-  name: "CYXQRD"
-  lastReleaseYear: 2025
-- slug: "daft-punk"
-  name: "Daft Punk"
-  lastReleaseYear: 2013
-- slug: "dan-aux"
-  name: "Dan Aux"
-  lastReleaseYear: 2025
+  - Hip Hop
+  - Rap
+  locations:
+  - Fort Worth
+- slug: ap
+  name: AP
+- slug: ap3x
+  name: AP3X
+- slug: arc-x
+  name: arc X
   styles:
-    - "Breakbeat"
-    - "House"
-    - "Techno"
-- slug: "daniel-farley"
-  name: "Daniel Farley"
-  lastReleaseYear: 2012
-- slug: "danny-t"
-  name: "Danny T"
-  lastReleaseYear: 2012
-- slug: "darren-clark"
-  name: "Darren Clark"
-  styles:
-    - "House"
-- slug: "dave-cox"
-  name: "Dave Cox"
-  lastReleaseYear: 2022
-- slug: "dbldbl"
-  name: "Dbldbl"
-  lastReleaseYear: 2021
-- slug: "deadforest"
-  name: "DeadForest"
-  lastReleaseYear: 2019
-- slug: "deadset"
-  name: "Deadset"
-  lastReleaseYear: 2007
-- slug: "deceptikonz"
-  name: "Deceptikonz"
-  lastReleaseYear: 2002
-- slug: "deepchild"
-  name: "Deepchild"
-  lastReleaseYear: 2008
-- slug: "deepstate"
-  name: "deepState"
-  lastReleaseYear: 2021
-  styles:
-    - "Breakbeat"
-    - "EDM"
-- slug: "dera-meelan"
-  name: "Dera Meelan"
-  lastReleaseYear: 2019
-- slug: "derty-sesh"
-  name: "Derty Sesh"
-  lastReleaseYear: 2012
-- slug: "destroy-disco"
-  name: "Destroy Disco"
-  lastReleaseYear: 2009
-- slug: "devil-theory"
-  name: "Devil Theory"
-  lastReleaseYear: 2010
-- slug: "diem-redux"
-  name: "Diem Redux"
-  styles:
-    - "Breakbeat"
-    - "Electro"
-    - "Electronica"
-    - "Techno"
-- slug: "ditto"
-  name: "Ditto"
-  lastReleaseYear: 2013
-- slug: "dj-hat"
-  name: "DJ Hat"
-  lastReleaseYear: 2011
-- slug: "dj-simon-dallow"
-  name: "DJ Simon Dallow"
-  styles:
-    - "Breakbeat"
-    - "Electronica"
-    - "Techno"
-- slug: "double-negative"
-  name: "Double Negative"
-  lastReleaseYear: 2009
-- slug: "doug-thomas"
-  name: "Doug Thomas"
-  lastReleaseYear: 2022
-- slug: "dr-love-gland"
-  name: "Dr. Love Gland"
-  lastReleaseYear: 1997
-  styles:
-    - "Breakbeat"
-    - "Electronica"
-- slug: "dudley-benson"
-  name: "Dudley Benson"
-  lastReleaseYear: 2022
-  styles:
-    - "Electronica"
-- slug: "duo-alias"
-  name: "Duo Alias"
-  lastReleaseYear: 2018
-  styles:
-    - "Techno"
-- slug: "durez"
-  name: "Durez"
-  lastReleaseYear: 2011
-- slug: "dusty"
-  name: "Dusty"
-  lastReleaseYear: 2023
-- slug: "eamonn-fevah"
-  name: "Eamonn Fevah"
-  styles:
-    - "House"
-    - "Minimal"
-    - "Progressive"
-    - "Techno"
-- slug: "eavesdrop"
-  name: "Eavesdrop"
-  lastReleaseYear: 2012
-- slug: "ebb"
-  name: "Ebb"
-  lastReleaseYear: 2022
-  styles:
-    - "Breakbeat"
-    - "Dubstep"
-    - "Techno"
-- slug: "eden-burns"
-  name: "Eden Burns"
-  lastReleaseYear: 2025
-  styles:
-    - "Breakbeat"
-    - "House"
-    - "Techno"
-- slug: "emerson-todd"
-  name: "Emerson Todd"
-  lastReleaseYear: 2010
-- slug: "emilie"
-  name: "EMILIE"
+  - Electronica
+  - Techno
+- slug: arli-liberman
+  name: Arli Liberman
   lastReleaseYear: 2024
-- slug: "emwa"
-  name: "EMWA"
   styles:
-    - "EDM"
-- slug: "eo"
-  name: "Eo"
+  - Composer
+  - Dark Ambient
+  - Electronic
+  - Film Score
+  - Guitar
+  - New Zealand Music
+  - Soundscape
+  - Soundtrack
+  locations:
+  - Aotearoa
+  - New Zealand
+- slug: aroha
+  name: Aroha
   lastReleaseYear: 2025
-- slug: "epsilon-blue"
-  name: "Epsilon-Blue"
-  lastReleaseYear: 1997
-- slug: "esdee"
-  name: "Esdee"
-  lastReleaseYear: 2006
-- slug: "eszsa"
-  name: "eszsa"
-  lastReleaseYear: 2022
   styles:
-    - "Electronica"
-    - "House"
-- slug: "eyeliner-disasteradio"
-  name: "Eyeliner / Disasteradio"
+  - Alternative Dance
+  - Bass Music
+  - Breakbeat
+  - Breaks
+  - D B
+  - Deep House
+  - Drum Bass
+  - Electronic
+  - Electronic Music
+  - Electronic Pop
+  - Garage
+  - House
+  - House Music
+  - Leftfield House Techno
+  - Liquid Dnb
+  - Melodic House And Techno
+  - Tech House
+  - Techno
+  - Two Step
+  - Ukg
+  locations:
+  - Melbourne
+- slug: aural-trash
+  name: Aural Trash
+- slug: axiomata
+  name: Axiomata
+- slug: azure
+  name: Azure
+  lastReleaseYear: 2010
   styles:
-    - "Breakbeat"
-    - "Electro"
-- slug: "fanau-spa"
-  name: "Fanau Spa"
-  lastReleaseYear: 2018
-- slug: "farley"
-  name: "Farley"
+  - Ebm
+  - Edm
+  - Electro
+  - Idm
+  - Industrial
+  - Minimal
+  - Minimal Techno
+  - Tech House
+  - Techno
+  locations:
+  - Norway
+- slug: baby-zionov
+  name: Baby Zionov
+  lastReleaseYear: 2025
+  styles:
+  - Acid Techno
+  - Acid Trance
+  - Alternative Dance
+  - Art Pop
+  - Balloon
+  - Big Beat
+  - Breakbeat
+  - Breakbeats
+  - Bubblegum Bass
+  - Dance
+  - Dance Pop
+  - Disco
+  - Electronic
+  - Eurodance
+  - Garage
+  - Happy Hardcore
+  - Hi Nrg
+  - House
+  - Indie Dance
+  - Jungle
+  - Remix
+  - Shibuya Kei
+  - Synth Pop
+  - Synthpop
+  - Trance
+  - Uk Garage
+  - Weird Pop
+  locations:
+  - Auckland
+- slug: bahns
+  name: Bahns
+  styles:
+  - Techno
+- slug: baitercell
+  name: Baitercell
+  lastReleaseYear: 2026
+  styles:
+  - Bass Music
+  - Breaks
+  - Breaks Etc
+  - Conscious Route
+  - Dancehall
+  - Drum Bass
+  - Drum N' Bass
+  - Drum N Bass
+  - Electronic
+  - Haka
+  - Hip Hop
+  - Indigenous Music
+  - Kog
+  - Maori Music
+  - Māori
+  - New
+  - Reggae
+  - World Fusion
+  locations:
+  - New Zealand
+  - Nz
+  - Pacific
+- slug: baynk
+  name: Baynk
+- slug: beat-mafia
+  name: Beat Mafia
+- slug: benee
+  name: BENEE
+- slug: benson-feat-willie-c
+  name: Benson (feat. Willie C)
+- slug: blaze-tripp
+  name: Blaze Tripp
+- slug: blem
+  name: Blem
+- slug: bomb-dylan
+  name: Bomb Dylan
+  lastReleaseYear: 2025
+  styles:
+  - Dance Music
+  - Deep House
+  - Electronic
+  - Electronica
+  - House
+  - Leftfield House
+  - Minimal
+  - New Zealand Electronica
+  - New Zealand Music
+  - Nz House Music
+  - Nz Music
+  - Synthwave
+  - Tech House
+  - Techno
+  - Unsigned
+  locations:
+  - New Zealand
+- slug: borderline
+  name: Borderline
   lastReleaseYear: 2011
-- slug: "fazerdaze"
-  name: "Fazerdaze"
+  styles:
+  - Acoustic
+  - Bass
+  - Borderline
+  - Drums
+  - Facebook
+  - Guitar
+  - Indy
+  - Music
+  - Rock
+  - Ryan
+  - Vocals
+  locations:
+  - Newbridge
+- slug: brandn-shiraz
+  name: Brandn Shiraz
   lastReleaseYear: 2023
-- slug: "feral"
-  name: "Feral"
+  styles:
+  - Beats
+  - Hip Hop
+  - Hip Hop Rap
+  - Island Reggae
+  - New Zealand Hip Hop
+  - Poly Rap
+  - Polynesian Rap
+  - Rap
+  locations:
+  - Auckland
+- slug: breaks-co-op
+  name: Breaks Co-Op
+- slug: brondinski
+  name: Brondinski
+- slug: caldera
+  name: Caldera
+  lastReleaseYear: 2019
+  styles:
+  - Atmospheric Sludge Metal
+  - Doom
+  - Metal
+  - Post Metal
+  - Post Rock
+  - Post Rock Instrumental
+  - Sludge
+  locations:
+  - Athens
+- slug: campiz
+  name: Campiz
+- slug: carrier
+  name: Carrier
+  lastReleaseYear: 2025
+  styles:
+  - Acoustic
+  - Analogue
+  - Clan
+  - Clan Analogue
+  - Electronic
+  - Electronica
+  - Instrumental
+  - Members Of Clan Analogue
+  - Modular
+  - Orchestral
+  locations:
+  - Sydney
+- slug: caru
+  name: Caru
+- slug: cavell
+  name: Cavell
+  lastReleaseYear: 2012
+  styles:
+  - Cavell
+  - Dj Manchoo
+  - Hip Hip
+  - Hip Hop Rap
+  - I Need You
+  - Last Summer
+  - R&B
+  - Year One
+  locations:
+  - New Zealand
+  - Nz
+- slug: chaii
+  name: CHAII
+- slug: chaos-in-the-cbd
+  name: Chaos in the CBD
+  lastReleaseYear: 2025
+  styles:
+  - Balearic House
+  - Dance Music
+  - Deep House
+  - Dub Techno
+  - Electronic
+  - Fabric Presents
+  - House
+  - House Music
+  - In Dust We Trust
+  - Jazz
+  - Jazz House
+  - Progressive
+  - Tech House
+  - Techno
+  locations:
+  - London
+  - New Zealand
+- slug: charlie-mumbles
+  name: Charlie Mumbles
+  lastReleaseYear: 2026
+  styles:
+  - Charliemumbles
+  - Hiphop
+  - Leonthomas
+  - Producer
+  - Remix
+  - Rnbmusic
+  - 1960S
+  - '2025'
+  - Beats
+  - Bounce
+  - Charliemumbles
+  - Chief Keef
+  - Club
+  - Dance
+  - Doechii
+  - Electronic
+  - Emmitt Dupree
+  - Experimental
+  - Hip Hop
+  - Hip Hop Rap
+  - Hiphop
+  - Hiphop Rap
+  - Indie
+  - Instrumental
+  - Jersey Club
+  - Jerseyclub
+  - Loops
+  - Mumbles
+  - Original
+  - Pop
+  - R B
+  - Rap
+  - Remix
+  - Smino
+  - Sza
+  - Victoriamonet
+  locations:
+  - African
+  - Berlin
+  - Detroit
+  - Germany
+  - Newjersey
+  - Berlin
+  - Germany
+- slug: che-fu
+  name: Che Fu
+- slug: chores
+  name: Chores
+- slug: church
+  name: Church
   lastReleaseYear: 2016
-- slug: "fiord"
-  name: "Fiord"
-  lastReleaseYear: 2010
-- slug: "flash"
-  name: "Flash"
-  lastReleaseYear: 2012
-- slug: "flek-c"
-  name: "Flek C"
-  lastReleaseYear: 2008
-- slug: "flipperty"
-  name: "Flipperty"
-  lastReleaseYear: 2006
-- slug: "fog"
-  name: "Fog"
-  lastReleaseYear: 2010
-- slug: "frank-booker"
-  name: "Frank Booker"
   styles:
-    - "House"
-- slug: "frost"
-  name: "Frost"
-  styles:
-    - "Techno"
-- slug: "funk-n-slo-cuts"
-  name: "Funk 'n' Slo Cuts"
-  lastReleaseYear: 2007
-- slug: "funknslocuts"
-  name: "Funk'n'SloCuts"
-  styles:
-    - "Breakbeat"
-- slug: "funkdamunk"
-  name: "Funkdamunk"
-  lastReleaseYear: 2012
-- slug: "future"
-  name: "Future"
-  lastReleaseYear: 2026
-- slug: "gang-violins"
-  name: "Gang Violins"
-  lastReleaseYear: 2025
-- slug: "gasp"
-  name: "GASP"
-  lastReleaseYear: 2013
-- slug: "geosync"
-  name: "Geosync"
-  styles:
-    - "Ambient"
-    - "Electronica"
-    - "Techno"
-- slug: "go-nuclear"
-  name: "Go Nuclear"
-  styles:
-    - "Breakbeat"
-    - "Electro"
-- slug: "goose"
-  name: "Goose"
-  lastReleaseYear: 2023
-- slug: "gotye"
-  name: "Gotye"
-  lastReleaseYear: 2011
-- slug: "green-velvet"
-  name: "Green Velvet"
-  lastReleaseYear: 2013
-- slug: "greg-churchill"
-  name: "Greg Churchill"
-  lastReleaseYear: 2012
-- slug: "grouch"
-  name: "Grouch"
-  lastReleaseYear: 2010
-- slug: "harvo"
-  name: "Harvo"
-  lastReleaseYear: 2022
-  styles:
-    - "Breakbeat"
-    - "House"
-    - "Techno"
-- slug: "haszari"
-  name: "Haszari"
+  - Alt
+  - Alternative
+  - Dark
+  - Folk
+  - Grunge
+  - Hardcore
+  - Hardcore Punk
+  - Indie
+  - Punk
+  - Rock Roll
+  - Songwriter
+  locations:
+  - Philadelphia
+- slug: cicada
+  name: Cicada
   lastReleaseYear: 2025
   styles:
-    - "Breakbeat"
-    - "Dub"
-    - "House"
-    - "Minimal"
-    - "Techno"
-- slug: "headland"
-  name: "Headland"
-  lastReleaseYear: 2022
-  styles:
-    - "Dub"
-    - "Dubstep"
-    - "Techno"
-- slug: "holloway"
-  name: "Holloway"
-  lastReleaseYear: 2023
-- slug: "hooky"
-  name: "Hooky"
-  styles:
-    - "House"
-- slug: "hot-fuzz"
-  name: "Hot Fuzz"
-  lastReleaseYear: 2011
-- slug: "house-of-downtown"
-  name: "House Of Downtown"
-  lastReleaseYear: 2000
-- slug: "hyan"
-  name: "Hyan"
-  lastReleaseYear: 2025
-- slug: "ike-zwanniken"
-  name: "Ike Zwanniken"
-  styles:
-    - "Breakbeat"
-- slug: "industrial-nature"
-  name: "Industrial Nature"
-  lastReleaseYear: 2022
-- slug: "isaac-chambers"
-  name: "Isaac Chambers"
+  - Acoustic
+  - Acoustic Guitar
+  - Cello
+  - Cello Sheet Music
+  - Chamber
+  - Chamber Music
+  - Chamber Pop
+  - Clarinet
+  - Classic
+  - Classical
+  - Guitar
+  - Indie
+  - Neo Classical
+  - Neoclassical
+  - New Classical
+  - Piano
+  - Piano Sheet Music
+  - Post Rock
+  - Postclassical
+  - Sheet Music
+  - Taiwanese Indie Rock
+  - Violin
+  - Violin Sheet Music
+  - Chamber Music
+  - Classical
+  - Taiwan
+  locations:
+  - Taiwan
+- slug: circuit
+  name: Circuit
   lastReleaseYear: 2020
   styles:
-    - "Dub"
-    - "Progressive"
-    - "Techno"
-- slug: "itchy-brothers"
-  name: "Itchy Brothers"
-  styles:
-    - "House"
-    - "Techno"
-- slug: "ivy"
-  name: "IVY"
+  - Alternative
+  - Blues
+  - Chill
+  - Classic Rock
+  - Hard
+  - Heavy
+  - Indie
+  - Psychedelic
+  - Punk
+  - Rock
+  locations:
+  - New York
+- slug: clay
+  name: Clay
+- slug: clear-path-ensemble
+  name: Clear Path Ensemble
   lastReleaseYear: 2025
-- slug: "ixxe13"
-  name: "Ixxe13"
   styles:
-    - "Ambient"
-    - "Breakbeat"
-    - "Electronica"
-    - "Minimal"
-    - "Techno"
-- slug: "jacq"
-  name: "jACQ"
-  lastReleaseYear: 2013
-- slug: "jag"
-  name: "Jagā"
-  styles:
-    - "Breakbeat"
-    - "Electronica"
-    - "Techno"
-- slug: "jamie-doesnt-like-salad"
-  name: "Jamie Doesn't Like Salad"
-  lastReleaseYear: 2025
-- slug: "jarna"
-  name: "JARNA"
-  lastReleaseYear: 2025
-- slug: "jay-knight"
-  name: "Jay Knight"
-  styles:
-    - "Breakbeat"
-    - "Dubstep"
-    - "Jungle"
-- slug: "jerkboy"
-  name: "Jerkboy"
-  lastReleaseYear: 2012
-- slug: "jerry-watts"
-  name: "Jerry Watts"
-  styles:
-    - "Breakbeat"
-    - "Electronica"
-    - "Techno"
-- slug: "jet-jaguar"
-  name: "Jet Jaguar"
+  - Ambient Jazz
+  - Contemporary Jazz
+  - Cosmic Jazz
+  - Electro Jazz
+  - Electronic Jazz
+  - Free Jazz
+  - Jazz
+  - Jazz Funk
+  - Nu Jazz
+  - Percussion
+  - Spiritual Jazz
+  locations:
+  - New Zealand
+- slug: computers-want-me-dead
+  name: Computers Want Me Dead
   lastReleaseYear: 2020
   styles:
-    - "Ambient"
-    - "Breakbeat"
-    - "Electronica"
-- slug: "joel-armstrong"
-  name: "Joel Armstrong"
-  lastReleaseYear: 2010
-- slug: "jolyon-petch"
-  name: "Jolyon Petch"
-  lastReleaseYear: 2010
-- slug: "jorgensen"
-  name: "Jorgensen"
-  lastReleaseYear: 2007
-- slug: "jousey"
-  name: "Jousey"
-  lastReleaseYear: 2025
-- slug: "juni"
-  name: "Juni"
-  lastReleaseYear: 2026
-- slug: "junus-orca"
-  name: "Junus Orca"
-  lastReleaseYear: 2021
-  styles:
-    - "Ambient"
-    - "Electronica"
-    - "Techno"
-- slug: "k-lab"
-  name: "K-Lab"
-  lastReleaseYear: 2011
-- slug: "k-lab"
-  name: "K+Lab"
-  lastReleaseYear: 2012
-- slug: "kadyn-webster"
-  name: "Kadyn Webster"
-  lastReleaseYear: 2023
-  styles:
-    - "Breakbeat"
-    - "Techno"
-- slug: "kaishandao"
-  name: "Kaishandao"
-  lastReleaseYear: 2025
-- slug: "kamandi"
-  name: "Kamandi"
-  styles:
-    - "Acid"
-    - "Techno"
-- slug: "kane-spindler"
-  name: "Kane Spindler"
-  lastReleaseYear: 2025
-- slug: "keanu-raves"
-  name: "Keanu Raves"
-  lastReleaseYear: 2024
-  styles:
-    - "Breakbeat"
-    - "Techno"
-- slug: "k-du-carl"
-  name: "Kédu Carlö"
-  styles:
-    - "House"
-    - "Techno"
-- slug: "keepsakes"
-  name: "Keepsakes"
-  lastReleaseYear: 2026
-  styles:
-    - "Techno"
-- slug: "kennedy"
-  name: "Kennedy"
-  lastReleaseYear: 2022
-- slug: "kennedy-aka-gene-kennedy"
-  name: "Kennedy (aka Gene Kennedy)"
-  styles:
-    - "House"
-- slug: "kidz-in-space"
-  name: "Kidz In Space"
-  lastReleaseYear: 2011
-- slug: "kiljoy"
-  name: "Kiljoy"
-  styles:
-    - "Drum & Bass"
-- slug: "kingsland-housing-project"
-  name: "Kingsland Housing Project"
-  lastReleaseYear: 2001
-- slug: "koincide"
-  name: "Koincide"
-  lastReleaseYear: 2011
-- slug: "kolab"
-  name: "Kolab"
-  lastReleaseYear: 2011
-- slug: "kora"
-  name: "Kora"
-  lastReleaseYear: 2007
-- slug: "k-roto"
-  name: "Kōroto"
-  lastReleaseYear: 2024
-- slug: "kraus"
-  name: "Kraus"
-  styles:
-    - "Ambient"
-    - "Electro"
-    - "Electronica"
-- slug: "kyle-bourke"
-  name: "Kyle Bourke"
-  lastReleaseYear: 2011
-- slug: "ladyhawke"
-  name: "Ladyhawke"
-  lastReleaseYear: 2009
-- slug: "lainey"
-  name: "Lainey"
-  lastReleaseYear: 2020
-- slug: "laugh-n-gas"
-  name: "Laugh 'n' Gas"
-  lastReleaseYear: 1997
-- slug: "laughin-gas"
-  name: "Laughin’ Gas"
-  styles:
-    - "Breakbeat"
-    - "Electronica"
-- slug: "leisure"
-  name: "LEISURE"
-  lastReleaseYear: 2022
-- slug: "leno-lovecraft"
-  name: "Leno Lovecraft"
-  styles:
-    - "Electro"
-    - "Electronica"
-    - "Space Dub"
-- slug: "leo-mckinnon"
-  name: "Leo McKinnon"
-  lastReleaseYear: 2025
-- slug: "locuste"
-  name: "Locuste"
-  lastReleaseYear: 1997
-- slug: "lorde"
-  name: "Lorde"
-  lastReleaseYear: 2018
-- slug: "lowquid"
-  name: "Lowquid"
-  lastReleaseYear: 2018
-  styles:
-    - "Electronica"
-- slug: "lucien-johnson"
-  name: "Lucien Johnson"
-  lastReleaseYear: 2021
-- slug: "lukas"
-  name: "Lukas"
-  lastReleaseYear: 2012
-- slug: "luke-walker"
-  name: "Luke Walker"
-  lastReleaseYear: 2010
-- slug: "luna-city-express"
-  name: "Luna City Express"
-  lastReleaseYear: 2010
-- slug: "luther"
-  name: "Luther"
-  styles:
-    - "Breakbeat"
-    - "Electro"
-    - "Techno"
-- slug: "lxtricity"
-  name: "LXTricity"
-  styles:
-    - "Dubstep"
-    - "EDM"
-    - "House"
-- slug: "m2myu"
-  name: "M2MYU"
-  lastReleaseYear: 2022
-  styles:
-    - "House"
-- slug: "magik-j"
-  name: "Magik J"
-  lastReleaseYear: 2013
-- slug: "magik-johnson"
-  name: "Magik Johnson"
-  lastReleaseYear: 2012
-- slug: "malente"
-  name: "Malente"
-  lastReleaseYear: 2007
-- slug: "manthyng"
-  name: "MANTHYNG"
-  lastReleaseYear: 2010
-- slug: "matipo-pyramid"
-  name: "Matipo Pyramid"
-  lastReleaseYear: 1997
-- slug: "matty-g"
-  name: "Matty G"
-  lastReleaseYear: 2010
-- slug: "mayavanya"
-  name: "MayaVanya"
-  lastReleaseYear: 2011
-- slug: "mayflymusic"
-  name: "Mayflymusic"
-- slug: "melodownz"
-  name: "MELODOWNZ"
-  lastReleaseYear: 2025
-- slug: "mikael-wills"
-  name: "Mikael Wills"
-  lastReleaseYear: 2012
-- slug: "minuit"
-  name: "Minuit"
-  lastReleaseYear: 2008
-- slug: "modern-chair"
-  name: "Modern Chair"
-  styles:
-    - "Electronica"
-    - "Techno"
-- slug: "module"
-  name: "Module"
-  lastReleaseYear: 2007
-- slug: "mokotron"
-  name: "Mokotron"
-  lastReleaseYear: 2024
-- slug: "monkey-boots"
-  name: "Monkey Boots"
-  styles:
-    - "House"
-- slug: "mono-loco"
-  name: "Mono/Loco"
-  lastReleaseYear: 2025
-  styles:
-    - "House"
-- slug: "montel2099"
-  name: "Montel2099"
-  styles:
-    - "EDM"
-- slug: "moston"
-  name: "Moston"
-  lastReleaseYear: 2007
-- slug: "mr-meaty-boy"
-  name: "Mr Meaty Boy"
-  styles:
-    - "Electro"
-    - "Techno"
-- slug: "mr-squatch"
-  name: "Mr Squatch"
-  lastReleaseYear: 2009
-- slug: "murmur-tooth"
-  name: "Murmur Tooth"
-- slug: "myd"
-  name: "Myd"
-  lastReleaseYear: 2010
-- slug: "n-a-m-e"
-  name: "N.A.M.E."
-  lastReleaseYear: 2009
-- slug: "nasty-genuis"
-  name: "Nasty Genuis"
-  lastReleaseYear: 2007
-- slug: "nathan-haines"
-  name: "Nathan Haines"
-  lastReleaseYear: 2025
-- slug: "nice-girl"
-  name: "Nice Girl"
-  lastReleaseYear: 2022
-  styles:
-    - "House"
-    - "Techno"
-- slug: "nick-collings"
-  name: "Nick Collings"
-  lastReleaseYear: 2013
-- slug: "nickname"
-  name: "nickname"
-  lastReleaseYear: 2023
-- slug: "nila"
-  name: "Nila"
-  styles:
-    - "Progressive"
-    - "Techno"
-- slug: "nineteen79"
-  name: "nineteen79"
-  lastReleaseYear: 2025
-  styles:
-    - "House"
-    - "Progressive"
-    - "Techno"
-- slug: "ninjastep"
-  name: "Ninjastep"
-  lastReleaseYear: 2010
-- slug: "noob"
-  name: "Noob"
-  lastReleaseYear: 2010
-- slug: "nort"
-  name: "Nort"
-  lastReleaseYear: 2011
-- slug: "north-shore-pony-club"
-  name: "North Shore Pony Club"
-  lastReleaseYear: 2012
-- slug: "nsu"
-  name: "nsu"
-  lastReleaseYear: 2011
-- slug: "nuance"
-  name: "Nuance"
-  lastReleaseYear: 2022
-- slug: "odyssey"
-  name: "Odyssey"
-  lastReleaseYear: 2012
-- slug: "offmode"
-  name: "Offmode)"
-  lastReleaseYear: 2006
-- slug: "oliver-prince"
-  name: "Oliver Prince"
-  lastReleaseYear: 2023
-- slug: "olux"
-  name: "Olux"
-  lastReleaseYear: 2013
-- slug: "omc"
-  name: "OMC"
-- slug: "onanon"
-  name: "Onanon"
-  lastReleaseYear: 2008
-- slug: "opiuo"
-  name: "Opiuo"
-  lastReleaseYear: 2010
-- slug: "optimus-gryme"
-  name: "Optimus Gryme"
-  lastReleaseYear: 2011
-- slug: "organikismness"
-  name: "Organikismness"
-  lastReleaseYear: 2009
-  styles:
-    - "Drum & Bass"
-    - "Dub"
-    - "Dubstep"
-- slug: "owlziz"
-  name: "Owlziz"
-  styles:
-    - "Breakbeat"
-    - "Dubstep"
-- slug: "p-money"
-  name: "P-Money"
-  lastReleaseYear: 2012
-- slug: "p1rate"
-  name: "P1rate"
-  lastReleaseYear: 2011
-- slug: "pacific-heights"
-  name: "Pacific Heights"
-  styles:
-    - "Ambient"
-    - "Drum & Bass"
-    - "Electronica"
-- slug: "paige-julia"
-  name: "Paige Julia"
-  lastReleaseYear: 2021
-  styles:
-    - "Breakbeat"
-    - "Electronica"
-- slug: "parallel-dance-ensemble"
-  name: "Parallel Dance Ensemble"
-  lastReleaseYear: 2012
-- slug: "patella"
-  name: "Patella"
-  lastReleaseYear: 2023
-  styles:
-    - "House"
-    - "Minimal"
-- slug: "peace-division"
-  name: "Peace Division"
-  lastReleaseYear: 2006
-- slug: "pearly"
-  name: "Pearly*"
-  lastReleaseYear: 2025
-- slug: "perverse"
-  name: "Perverse"
-  lastReleaseYear: 2012
-- slug: "peter-hobbs"
-  name: "Peter Hobbs"
-  lastReleaseYear: 2025
-- slug: "pharley"
-  name: "Pharley"
-  lastReleaseYear: 2012
-- slug: "philippa-mcintyre"
-  name: "Philippa McIntyre"
-  styles:
-    - "House"
-- slug: "piecemeal"
-  name: "Piecemeal"
-  lastReleaseYear: 2025
-- slug: "pig-out"
-  name: "Pig Out"
-  lastReleaseYear: 2010
-- slug: "pitch-black"
-  name: "Pitch Black"
-  lastReleaseYear: 2006
-- slug: "placeholder"
-  name: "Placeholder"
-  lastReleaseYear: 2025
-- slug: "pnc"
-  name: "PNC"
-  lastReleaseYear: 2009
-- slug: "pocketlipps"
-  name: "PocketLipps"
-  lastReleaseYear: 2025
-- slug: "projector-mix"
-  name: "Projector Mix"
+  - Electronic
+  - Pop
+  - Synth
+  locations:
+  - Auckland
+- slug: concord-dawn
+  name: Concord Dawn
   lastReleaseYear: 2015
-- slug: "pron"
-  name: "ProN"
-  lastReleaseYear: 2013
-- slug: "quaker"
-  name: "Quaker"
-  lastReleaseYear: 1997
-- slug: "quarks"
-  name: "Quarks"
-  lastReleaseYear: 2010
-- slug: "radley"
-  name: "Radley"
   styles:
-    - "House"
-- slug: "raiza-biza"
-  name: "RAIZA BIZA"
-  lastReleaseYear: 2019
-- slug: "reasxn"
-  name: "Reasxn"
-  lastReleaseYear: 2025
-- slug: "reed"
-  name: "Reed"
-  styles:
-    - "House"
-- slug: "reeps"
-  name: "Reeps"
-  lastReleaseYear: 2010
-- slug: "revus"
-  name: "Revus"
-  lastReleaseYear: 2025
-- slug: "rhian-sheehan"
-  name: "Rhian Sheehan"
-  lastReleaseYear: 2025
-- slug: "roadkill"
-  name: "Roadkill"
+  - D'N'B
+  - Dnb
+  - Drum And Bass
+  - Drum Bass
+  - Drum N Bass
+  - Electronic
+  - Fast Dubstep
+  - Jungle
+  - Neurofunk
+  - Old School
+  - Rollers
+  - Techstep
+  locations:
+  - Auckland
+- slug: corin
+  name: Corin
+- slug: cross-the-noughts
+  name: Cross The Noughts
   lastReleaseYear: 2013
-- slug: "rob-salmon"
-  name: "Rob Salmon"
-  lastReleaseYear: 2008
-- slug: "robot-humour"
-  name: "Robot Humour"
-  lastReleaseYear: 2011
-- slug: "roc-raida"
-  name: "Roc Raida"
-  lastReleaseYear: 2002
-- slug: "rohann"
-  name: "Rohann"
-  lastReleaseYear: 2011
-- slug: "roots"
-  name: "Roots"
+  styles:
+  - 80'S
+  - Classic
+  - Copy
+  - Cranes
+  - Cross
+  - Cut
+  - Electronic
+  - Indie
+  - Indie Electronic
+  - Joy Division
+  - New Order
+  - New Wave
+  - Noughts
+  - The
+  locations:
+  - Auckland
+- slug: crystal-fighters
+  name: Crystal Fighters
+- slug: ctfd
+  name: CTFD
+- slug: current-bias
+  name: Current Bias
   lastReleaseYear: 2026
-- slug: "rotor"
-  name: "Rotor"
-  lastReleaseYear: 1997
-- slug: "rotor"
-  name: "Rotor+"
   styles:
-    - "Ambient"
-    - "Electronica"
-    - "Minimal"
-    - "Techno"
-- slug: "ryan-enzed"
-  name: "Ryan Enzed"
-  lastReleaseYear: 2011
-- slug: "sal-valentine-and-the-babyshakes"
-  name: "Sal Valentine And The Babyshakes"
-  lastReleaseYear: 2013
-- slug: "salmonella-dub"
-  name: "Salmonella Dub"
-  lastReleaseYear: 1997
-- slug: "sam-hill"
-  name: "Sam Hill"
-  lastReleaseYear: 2010
-- slug: "sanoi"
-  name: "Sanoi"
-  lastReleaseYear: 2022
-- slug: "timmy-schumacher"
-  name: "Timmy Schumacher"
-  lastReleaseYear: 2005
-- slug: "sentient"
-  name: "Sentient"
-  lastReleaseYear: 2012
-- slug: "serpico-aka-serpico-beats"
-  name: "Serpico (aka Serpico Beats)"
+  - Breaks
+  - Clangers
+  - Crisis Of Labor
+  - Drumline
+  - Edit
+  - Edits
+  - Electronic
+  - Electronic Computer Music
+  - Fun
+  - Goop
+  - Influenzer Dj Tools
+  - Math Club
+  - Opn
+  - Psy
+  - Raptor House
+  - Reconstructed
+  - Remix Culture
+  - Technological Advancements
+  locations:
+  - Aotearoa
+  - Wellington
+- slug: cusp
+  name: Cusp
+  lastReleaseYear: 2016
   styles:
-    - "Breakbeat"
-    - "House"
-- slug: "shallow-taxi-club"
-  name: "Shallow Taxi Club"
-  styles:
-    - "House"
-- slug: "shapeshifter"
-  name: "Shapeshifter"
-  lastReleaseYear: 2006
-- slug: "sharkweek"
-  name: "Sharkweek"
+  - Alternative
+  locations:
+  - Mumbai
+- slug: cyxqrd
+  name: CYXQRD
   lastReleaseYear: 2025
   styles:
-    - "Dub"
-    - "Electronica"
-- slug: "shiner"
-  name: "Shiner"
-  lastReleaseYear: 1997
-- slug: "shli"
-  name: "Shli"
-  lastReleaseYear: 2025
+  - Ambient Techno
+  - Deep Techno
+  - Dub Techno
+  - Electronic
+  - Electronica
+  - Techno
+  - Techno And Variations
+  locations:
+  - Wellington
+- slug: daft-punk
+  name: Daft Punk
+- slug: dan-aux
+  name: Dan Aux
   styles:
-    - "Breakbeat"
-    - "Techno"
-- slug: "sickdrumz"
-  name: "SickDrumz"
-  lastReleaseYear: 2013
-- slug: "signer"
-  name: "Signer"
-  lastReleaseYear: 2000
-- slug: "silk-cut"
-  name: "Silk Cut"
-- slug: "six60"
-  name: "Six60"
-  lastReleaseYear: 2011
-- slug: "skellig"
-  name: "Skellig"
-  lastReleaseYear: 2025
-- slug: "skymning"
-  name: "Skymning"
-  lastReleaseYear: 2021
-  styles:
-    - "Breakbeat"
-    - "Dubstep"
-    - "Techno"
-- slug: "smashproof"
-  name: "Smashproof"
-  lastReleaseYear: 2009
-- slug: "soane"
-  name: "Soane"
-  lastReleaseYear: 1998
-- slug: "social-sport"
-  name: "Social Sport"
-  lastReleaseYear: 2025
-  styles:
-    - "Breakbeat"
-    - "Techno"
-- slug: "sola-rosa"
-  name: "Sola Rosa"
-  lastReleaseYear: 2005
-- slug: "son-sine"
-  name: "Son.sine"
-  lastReleaseYear: 2019
-  styles:
-    - "Minimal"
-    - "Techno"
-- slug: "sonic-smith"
-  name: "SoNic Smith"
-  lastReleaseYear: 2013
-- slug: "sonic-space-lab"
-  name: "Sonic Space Lab"
-  styles:
-    - "Breakbeat"
-    - "Electro"
-- slug: "soulfoundation"
-  name: "Soulfoundation"
+  - Breakbeat
+  - House
+  - Techno
+- slug: daniel-farley
+  name: Daniel Farley
+- slug: danny-t
+  name: Danny T
+- slug: darren-clark
+  name: Darren Clark
   lastReleaseYear: 2023
   styles:
-    - "House"
-- slug: "spa"
-  name: "SPA"
-  lastReleaseYear: 2009
-- slug: "speech-act-theory"
-  name: "Speech Act Theory"
-- slug: "spoonhead"
-  name: "Spoonhead"
-  lastReleaseYear: 2011
-- slug: "squeezer"
-  name: "Squeezer"
-  lastReleaseYear: 2011
-- slug: "squeezer-project"
-  name: "Squeezer Project"
-  lastReleaseYear: 2010
-- slug: "steve-angello"
-  name: "Steve Angello"
-  lastReleaseYear: 2009
-- slug: "strawpeople"
-  name: "Strawpeople"
-  lastReleaseYear: 1997
-- slug: "stray-theories"
-  name: "Stray Theories"
-  lastReleaseYear: 2019
-- slug: "suede"
-  name: "Suede"
-  lastReleaseYear: 2025
-- slug: "sugar-james"
-  name: "Sugar James"
-  lastReleaseYear: 2022
-- slug: "sunship"
-  name: "Sunship"
-  lastReleaseYear: 2016
-- slug: "supergroove"
-  name: "Supergroove"
-  lastReleaseYear: 1994
-- slug: "suspectsystem-cusp"
-  name: "Suspectsystem (Cusp"
-  lastReleaseYear: 2006
-- slug: "swidt"
-  name: "SWIDT"
+  - Deep House
+  - Deep House Disco Edits
+  - Electronic
+  - House
+  locations:
+  - Auckland
+  - New Zealand
+- slug: dave-cox
+  name: Dave Cox
+- slug: dbldbl
+  name: Dbldbl
   lastReleaseYear: 2024
-- slug: "syzygy"
-  name: "Syzygy"
+  styles:
+  - Big Mike
+  - Bumpy
+  - Chip Buddies
+  - Dbldbl
+  - Grits 'N Grams
+  - Hip Hop
+  - Hip Hop Rap
+  - Imugi 이무기
+  - L V J
+  - Lemon Drop
+  - Orange Spree
+  - Peach Tea
+  - Pollyhill
+  - Randa
+  - Sports Team
+  - Sunreturn
+  - Trapjaw Kelpie
+  locations:
+  - Aotearoa
+  - Auckland
+  - New Zealand
+  - Tāmaki Makaurau
+- slug: deadforest
+  name: DeadForest
+- slug: deadset
+  name: Deadset
+- slug: deceptikonz
+  name: Deceptikonz
+- slug: deepchild
+  name: Deepchild
+  lastReleaseYear: 2001
+  styles:
+  - Ambient
+  - Dub
+  - Electronic
+  - Electronica
+  - House
+  - Techno
+  locations:
+  - Berlin
+- slug: deepstate
+  name: deepState
+  lastReleaseYear: 2023
+  styles:
+  - Alternative
+  - Deep State
+  - Deepest Estate
+  - Dip Stet
+  - Indie Rock
+  - Meat Steak
+  - Oblivion
+  - Peed Snake
+  - Punk
+  - Rock
+  - Thought
+  locations:
+  - Athens
+- slug: dera-meelan
+  name: Dera Meelan
+- slug: derty-sesh
+  name: Derty Sesh
+- slug: destroy-disco
+  name: Destroy Disco
+- slug: devil-theory
+  name: Devil Theory
+  lastReleaseYear: 2010
+- slug: diem-redux
+  name: Diem Redux
+  lastReleaseYear: 2024
+  styles:
+  - Electro
+  - Electronic
+  - Electronic Pop
+  - Synthpop
+  locations:
+  - New Zealand
+- slug: ditto
+  name: Ditto
+- slug: dj-hat
+  name: DJ Hat
+  lastReleaseYear: 2011
+- slug: dj-simon-dallow
+  name: DJ Simon Dallow
+  styles:
+  - Breakbeat
+  - Electronica
+  - Techno
+- slug: double-negative
+  name: Double Negative
+  lastReleaseYear: 2012
+  styles:
+  - Punk
+  locations:
+  - Raleigh
+- slug: doug-thomas
+  name: Doug Thomas
+  lastReleaseYear: 2026
+  styles:
+  - Avant Garde
+  - Classical
+  - Electronic
+  - Folk
+  - Jazz
+  - World
+  locations:
+  - London
+- slug: dr-love-gland
+  name: Dr. Love Gland
+  styles:
+  - Breakbeat
+  - Electronica
+- slug: dudley-benson
+  name: Dudley Benson
+  lastReleaseYear: 2025
+  styles:
+  - Alternative
+  - Ambient
+  - Ancestors
+  - Apocalypse
+  - Butterfly
+  - Choir
+  - Choral
+  - Climate
+  - Colonisation
+  - Continent
+  - Death
+  - Douglas Lilburn
+  - Electronic
+  - Electronic Pop
+  - Environment
+  - Experimental Electronic
+  - Field Recording
+  - Geology
+  - Glitch
+  - Hirini Melbourne
+  - House
+  - Identity
+  - Indie Pop
+  - James Cook
+  - National Anthem
+  - National Anthems
+  - Nz Youth Choir
+  - Orchestra
+  - Orchestral
+  - Queer
+  - Remix
+  - Singer Songwriter
+  - Strings
+  - Te Reo Māori
+  - Waiata
+  - Zealandia
+  locations:
+  - Aotearoa
+  - Melbourne
+  - New Zealand
+- slug: duo-alias
+  name: Duo Alias
+  lastReleaseYear: 2018
+  styles:
+  - Techno
+- slug: durez
+  name: Durez
+  lastReleaseYear: 2011
+- slug: dusty
+  name: Dusty
+  lastReleaseYear: 2011
+  styles:
+  - 'Devil :'
+  - Experimental
+  locations:
+  - Los Angeles
+- slug: eamonn-fevah
+  name: Eamonn Fevah
+  styles:
+  - House
+  - Minimal
+  - Progressive
+  - Techno
+- slug: eavesdrop
+  name: Eavesdrop
+  lastReleaseYear: 2012
+- slug: ebb
+  name: Ebb
   lastReleaseYear: 2022
   styles:
-    - "Breakbeat"
-    - "Techno"
-- slug: "tali"
-  name: "Tali"
+  - Breakbeat
+  - Dubstep
+  - Techno
+- slug: eden-burns
+  name: Eden Burns
+  lastReleaseYear: 2026
   styles:
-    - "Drum & Bass"
-- slug: "talliss"
-  name: "Talliss"
-- slug: "teknizm"
-  name: "Teknizm"
-  lastReleaseYear: 2013
-- slug: "terra-nine"
-  name: "Terra Nine"
+  - Electronic
+  locations:
+  - Melbourne
+- slug: emerson-todd
+  name: Emerson Todd
+- slug: emilie
+  name: EMILIE
+- slug: emwa
+  name: EMWA
   styles:
-    - "Acid"
-    - "Breakbeat"
-    - "Drum & Bass"
-    - "Dub"
-- slug: "texture"
-  name: "Texture"
-  lastReleaseYear: 2005
-  styles:
-    - "Dubstep"
-    - "Techno"
-- slug: "the-adults"
-  name: "The Adults"
-  lastReleaseYear: 2011
-- slug: "the-bats"
-  name: "The Bats"
+  - Edm
+- slug: eo
+  name: Eo
+  lastReleaseYear: 2025
+- slug: epsilon-blue
+  name: Epsilon-Blue
   lastReleaseYear: 1997
-- slug: "the-mechanism"
-  name: "The Mechanism"
+- slug: esdee
+  name: Esdee
+  lastReleaseYear: 2006
+- slug: eszsa
+  name: eszsa
+  lastReleaseYear: 2023
+  styles:
+  - Deep House
+  - Electronic
+  - House
+  - Melodic House
+  - Organic House
+  locations:
+  - Wellington
+- slug: eyeliner-disasteradio
+  name: Eyeliner / Disasteradio
+  styles:
+  - Breakbeat
+  - Electro
+- slug: fanau-spa
+  name: Fanau Spa
+  lastReleaseYear: 2019
+  styles:
+  - Hip Hop
+  - Hip Hop Rap
+  - Rap
+  locations:
+  - Auckland
+- slug: farley
+  name: Farley
+- slug: fazerdaze
+  name: Fazerdaze
+  lastReleaseYear: 2025
+  styles:
+  - 90S
+  - Alternative
+  - Bedroom
+  - Diy
+  - Dream Pop
+  - Fun
+  - Guitars
+  - Indie Rock
+  - Lo Fi
+  - Melancholy
+  - Sad
+  locations:
+  - Christchurch
+- slug: feral
+  name: Feral
   lastReleaseYear: 2012
-- slug: "the-mint-chicks"
-  name: "The Mint Chicks"
-  lastReleaseYear: 2007
-- slug: "the-nightcrawlers"
-  name: "The Nightcrawlers"
+  styles:
+  - Indie(Iguess)
+  locations:
+  - St Petersburg
+- slug: fiord
+  name: Fiord
+- slug: flash
+  name: Flash
+- slug: flek-c
+  name: Flek C
+- slug: flipperty
+  name: Flipperty
+  lastReleaseYear: 2006
+- slug: fog
+  name: Fog
   lastReleaseYear: 2010
-- slug: "the-nomad"
-  name: "the nomad"
+- slug: frank-booker
+  name: Frank Booker
+  styles:
+  - House
+- slug: frost
+  name: Frost
+  lastReleaseYear: 2024
+  styles:
+  - Arena
+  - Devin Townsend
+  - Electronic Rock
+  - King Crimson
+  - Kino
+  - Lonely Robot
+  - Marillion
+  - Neo Prog
+  - Paper And Scissors
+  - Pop Rock
+  - Rock
+  - Steven Wilson
+  - The Pineapple Thief
+  locations:
+  - United Kingdom
+- slug: funk-n-slo-cuts
+  name: Funk 'n' Slo Cuts
   lastReleaseYear: 2014
-- slug: "the-odd-chaps"
-  name: "The Odd Chaps"
-  lastReleaseYear: 2013
-- slug: "the-shocking-and-stunning"
-  name: "The Shocking and Stunning"
   styles:
-    - "Electro"
-    - "Electronica"
-- slug: "the-sloppy-5ths"
-  name: "The Sloppy 5ths"
-  lastReleaseYear: 2012
-- slug: "tim-corin"
-  name: "Tim Corin"
-  lastReleaseYear: 2010
-- slug: "tim-green"
-  name: "Tim Green"
-  lastReleaseYear: 2010
-- slug: "tim-richards"
-  name: "Tim Richards"
-  lastReleaseYear: 2010
-- slug: "tipene"
-  name: "Tipene"
-  lastReleaseYear: 2012
-- slug: "tokyo-street-gang"
-  name: "Tokyo Street Gang"
-  lastReleaseYear: 2010
-- slug: "tom-cosm"
-  name: "Tom Cosm"
-  lastReleaseYear: 2008
-- slug: "tom-piper"
-  name: "Tom Piper"
-  lastReleaseYear: 2012
-- slug: "toolbox"
-  name: "Toolbox"
-  lastReleaseYear: 1999
-- slug: "toronja"
-  name: "Toronja"
-  lastReleaseYear: 2022
+  - Breaks
+  - Electronic
+  locations:
+  - Nelson
+- slug: funknslocuts
+  name: Funk'n'SloCuts
+  lastReleaseYear: 2014
   styles:
-    - "Electro"
-    - "Techno"
-- slug: "tourist"
-  name: "Tourist"
-  lastReleaseYear: 2022
-- slug: "trei"
-  name: "Trei"
-  lastReleaseYear: 2010
-- slug: "triangle"
-  name: "Triangle"
-  lastReleaseYear: 2010
-- slug: "trig"
-  name: "Trig"
+  - Breaks
+  - Electronic
+  locations:
+  - Nelson
+- slug: funkdamunk
+  name: Funkdamunk
+- slug: future
+  name: Future
+- slug: gang-violins
+  name: Gang Violins
+  lastReleaseYear: 2026
   styles:
-    - "Techno"
-- slug: "triggs"
-  name: "Triggs"
-- slug: "troffman"
-  name: "Troffman"
-  lastReleaseYear: 1999
-- slug: "tyree"
-  name: "Tyree"
-  lastReleaseYear: 2012
-- slug: "uber-driver"
-  name: "Uber Driver"
-  lastReleaseYear: 2022
+  - Aleppo
+  - Ambient
+  - Ambient Electronic
+  - Atmospheric
+  - Bass
+  - Chillout
+  - Cinematic
+  - Concentration
+  - Dark Ambient
+  - Deep
+  - Downtempo
+  - Drone
+  - Drone Ambient
+  - Electronic
+  - Experimental Electronic
+  - Focus
+  - Gaming
+  - Orchestral
+  - Post Rock
+  - Relax
+  - Soundscape
+  - Soundtrack
+  - Study
+  - Synth
+  - Trip Hop
+  - Triphop
+  locations:
+  - New Zealand
+  - Syria
+- slug: gasp
+  name: GASP
+  lastReleaseYear: 2024
   styles:
-    - "Electro"
-    - "Techno"
-- slug: "undertow"
-  name: "Undertow"
-  lastReleaseYear: 2010
-- slug: "unit-23"
-  name: "Unit 23"
-  lastReleaseYear: 1997
-- slug: "vanessa-worm"
-  name: "Vanessa Worm"
+  - Easy Riders
+  - Gasp
+  - Grime
+  - Hip Hop
+  - Hip Hop Rap
+  - Horror
+  - Lyrical
+  - Lyrical Hip Hop
+  - Physiks
+  - Poet
+  - Poetry
+  - Poetry And Music
+  - Rap
+  - Sci Fi
+  - The Being Mcs
+  - The Bouquet
+  - Trap
+  - Uk Hip Hop
+  locations:
+  - Glasgow
+  - Scotland
+- slug: geosync
+  name: Geosync
   styles:
-    - "Breakbeat"
-    - "Techno"
-- slug: "vibrasphere"
-  name: "Vibrasphere"
-  lastReleaseYear: 2008
-- slug: "weird-together"
-  name: "Weird Together"
-  lastReleaseYear: 2013
-- slug: "will-marshall"
-  name: "Will Marshall"
-  lastReleaseYear: 2012
-- slug: "william-breakspear"
-  name: "William Breakspear"
-  lastReleaseYear: 2011
-- slug: "winter"
-  name: "Winter"
-  lastReleaseYear: 2012
-- slug: "wumbo"
-  name: "Wumbo"
+  - Ambient
+  - Electronica
+  - Techno
+- slug: go-nuclear
+  name: Go Nuclear
   styles:
-    - "Breakbeat"
-    - "EDM"
-- slug: "xtra-joss"
-  name: "Xtra Joss"
+  - Breakbeat
+  - Electro
+- slug: goose
+  name: Goose
+- slug: gotye
+  name: Gotye
+  lastReleaseYear: 2006
+  styles:
+  - Alt Pop
+  - Alternative
+  locations:
+  - Australia
+- slug: green-velvet
+  name: Green Velvet
+- slug: greg-churchill
+  name: Greg Churchill
   lastReleaseYear: 2025
-- slug: "yaw-boateng"
-  name: "Yaw Boateng"
+  styles:
+  - Bass House
+  - Deep Tech
+  - Deep Tech House
+  - Electro House
+  - Electronic
+  - Greg Churchill
+  - House
+  - Indie
+  - Minimal
+  - Rap House
+  - Tech House
+  - Techno
+  locations:
+  - Iceland
+  - New Zealand
+  - Nz
+- slug: grouch
+  name: Grouch
+- slug: harvo
+  name: Harvo
+  lastReleaseYear: 2014
+  styles:
+  - Ep
+  - Indie
+  - Indie Rock
+  - Mexican
+  - Pop
+  - Pop Rock
+  - Rock
+  locations:
+  - Mexico City
+  - Texcoco
+- slug: haszari
+  name: Haszari
+  lastReleaseYear: 2026
+  styles:
+  - Acid
+  - Ambient
+  - Ambient Techno
+  - Amenbreak
+  - Ancient
+  - Avant Garde
+  - Bass
+  - Bounce
+  - Breakbeat
+  - Contemporary Classical
+  - Dark Ambient
+  - Deep
+  - Deephouse
+  - Dub Techno
+  - Electronic
+  - Footwork
+  - House
+  - Industrial
+  - Lush
+  - Minimal
+  - Musique Concrète
+  - Sound Art
+  - Sub Bass
+  - Synthwave
+  - Tech House
+  - Techno
+  - Undersea
+  locations:
+  - Auckland
+  - Dunedin
+  - Otepoti
+  - Tamaki Makaurau
+- slug: headland
+  name: Headland
+  lastReleaseYear: 2026
+  styles:
+  - Acoustic
+  - Australian
+  - Cinematic
+  - Documentary
+  - Independent
+  - Instrumental
+  - Laid Back
+  - Refugees
+  - Soundtrack
+  - Soundtrack Music
+  - Surf
+  locations:
+  - Lennox Head
+- slug: holloway
+  name: Holloway
+  lastReleaseYear: 2025
+  styles:
+  - Atmospheric
+  - Cinematic
+  - Classical Crossover
+  - Folk
+  - Mystic
+  - Songwriter
+  - Soulful
+  - Soundscape
+  - World
+  locations:
+  - Byron Bay
+- slug: hooky
+  name: Hooky
+  lastReleaseYear: 2011
+  styles:
+  - Bass
+  - Bassline
+  - Dirty
+  - Dnb
+  - Dubstep
+  - Dupstep
+  - Electro
+  - Filth
+  - Glitch
+  - Heavy
+  - Hooky
+  - R K'D
+  - Remix
+- slug: hot-fuzz
+  name: Hot Fuzz
+- slug: house-of-downtown
+  name: House Of Downtown
+  lastReleaseYear: 2021
+  styles:
+  - Club House
+  - Disco
+  - Electronic
+  - Electronica
+  - Funk
+  - Funky House
+  - House
+  - House Music
+  - Soul
+  locations:
+  - Aoteaora
+  - Auckland
+- slug: hyan
+  name: Hyan
+- slug: ike-zwanniken
+  name: Ike Zwanniken
+  styles:
+  - Breakbeat
+- slug: industrial-nature
+  name: Industrial Nature
+- slug: isaac-chambers
+  name: Isaac Chambers
+  lastReleaseYear: 2025
+  styles:
+  - Chill
+  - Chillout
+  - Dance
+  - Digital Roots
+  - Downbeat
+  - Downtempo
+  - Dub Reggae
+  - Dub Roots Reggae
+  - Dubby House
+  - Electronic
+  - Electronica
+  - Hip Hop
+  - Melancholy
+  - Neo Soul
+  - New Zealand Music
+  - Reggae
+  - Roots Reggae Dub
+  - Slowburn
+  - Trip Hop
+  - Downtempo
+  locations:
+  - New Zealand
+  - Picton
+- slug: itchy-brothers
+  name: Itchy Brothers
+  styles:
+  - House
+  - Techno
+- slug: ivy
+  name: IVY
+- slug: ixxe13
+  name: Ixxe13
+  styles:
+  - Ambient
+  - Breakbeat
+  - Electronica
+  - Minimal
+  - Techno
+- slug: jacq
+  name: jACQ
+  lastReleaseYear: 2017
+  styles:
+  - Electro
+  - Instrumental
+  - Pop
+  - Rock
+  locations:
+  - Belgium
+- slug: jag
+  name: Jagā
+  styles:
+  - Breakbeat
+  - Electronica
+  - Techno
+- slug: jamie-doesnt-like-salad
+  name: Jamie Doesn't Like Salad
+- slug: jarna
+  name: JARNA
+- slug: jay-knight
+  name: Jay Knight
+  styles:
+  - Breakbeat
+  - Dubstep
+  - Jungle
+- slug: jerkboy
+  name: Jerkboy
+  lastReleaseYear: 2026
+  styles:
+  - Acid
+  - Acid House
+  - Deep House
+  - Disco
+  - Electronic
+  - House
+  - House Music
+  - Indie Dance
+  - Italo Disco
+  - Italo House
+  - Nu Disco
+  locations:
+  - Sydney
+- slug: jerry-watts
+  name: Jerry Watts
+  styles:
+  - Breakbeat
+  - Electronica
+  - Techno
+- slug: jet-jaguar
+  name: Jet Jaguar
+  styles:
+  - Ambient
+  - Breakbeat
+  - Electronica
+- slug: joel-armstrong
+  name: Joel Armstrong
+- slug: jolyon-petch
+  name: Jolyon Petch
+- slug: jorgensen
+  name: Jorgensen
+  lastReleaseYear: 2023
+  styles:
+  - Alt Country
+  - Alternative
+  - Alternative Rock
+  - Beach Boys Harmony
+  - Bedroom Pop
+  - Country
+  - Emo
+  - Fun
+  - Independent Music
+  - Punk Rock
+  - Rock N' Roll
+  - Rock N Roll
+  - Sad Cowboy
+  locations:
+  - Montreal
+  - Montréal
+- slug: jousey
+  name: Jousey
+- slug: juni
+  name: Juni
+  lastReleaseYear: 2026
+- slug: junus-orca
+  name: Junus Orca
+  lastReleaseYear: 2026
+  styles:
+  - 140Bpm
+  - Ambient
+  - Asmr
+  - Bass
+  - Breakbeat
+  - Breaks
+  - Dark Ambient
+  - Drone
+  - Dub
+  - Dub Techno
+  - Electronic
+  - Experimental
+  - Garage
+  - Hard Techno
+  - Harsh Noise
+  - Industrial
+  - Meditative
+  - New Age
+  - Noise
+  - Sonic Art
+  - Techno
+  - Tr 909
+  locations:
+  - Christchurch
+  - New Zealand
+- slug: k-lab
+  name: K-Lab
+  lastReleaseYear: 2018
+  styles:
+  - Ambient
+  - Bird
+  - Chill
+  - Classic House
+  - Deep House
+  - Dj Klab
+  - Electro
+  - Electronic
+  - Female Vocals
+  - House
+  - Instrumental
+  - Original Mix
+  - Summer
+  - Sun
+  - Techno
+  - Violon
+  - Vocal
+  locations:
+  - Lyon
+- slug: k-lab
+  name: K+Lab
+  lastReleaseYear: 2018
+  styles:
+  - Ambient
+  - Bird
+  - Chill
+  - Classic House
+  - Deep House
+  - Dj Klab
+  - Electro
+  - Electronic
+  - Female Vocals
+  - House
+  - Instrumental
+  - Original Mix
+  - Summer
+  - Sun
+  - Techno
+  - Violon
+  - Vocal
+  locations:
+  - Lyon
+- slug: kadyn-webster
+  name: Kadyn Webster
+  lastReleaseYear: 2023
+  styles:
+  - Breakbeat
+  - Breaks
+  - Breaks.
+  - Dance
+  - Dance Music
+  - Deep
+  - Deep House
+  - Dub
+  - Electro
+  - Electronic
+  - Electronica
+  - Hardgroove
+  - House
+  - House Music
+  - Rap
+  - Techno
+  - Techno.
+  - Ukg
+  - Underground
+  locations:
+  - Auckland
+- slug: kaishandao
+  name: Kaishandao
+  lastReleaseYear: 2026
+  styles:
+  - Breaks
+  - Dub
+  - Electronic
+  - Experimental
+  - House
+  - Idm
+  - Minimal
+  - Techno
+  locations:
+  - Aotearoa
+  - Chengdu
+  - Osaka
+- slug: kamandi
+  name: Kamandi
+  styles:
+  - Acid
+  - Techno
+- slug: kane-spindler
+  name: Kane Spindler
+- slug: keanu-raves
+  name: Keanu Raves
   lastReleaseYear: 2013
-- slug: "yuhei-kubo"
-  name: "Yuhei Kubo"
-  lastReleaseYear: 2009
-- slug: "zerzilla"
-  name: "Zerzilla"
+  styles:
+  - Dance
+  - Edm
+  - Electro
+  - Electronic
+  - Rave
+  locations:
+  - Portland
+- slug: k-du-carl
+  name: Kédu Carlö
+  styles:
+  - House
+  - Techno
+- slug: keepsakes
+  name: Keepsakes
+  styles:
+  - Techno
+- slug: kennedy
+  name: Kennedy
+- slug: kennedy-aka-gene-kennedy
+  name: Kennedy (aka Gene Kennedy)
+  styles:
+  - House
+- slug: kidz-in-space
+  name: Kidz In Space
+  lastReleaseYear: 2011
+- slug: kiljoy
+  name: Kiljoy
+  styles:
+  - Drum & Bass
+- slug: kingsland-housing-project
+  name: Kingsland Housing Project
+  lastReleaseYear: 2001
+- slug: koincide
+  name: Koincide
+  lastReleaseYear: 2011
+- slug: kolab
+  name: Kolab
+  lastReleaseYear: 2023
+  styles:
+  - Electronic
+  - Hard Techno
+  - Neorave
+  - Rave
+  - Rave Techno
+  - Techno
+  locations:
+  - Berlin
+- slug: kora
+  name: Kora
+  lastReleaseYear: 2024
+  styles:
+  - Alternative
+  - Ambient
+  - Breaks
+  - Downtempo
+  - Dreamy
+  - Triphop
+- slug: k-roto
+  name: Kōroto
+  lastReleaseYear: 2023
+  styles:
+  - Progressivehouse Techno Anna
+  - Ambient
+  - Dark Ambient
+  - Deep
+  - Deep House
+  - Deep Techno
+  - Edm
+  - Electronic
+  - Melodic House Techno
+  - Progressive House
+  - Tech House
+  locations:
+  - Gaziantep
+- slug: kraus
+  name: Kraus
+  styles:
+  - Ambient
+  - Electro
+  - Electronica
+- slug: kyle-bourke
+  name: Kyle Bourke
+  lastReleaseYear: 2015
+  styles:
+  - Dance Music
+  - Edm
+  - Electro
+  - Electronic
+  - Future House
+  - House
+  - I'M Alive
+  - Rob Vegas
+  - X Factor
+  locations:
+  - New Zealand
+  - Sydney
+- slug: ladyhawke
+  name: Ladyhawke
+- slug: lainey
+  name: Lainey
+  lastReleaseYear: 2020
+  styles:
+  - Folk
+  - Indie
+  - Pop
+  locations:
+  - New Zealand
+- slug: laugh-n-gas
+  name: Laugh 'n' Gas
+- slug: laughin-gas
+  name: Laughin’ Gas
+  lastReleaseYear: 2022
+  styles:
+  - Dada Electronic
+  - Dance Music
+  - Dub
+  - Dub Electronic
+  - Electronic
+  - Electronic Music
+  - Hiphop
+  - House Music
+  - Mish Mash Electronic Music
+  - Reggae
+  locations:
+  - Dunedin
+- slug: leisure
+  name: LEISURE
+  lastReleaseYear: 2022
+- slug: leno-lovecraft
+  name: Leno Lovecraft
+  lastReleaseYear: 2013
+  styles:
+  - Cute
+  - Disco
+  - Experimental
+  - Glam
+  - Happy
+  - Kawaii
+  - Sex
+  locations:
+  - New Zealand
+- slug: leo-mckinnon
+  name: Leo McKinnon
+  lastReleaseYear: 2026
+  styles:
+  - Ambient
+  - Breakbeat
+  - Electronic
+  - Experimental
+  - Textural
+  locations:
+  - Wellington
+- slug: locuste
+  name: Locuste
+- slug: lorde
+  name: Lorde
+- slug: lowquid
+  name: Lowquid
+  lastReleaseYear: 2018
+  styles:
+  - Experimental
+  - Grime
+  - Kahn
+  - Lowquid
+  - Neek
+  locations:
+  - Auckland
+  - Damascus
+- slug: lucien-johnson
+  name: Lucien Johnson
+  lastReleaseYear: 2024
+  styles:
+  - Astral Jazz
+  - Jazz
+  - Spiritual Jazz
+  locations:
+  - Wellington
+- slug: lukas
+  name: Lukas
+- slug: luke-walker
+  name: Luke Walker
+- slug: luna-city-express
+  name: Luna City Express
+  lastReleaseYear: 2024
+  styles:
+  - Deep House
+  - Deep House Music
+  - Downbeat
+  - Drum Bass
+  - Electronic
+  - House
+  - Progressive House
+  - Tech House
+  - Techno
+  locations:
+  - Berlin
+- slug: luther
+  name: Luther
+  lastReleaseYear: 2014
+  styles:
+  - Alternative Rock
+  - Black Numbers
+  - Indie
+  - Indie Rock
+  - Luther
+  - Post Hardcore
+  - Punk
+  - Punk Rock
+  - Rock
+  locations:
+  - Philadelphia
+- slug: lxtricity
+  name: LXTricity
+  lastReleaseYear: 2024
+  styles:
+  - Bass House
+  - Brostep
+  - Dance Music
+  - Drum Bass
+  - Dubstep
+  - Edm
+  - Electronic
+  - Halftime
+  - Mid Tempo
+  - New Wave
+  - Trap
+  - Uk Garage
+  locations:
+  - Nzmusic
+  - Wellington
+- slug: m2myu
+  name: M2MYU
+  lastReleaseYear: 2025
+  styles:
+  - 2Stepgarage
+  - Electronic
+  - Hardcore
+  - House
+  - Jungle Dnb
+  - Speed Garage
+  - Uk Garage
+  locations:
+  - New Zealand
+- slug: magik-j
+  name: Magik J
+- slug: magik-johnson
+  name: Magik Johnson
+- slug: malente
+  name: Malente
+  lastReleaseYear: 2007
+- slug: manthyng
+  name: MANTHYNG
+  lastReleaseYear: 2010
+- slug: matipo-pyramid
+  name: Matipo Pyramid
+  lastReleaseYear: 1997
+- slug: matty-g
+  name: Matty G
+- slug: mayavanya
+  name: MayaVanya
+- slug: mayflymusic
+  name: Mayflymusic
+  lastReleaseYear: 2026
+  styles:
+  - Ambient
+  - Ambient Electronica
+  - Creative Electronica
+  - Dance
+  - Dance Music
+  - Dub Techno
+  - Edm
+  - Electroindyonica
+  - Electronic
+  - Electronica
+  - Gospel
+  - Gregorian
+  - House
+  - House Music
+  - Idm
+  - Indy
+  - Indy Dance
+  - Indy Pop
+  - Inspirational Music
+  - New Zealand Music
+  - New Zealand Rock
+  - Newzealandmusic
+  - Not Sure What Genre
+  - Pop
+  - Uplifting
+  locations:
+  - Christchurch
+  - Nzmusic
+- slug: melodownz
+  name: MELODOWNZ
+  lastReleaseYear: 2018
+  styles:
+  - Abstract
+  - Auckland Rap
+  - Avontales
+  - Hip Hop
+  - Hip Hop Rap
+  - Liiightside
+  - Melodownz
+  - New Age
+  - New Zealand Rap
+  - Rnb
+  - Soul
+  - The Grow Room
+  - Ygb
+  locations:
+  - Auckland
+  - Nz
+- slug: mikael-wills
+  name: Mikael Wills
+- slug: minuit
+  name: Minuit
+  lastReleaseYear: 2025
+  styles:
+  - Dance
+  - Downbeat
+  - Drumnbass
+  - Dubstep
+  - Electro
+  - Electro House
+  - Electronic
+  - Electropop
+  - Glitch Hop
+  - Indie
+  - New Zealand Music
+  - Pop
+  - Vampire
+  locations:
+  - Wellington
+- slug: modern-chair
+  name: Modern Chair
+  lastReleaseYear: 2016
+  styles:
+  - Guitar Rock
+  - Popindie
+  - Rock
+  - Subway
+  - Synthpop
+  - Trains
+  - Vampire
+  locations:
+  - Amsterdam
+  - Auckland
+  - London
+  - New York
+  - Tokyo, Japan
+- slug: module
+  name: Module
+- slug: mokotron
+  name: Mokotron
+  lastReleaseYear: 2024
+  styles:
+  - Bass
+  - Breakbeat
+  - Drum Bass
+  - Dubstep
+  - Electro
+  - Electro Bass
+  - Electro Funk
+  - Electro Techno
+  - Electronic
+  - Garage
+  - Indigenous
+  - Maori
+  - Maori Music
+  - Techno Bass
+  - Ukg
+  locations:
+  - New Zealand
+- slug: monkey-boots
+  name: Monkey Boots
+  styles:
+  - House
+- slug: mono-loco
+  name: Mono/Loco
+  lastReleaseYear: 2026
+  styles:
+  - Acid
+  - Electronic
+  - Electronic Body Music
+  - Industrial Techno
+  - Mental Techno
+  - Minimal Techno
+  - Raw Techno
+  - Raw Techno. Deep Trance
+  - Techno
+  - Trance
+  - Trance Electro Techno
+  locations:
+  - Paris
+- slug: montel2099
+  name: Montel2099
+  styles:
+  - Edm
+- slug: moston
+  name: Moston
+- slug: mr-meaty-boy
+  name: Mr Meaty Boy
+  styles:
+  - Electro
+  - Techno
+- slug: mr-squatch
+  name: Mr Squatch
+  lastReleaseYear: 2013
+  styles:
+  - Breaks
+  - Electronic
+  - Progressive
+  - Psy Trance
+  - Psybreaks
+  - Psychedelic
+  - Tech House
+  - Techno
+  locations:
+  - New Zealand
+- slug: murmur-tooth
+  name: Murmur Tooth
+  lastReleaseYear: 2023
+  styles:
+  - Alt Pop
+  - Alternative
+  - Alternative Pop
+  - Alternative Rock
+  - Cinematic
+  - Dance Pop
+  - Doompop
+  - Electronic
+  - Electronica
+  - Electropop
+  - Female Producer
+  - Female Vocals
+  - Girl
+  - Indie Pop
+  - Neo Folk
+  - Sadcore
+  locations:
+  - Berlin
+  - New Zealand
+- slug: myd
+  name: Myd
+- slug: n-a-m-e
+  name: N.A.M.E.
+  lastReleaseYear: 2025
+  styles:
+  - Ambient
+  - Atmospheric Metal
+  - Blues
+  - Dark Ambient
+  - Dark Jazz
+  - Hardcore
+  - Heavy Rock
+  - Internet Killed The Audio Star
+  - Jazz
+  - Lifeforce Records
+  - Math Metal
+  - Mathcore
+  - Metal
+  - Metal Progressive Experimental
+  - Metallic Hardcore
+  - Noisecore
+  - Post Metal
+  - Post Progressive Metal
+  - Progressive
+  - Progressive Metal
+  locations:
+  - San Francisco
+- slug: nasty-genuis
+  name: Nasty Genuis
+- slug: nathan-haines
+  name: Nathan Haines
+  lastReleaseYear: 2025
+  styles:
+  - Analog
+  - Broken Beat
+  - Deep House
+  - Electronic
+  - House
+  - Jazz
+  - Jazzy House
+  - Nu Jazz
+  - Saxophone
+  - Soul
+  - Soulful House
+  - Spoken Word
+  locations:
+  - Auckland
+- slug: nice-girl
+  name: Nice Girl
+  lastReleaseYear: 2026
+  styles:
+  - Dance
+  - Electronic
+  - Flowers
+  locations:
+  - Melbourne
+- slug: nick-collings
+  name: Nick Collings
+- slug: nickname
+  name: nickname
+- slug: nila
+  name: Nila
+  styles:
+  - Progressive
+  - Techno
+- slug: nineteen79
+  name: nineteen79
+  styles:
+  - House
+  - Progressive
+  - Techno
+- slug: ninjastep
+  name: Ninjastep
+- slug: noob
+  name: Noob
+- slug: nort
+  name: Nort
+  lastReleaseYear: 2026
+  styles:
+  - Adult Rock
+  - Alternative Rock
+  - Rock
+  locations:
+  - Cologne
+- slug: north-shore-pony-club
+  name: North Shore Pony Club
+  lastReleaseYear: 2013
+  styles:
+  - Balearic
+  - Bastard Pop
+  - Dance
+  - Disco
+  - Electronic
+  - House
+  - Ocean Disco
+  - Pop
+  locations:
+  - New Zealand
+- slug: nsu
+  name: nsu
+- slug: nuance
+  name: Nuance
+- slug: odyssey
+  name: Odyssey
+- slug: offmode
+  name: Offmode)
+- slug: oliver-prince
+  name: Oliver Prince
+  lastReleaseYear: 2026
+  styles:
+  - '140'
+  - '160'
+  - Ambient
+  - Bass
+  - Bass Music
+  - Bootleg
+  - Breaks
+  - Dub
+  - Dubpack
+  - Dubstep
+  - Electronic
+  - Jungle
+  - Music
+  - New Dubstep
+  - Newzealand
+  - Old School
+  - Oldschool
+  - Oliver Prince
+  - Ukgarage
+  locations:
+  - Christchurch
+  - Nz
+  - Nzmusic
+- slug: olux
+  name: Olux
+- slug: omc
+  name: OMC
+- slug: onanon
+  name: Onanon
+- slug: opiuo
+  name: Opiuo
+  lastReleaseYear: 2026
+  styles:
+  - Electronic
+  - Funkadelic Bass Music
+  locations:
+  - Australia
+- slug: optimus-gryme
+  name: Optimus Gryme
+  lastReleaseYear: 2011
+  styles:
+  - Dubstep
+  - Electronic
+  locations:
+  - New Zealand
+- slug: organikismness
+  name: Organikismness
+  lastReleaseYear: 2022
+  styles:
+  - Bass Music
+  - Drum And Bass
+  - Dubstep
+  - Electronic
+  - Electronica
+  - Glichhop
+  - Half Time
+  locations:
+  - Riwaka
+- slug: owlziz
+  name: Owlziz
+  styles:
+  - Breakbeat
+  - Dubstep
+- slug: p-money
+  name: P-Money
+- slug: p1rate
+  name: P1rate
+- slug: pacific-heights
+  name: Pacific Heights
+  lastReleaseYear: 2004
+  styles:
+  - Ambient
+  - Deep House
+  - Drum Bass
+  - Electronic
+  locations:
+  - Christchurch
+- slug: paige-julia
+  name: Paige Julia
+  lastReleaseYear: 2024
+  styles:
+  - Bass Music
+  - Breakbeat
+  - Dance
+  - Dnb
+  - Drum And Bass
+  - Drum Bass
+  - Dub
+  - Dubstep
+  - Electronic
+  - Experimental Electronic
+  - Future Bass
+  - Idm
+  - Jungle
+  - Kiwi
+  - Paige Julia
+  - Totally Roasted
+  - Uk Bass Music
+  locations:
+  - Christchurch
+  - Nz
+- slug: parallel-dance-ensemble
+  name: Parallel Dance Ensemble
+- slug: patella
+  name: Patella
+  styles:
+  - House
+  - Minimal
+- slug: peace-division
+  name: Peace Division
+- slug: pearly
+  name: Pearly*
+- slug: perverse
+  name: Perverse
+- slug: peter-hobbs
+  name: Peter Hobbs
+  lastReleaseYear: 2026
+  styles:
+  - Ambient
+  - Composer
+  - Electronic
+  - Experimental
+  - Experimental Electronic
+  - Experimental Electronica
+  - Film Music
+  - Indie
+  - Indie Electronic Rock
+  - Indie Rock
+  - Score
+  locations:
+  - Auckland
+- slug: pharley
+  name: Pharley
+- slug: philippa-mcintyre
+  name: Philippa McIntyre
+  styles:
+  - House
+- slug: piecemeal
+  name: Piecemeal
+  lastReleaseYear: 2025
+  styles:
+  - Experimental
+  - Funk
+  - Improvisation
+  - Jazz
+  - Jazz Rock
+  - Math Rock
+  locations:
+  - Dunedin
+- slug: pig-out
+  name: Pig Out
+- slug: pitch-black
+  name: Pitch Black
+  lastReleaseYear: 2025
+  styles:
+  - Adrian Sherwood
+  - Alpha Steppa
+  - Ambient Dub
+  - Bass Music
+  - Beam Up
+  - Bob Marley
+  - Bob Marley Cover
+  - Crises
+  - Downtempo
+  - Downtempo Dub
+  - Drum And Bass
+  - Drum Bass
+  - Dub
+  - Dub And Bass
+  - Dub Mix
+  - Dub Reggae
+  - Dub Remix
+  - Dub Techno
+  - Dubstep
+  - Electronic
+  - Electronica
+  - Horns
+  - International Observer
+  - Kaminanda
+  - New Zealand Music
+  - On U Sound
+  - Peak_Shift
+  - Post Dubstep
+  - Radioactive Man
+  - Simon Flower
+  - Steppers
+  - Tom Cosm
+  locations:
+  - Auckland
+  - New Zealand
+- slug: placeholder
+  name: Placeholder
+- slug: pnc
+  name: PNC
+- slug: pocketlipps
+  name: PocketLipps
+- slug: projector-mix
+  name: Projector Mix
+  lastReleaseYear: 2015
+- slug: pron
+  name: ProN
+- slug: quaker
+  name: Quaker
+  lastReleaseYear: 2025
+  styles:
+  - Dark Ambient
+  - Drone
+  - Experimental
+  - Folk
+  - Harsh Noise
+  - No Input
+  - Noise
+  - Sacred Harp
+  locations:
+  - United States
+- slug: quarks
+  name: Quarks
+- slug: radley
+  name: Radley
+  lastReleaseYear: 2017
+  styles:
+  - Alternative Hip Hop
+  - Dark Rap
+  - Hip Hop
+  - Hip Hop Rap
+  - Rap
+  locations:
+  - Boston
+- slug: raiza-biza
+  name: RAIZA BIZA
+  lastReleaseYear: 2025
+  styles:
+  - Ammonation Music
+  - Hip Hop
+  - Hip Hop Rap
+  - New Zealand Rap
+  - Underground Hip Hop
+  - Young Gifted Broke
+  locations:
+  - Hamilton
+- slug: reasxn
+  name: Reasxn
+- slug: reed
+  name: Reed
+  lastReleaseYear: 2016
+  styles:
+  - Dance
+  - Funk
+  - R B
+  - R B Soul
+  - Reed!
+  - Rock
+  - Soul
+  - Soular Return
+  - Soular Underground
+  locations:
+  - Los Angeles
+- slug: reeps
+  name: Reeps
+- slug: revus
+  name: Revus
+- slug: rhian-sheehan
+  name: Rhian Sheehan
+  lastReleaseYear: 2025
+  styles:
+  - Ambient
+  - Bass
+  - Deep Dubstep
+  - Drone Ambient
+  - Electronic
+  - Electronica
+  - Electronica Ambient Experimental
+  - Ethno Ambient
+  - Fourth World Music
+  - Modern Classical
+  - Neoclassical
+  - New Age
+  - Orchestral
+  - Piano
+  - Post Rock
+  - Post Rock Instrumental
+  - Shoegaze
+  - World
+  - World Music
+  locations:
+  - Wellington
+- slug: roadkill
+  name: Roadkill
+  lastReleaseYear: 2023
+  styles:
+  - 8 Bit
+  - 8Bit
+  - Electronic
+  - Funk
+  - Instrumental
+  - Nostalgic
+  - Retro
+  - Synth
+  - Synthwave
+  locations:
+  - Richmond
+- slug: rob-salmon
+  name: Rob Salmon
+- slug: robot-humour
+  name: Robot Humour
+- slug: roc-raida
+  name: Roc Raida
+- slug: rohann
+  name: Rohann
+- slug: roots
+  name: Roots
+- slug: rotor
+  name: Rotor
+- slug: rotor
+  name: Rotor+
+  styles:
+  - Ambient
+  - Electronica
+  - Minimal
+  - Techno
+- slug: ryan-enzed
+  name: Ryan Enzed
+  lastReleaseYear: 2011
+- slug: sal-valentine-and-the-babyshakes
+  name: Sal Valentine And The Babyshakes
+  lastReleaseYear: 2013
+- slug: salmonella-dub
+  name: Salmonella Dub
+  lastReleaseYear: 2022
+  styles:
+  - Alternative
+  - Dub
+  - Jungle
+  - Music Aotearoa
+  locations:
+  - New Zealand
+- slug: sam-hill
+  name: Sam Hill
+  lastReleaseYear: 2022
+  styles:
+  - Ambient Electronic
+  - Electronic
+  - Hybrid
+  - Orchestral
+  - Percussion
+  - Synth
+  locations:
+  - Kitchener
+- slug: sanoi
+  name: Sanoi
+  lastReleaseYear: 2026
+  styles:
+  - Beats
+  - Brainfeeder
+  - Dark Disco
+  - Deep House
+  - Downtempo
+  - Electronic
+  - House
+  - Indie Dance
+  - Melodic House
+  - Melodic House Techno
+  locations:
+  - New Zealand
+- slug: timmy-schumacher
+  name: Timmy Schumacher
+- slug: sentient
+  name: Sentient
+- slug: serpico-aka-serpico-beats
+  name: Serpico (aka Serpico Beats)
+  styles:
+  - Breakbeat
+  - House
+- slug: shallow-taxi-club
+  name: Shallow Taxi Club
+  styles:
+  - House
+- slug: shapeshifter
+  name: Shapeshifter
+  lastReleaseYear: 2025
+  styles:
+  - Beats
+  - D'N'B
+  - Dnb
+  - Drum And Bass
+  - Drum Bass
+  - Drum N Bass
+  - Electronic
+  - Electronica
+  - Funk
+  - Heavy Soul
+  - Jungle
+  - Soul
+  - World Music
+  locations:
+  - Cook Islands
+  - New Zealand
+  - Rarotonga
+- slug: sharkweek
+  name: Sharkweek
+  styles:
+  - Dub
+  - Electronica
+- slug: shiner
+  name: Shiner
+  lastReleaseYear: 2015
+  styles:
+  - Devotional
+  - Noise
+  locations:
+  - Brooklyn
+- slug: shli
+  name: Shli
+  styles:
+  - Breakbeat
+  - Techno
+- slug: sickdrumz
+  name: SickDrumz
+- slug: signer
+  name: Signer
+  lastReleaseYear: 2025
+  styles:
+  - Ambient
+  - Ambient Electronic
+  - Dub Techno
+  - Electronic
+  - Electronica
+  - Idm
+  - Indie
+  - Minimal Techno
+  - Shoegaze
+  - Techno
+  locations:
+  - Wellington
+- slug: silk-cut
+  name: Silk Cut
+  lastReleaseYear: 2021
+  styles:
+  - Alternative
+  locations:
+  - New York
+- slug: six60
+  name: Six60
+- slug: skellig
+  name: Skellig
+  lastReleaseYear: 2023
+  styles:
+  - Addiction
+  - Alternative Rock
+  - Celebration Of Light Fundraiser
+  - Celtic Rock
+  - Christian
+  - Christmas Music
+  - Christmas Song
+  - Detox
+  - Fiddle Driven Rock
+  - Folk Rock
+  - Indie Rock
+  - Recovery
+  - Rehab
+  - Rock
+  - Shinethelightladysmith
+  locations:
+  - Ladysmith
+- slug: skymning
+  name: Skymning
+  lastReleaseYear: 2023
+  styles:
+  - Beat Tape
+  - Breakbeat
+  - Dubstep
+  - Electronic
+  - Footwork
+  - Instrumental
+  - Juke
+  - Jungle
+  locations:
+  - Hackney
+  - London
+  - New Zealand
+- slug: smashproof
+  name: Smashproof
+- slug: soane
+  name: Soane
+- slug: social-sport
+  name: Social Sport
+  lastReleaseYear: 2023
+  styles:
+  - Bass
+  - Breakbeat
+  - Darkwave
+  - Electronic
+  - Electronica
+  - Experimental
+  - Garage
+  - House
+  - Rave
+  - Techno
+  - Techno Industrial
+  - Uk Bass
+  - Wave
+  locations:
+  - Christchurch
+  - New Zealand
+- slug: sola-rosa
+  name: Sola Rosa
+  lastReleaseYear: 2026
+  styles:
+  - Beats
+  - Chill
+  - Dance
+  - Dance Music
+  - Downbeat
+  - Dub
+  - Electronic
+  - Electronica
+  - Funk
+  - Funk Soul
+  - Hip Hop
+  - House
+  - Jazz
+  - Latin
+  - Lofi House
+  - Lounge
+  - Neo Soul
+  - Pop
+  - Psychedelic
+  - R B
+  - Rap
+  - Reggae
+  - Soul
+  locations:
+  - Auckland
+- slug: son-sine
+  name: Son.sine
+  lastReleaseYear: 2010
+  styles:
+  - Dance
+  - Electronic
+  - Minimal
+  locations:
+  - New Zealand
+- slug: sonic-smith
+  name: SoNic Smith
+  lastReleaseYear: 2014
+  styles:
+  - Breakbeat
+  - Dubstep
+  - Electro
+  - Electronic
+  - Rave
+  - Techno
+  locations:
+  - Dunedin
+- slug: sonic-space-lab
+  name: Sonic Space Lab
+  lastReleaseYear: 2023
+  styles:
+  - Alternative
+  - Ambient
+  - Chill
+  - Chill Out
+  - Cinematic
+  - Dance Music
+  - Dreamy
+  - Edm
+  - Electronic
+  - Electronic Music
+  - Electronic Pop
+  - Electronica
+  - Experimental
+  - Funky
+  - House
+  - House Music
+  - Indie
+  - Indie Pop
+  - Latino
+  - Lowtempo
+  - Party Music
+  - Remixes
+  - Soundtrack
+  - Space Pop
+  - Space Rock
+  - Techno
+  - Upbeat
+  - Uplifting Music
+  locations:
+  - Wellington
+- slug: soulfoundation
+  name: Soulfoundation
+  styles:
+  - House
+- slug: spa
+  name: SPA
+- slug: speech-act-theory
+  name: Speech Act Theory
+  lastReleaseYear: 2023
+  styles:
+  - Alternative
+  - Ambient
+  - Breakbeat
+  - Chilled
+  - Downtempo
+  - Electronic
+  - Idm
+  - Indie
+  - Trip Hop
+  locations:
+  - Auckland
+- slug: spoonhead
+  name: Spoonhead
+  lastReleaseYear: 2025
+  styles:
+  - Bush Prog
+  - Bush Tech
+  - Bush Techno
+  - Bushtech
+  - Bushtechno
+  - Downtempo
+  - Electronic
+  - Glitch Hop
+  - Hypnotic
+  - Organic House
+  - Progressive Psytrance
+  - Psychedelic Techno
+  - Psytech
+  - Psytechno
+  - Psytrance
+  - Techno
+  - Zenonesque
+  locations:
+  - New Zealand
+- slug: squeezer
+  name: Squeezer
+- slug: squeezer-project
+  name: Squeezer Project
+- slug: steve-angello
+  name: Steve Angello
+- slug: strawpeople
+  name: Strawpeople
+- slug: stray-theories
+  name: Stray Theories
+  lastReleaseYear: 2022
+  styles:
+  - Ambient
+  - Ambient Electronic
+  - Atmospheric
+  - Calm
+  - Chill Out
+  - Cinematic
+  - Compositional Ambient
+  - Dark Ambient
+  - Drone
+  - Electro Acoustic
+  - Electronic
+  - Ethereal
+  - Field Recordings
+  - Film Music
+  - Instrumental
+  - Modern Classical
+  - Neo Classical
+  - Orchestral
+  - Piano
+  - Post Rock
+  - Shoegaze
+  - Soundscapes
+  - Soundtrack
+  - Soundtrack Music
+  locations:
+  - Australia
+  - New Zealand
+- slug: suede
+  name: Suede
+- slug: sugar-james
+  name: Sugar James
+- slug: sunship
+  name: Sunship
+- slug: supergroove
+  name: Supergroove
+- slug: suspectsystem-cusp
+  name: Suspectsystem (Cusp
+- slug: swidt
+  name: SWIDT
+- slug: syzygy
+  name: Syzygy
+  lastReleaseYear: 2010
+  styles:
+  - Club
+  - Dance
+  - Electronic
+  - Instrumental
+  - Music
+  - Piano
+  - Song
+  - Syzygy
+  - Techno
+  locations:
+  - Merrickville
+- slug: tali
+  name: Tali
+  styles:
+  - Drum & Bass
+- slug: talliss
+  name: Talliss
+- slug: teknizm
+  name: Teknizm
+- slug: terra-nine
+  name: Terra Nine
+  styles:
+  - Acid
+  - Breakbeat
+  - Drum & Bass
+  - Dub
+- slug: texture
+  name: Texture
+  lastReleaseYear: 2024
+  styles:
+  - Chill
+  - Dark Electronic
+  - Dark Pop
+  - Garage
+  - Hip Hop
+  - Hip Hop Rap
+  - Jazz
+  - Pop
+  - Trap
+  - Wave
+  locations:
+  - Glasgow
+- slug: the-adults
+  name: The Adults
+- slug: the-bats
+  name: The Bats
+  lastReleaseYear: 2025
+  styles:
+  - Alternative
+  - Alternative Rock
+  - Alternativefolk
+  - Flying Nun
+  - Flying Nun Records
+  - Indie
+  - Indie Pop
+  - Indie Rock
+  - Kaye Woodward
+  - Malcolm Grant
+  - New Zealand Music
+  - Paul Kean
+  - Robert Scott
+  - Rock
+  - The Bats
+  locations:
+  - Aotearoa
+  - Christchurch
+  - New Zealand
+- slug: the-mechanism
+  name: The Mechanism
+- slug: the-mint-chicks
+  name: The Mint Chicks
+- slug: the-nightcrawlers
+  name: The Nightcrawlers
+- slug: the-nomad
+  name: the nomad
+  lastReleaseYear: 2020
+  styles:
+  - Death Metal
+  - Mdm
+  - Melodic Death Metal
+  - Melodic Deathmetal
+  - Metal
+  - The Nomad
+  - Thrash Metal
+  locations:
+  - Saint Petersburg
+- slug: the-odd-chaps
+  name: The Odd Chaps
+- slug: the-shocking-and-stunning
+  name: The Shocking and Stunning
+  lastReleaseYear: 2019
+  styles:
+  - Drone
+  - Electronic
+  - Heavy
+  - Noise
+  - Trance
+  locations:
+  - Wellington
+- slug: the-sloppy-5ths
+  name: The Sloppy 5ths
+- slug: tim-corin
+  name: Tim Corin
+- slug: tim-green
+  name: Tim Green
+  lastReleaseYear: 2012
+  styles:
+  - Nostalgic
+  locations:
+  - Canada
+- slug: tim-richards
+  name: Tim Richards
+  lastReleaseYear: 2025
+  styles:
+  - Acoustic
+  - Contemporary Jazz
+  - Dick Pearce
+  - Ed Jones
+  - Jazz
+  - Modern Jazz
+  - Original
+  - Piano Trio
+  - Ralph Wyld
+  locations:
+  - London
+- slug: tipene
+  name: Tipene
+  lastReleaseYear: 2025
+  styles:
+  - Hip Hop
+  - Hip Hop Rap
+  - Hiphop
+  - Hiphop Rap
+  - Hiphopbeats
+  - Indigenous
+  - Indigenous Music
+  - Maori
+  - Maori Music
+  - New Wave
+  - Nz Hiphop
+  - Nz Music
+  - Rap
+  - Rap Hip Hop
+  - Rapper
+  - Te Reo Māori
+  - Trap
+  locations:
+  - New Zealand
+- slug: tokyo-street-gang
+  name: Tokyo Street Gang
+- slug: tom-cosm
+  name: Tom Cosm
+  lastReleaseYear: 2021
+  styles:
+  - Bass
+  - Chill
+  - Dnb
+  - Dub
+  - Electronic
+  - Glitch
+  - Prog
+  - Psy
+  - Techno
+  locations:
+  - Melbourne
+- slug: tom-piper
+  name: Tom Piper
+- slug: toolbox
+  name: Toolbox
+- slug: toronja
+  name: Toronja
+  lastReleaseYear: 2026
+  styles:
+  - Alternative
+  - Alternative Pop
+  - Ambient
+  - Bedroom
+  - Bedroom Drum N Bass
+  - Bedroom Funk
+  - Bedroom Pop
+  - Bedroom Rock
+  - Classic
+  - Dnb
+  - Drum And Basss
+  - Drum N Bass
+  - Experimental
+  - Experimental Ambient
+  - Garage Punk
+  - Garage Rock
+  - Indie
+  - Indie Pop
+  - Indie Punk
+  - Indie Rock
+  - Latin Indie
+  - Latin Pop
+  - Liquid
+  - Liquid Dnb
+  - Liquid Drum Bass
+  - Liquid Drum N Bass
+  - Minimal
+  - Piano
+  - Pop
+  - Punk
+  - Rock
+  - Soundtrack
+  - Soundtrack Music
+  - World
+  locations:
+  - Chile
+- slug: tourist
+  name: Tourist
+- slug: trei
+  name: Trei
+- slug: triangle
+  name: Triangle
+  lastReleaseYear: 2022
+  styles:
+  - A Cappella
+  - Bedlam Boys
+  - Christmas
+  - English Folk
+  - English Song
+  - Folk
+  - Winter
+  locations:
+  - Felixstowe
+  - United Kingdom
+- slug: trig
+  name: Trig
+  styles:
+  - Techno
+- slug: triggs
+  name: Triggs
+- slug: troffman
+  name: Troffman
+- slug: tyree
+  name: Tyree
+  lastReleaseYear: 2021
+  styles:
+  - Hip Hop Rap
+  locations:
+  - Fayetteville
+- slug: uber-driver
+  name: Uber Driver
+  styles:
+  - Electro
+  - Techno
+- slug: undertow
+  name: Undertow
+  lastReleaseYear: 2018
+  styles:
+  - Agantgarde
+  - Ambient
+  - Avantgarde
+  - Dance
+  - Drone
+  - Electroacoustic
+  - Electronic
+  - Experiemental
+  - Experimental
+  - Film Music
+  - Free Jazz
+  - Hip Hop
+  - Improv
+  - Improvisation
+  - Jazz
+  - Noise
+  - 松戸市
+- slug: unit-23
+  name: Unit 23
+- slug: vanessa-worm
+  name: Vanessa Worm
+  lastReleaseYear: 2025
+  styles:
+  - '''Tude'
+  - Burnin'
+  - Burnin' Up
+  - Butterfly
+  - Crazy Dancing
+  - Dancefloor
+  - Disco Punk
+  - Eden Burns
+  - Electronic
+  - Existential
+  - Freakout
+  - Optimo Music
+  - Optimo Music Digital Danceforce
+  - Oz Waves
+  - Punk
+  - Remix
+  - Shake Ya Butt
+  - Shark Attack
+  - Straight From Heaven
+  - Synth
+  - Synth Punk
+  - Synthpop
+  - Vanessa
+  - Vanessa Worm
+  - 'What If A Shark Attacks '
+  locations:
+  - Auckland
+  - Melbourne
+  - New Zealand
+  - Nz
+- slug: vibrasphere
+  name: Vibrasphere
+- slug: weird-together
+  name: Weird Together
+- slug: will-marshall
+  name: Will Marshall
+- slug: william-breakspear
+  name: William Breakspear
+  lastReleaseYear: 2021
+  styles:
+  - 110Bpm
+  - 80S
+  - Bass
+  - Breakbeat
+  - Breaks
+  - Club
+  - Cover
+  - Dance
+  - Downtempo
+  - Electronic
+  - Electronica
+  - Glitch
+  - Glitch Hop
+  - Gritty
+  - Head Nodder
+  - Heavy
+  - Hip Hop
+  - Jumpup
+  - Low Slung
+  - Party
+  - Remix
+  - Reworking
+  - Trip Hop
+  locations:
+  - United Kingdom
+- slug: winter
+  name: Winter
+  lastReleaseYear: 2016
+  styles:
+  - Black Metal
+  - Black Metal..
+  - Metal
+  locations:
+  - Mexico
+- slug: wumbo
+  name: Wumbo
+  styles:
+  - Breakbeat
+  - Edm
+- slug: xtra-joss
+  name: Xtra Joss
+- slug: yaw-boateng
+  name: Yaw Boateng
+- slug: yuhei-kubo
+  name: Yuhei Kubo
+- slug: zerzilla
+  name: Zerzilla

@@ -8,8 +8,13 @@ import Header from '../components/Header.astro';
 import ArtistDirectory from '../components/ArtistDirectory.jsx';
 
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { applyTagRules } from '../lib/process-tags';
 
-const artists = (await getCollection('nzArtists')).map((entry) => entry.data);
+const artists = (await getCollection('nzArtists')).map((entry) => ({
+  ...entry.data,
+  styles: entry.data.styles ? applyTagRules(entry.data.styles) : undefined,
+  locations: entry.data.locations ? applyTagRules(entry.data.locations) : undefined,
+}));
 ---
 
 <!doctype html>

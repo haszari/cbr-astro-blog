@@ -88,6 +88,10 @@ const nzArtists = defineCollection({
     name: z.string(),
     lastReleaseYear: z.coerce.number().optional(),
     styles: z.array(z.string()).optional(),
+    bandcamp: z.string().optional(),
+    related: z.array(z.string()).optional(),
+    aliases: z.array(z.string()).optional(),
+    locations: z.array(z.string()).optional(),
   }),
 });
 

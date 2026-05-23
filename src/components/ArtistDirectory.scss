@@ -34,6 +34,22 @@
   }
 }
 
+.ArtistDirectory-tags--locations {
+  margin-top: 2em;
+}
+
+.ArtistDirectory-tagPill--location {
+  background: #ddd;
+
+  &:hover {
+    background: #bbb;
+  }
+
+  &.is-active {
+    background: #bbb;
+  }
+}
+
 .ArtistDirectory-tagLabel {
   display: inline-flex;
   align-items: center;
