@@ -1,0 +1,33 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import yaml from 'js-yaml';
+
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+import ArtistDirectory from '../components/ArtistDirectory.jsx';
+
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+const ymlPath = path.resolve(process.cwd(), 'src/content/data/nz-artists.yml');
+const artists = yaml.load(fs.readFileSync(ymlPath, 'utf-8'));
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`NZ Electronic Artists — ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main class="PageContent">
+      <h4 style={{ textAlign: "center", fontWeight: "normal", fontStyle: "italic", opacity: 0.6 }}>
+        some New Zealand musical artists
+      </h4>
+      <ArtistDirectory client:load artists={artists} />
+    </main>
+    <Footer />
+  </body>
+</html>

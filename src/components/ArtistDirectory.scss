@@ -1,0 +1,57 @@
+@use '../styles/_globals.scss';
+
+.ArtistDirectory-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.3em;
+  margin-bottom: 2em;
+}
+
+.ArtistDirectory-artists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3em 1.5em;
+}
+
+.ArtistDirectory-tagPill {
+  display: inline-flex;
+  align-items: center;
+  background: orange;
+  border-radius: 0.5em;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: darkorange;
+  }
+
+  &.is-active {
+    background: darkorange;
+  }
+}
+
+.ArtistDirectory-tagLabel {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2em 0.3em;
+  white-space: nowrap;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.65);
+
+  .ArtistDirectory-tagCount {
+    margin-left: 0.3em;
+    font-size: 70%;
+    font-style: italic;
+    opacity: 0.5;
+  }
+
+  &:hover {
+    color: black;
+  }
+}
