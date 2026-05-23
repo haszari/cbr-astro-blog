@@ -123,7 +123,11 @@ const HaszariPage = ({data}) => {
       <div className="Row center">
         <p>I release interesting music by my friends on <a href="/">Cartoon Beats Reality</a>.</p>
       </div>
-      
+
+      <div className="Row center">
+        <p><a href="/nz-electronic-artists">Here's a list of some NZ-related musical artists.</a></p>
+      </div>
+    
     </>
   )
 }

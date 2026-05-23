@@ -92,6 +92,15 @@ const nzArtists = defineCollection({
     related: z.array(z.string()).optional(),
     aliases: z.array(z.string()).optional(),
     locations: z.array(z.string()).optional(),
+    links: z.object({
+      bandcamp: z.string().optional(),
+      soundcloud: z.string().optional(),
+      spotify: z.string().optional(),
+      youtube: z.string().optional(),
+      instagram: z.string().optional(),
+      facebook: z.string().optional(),
+      chain: z.string().optional(),
+    }).optional(),
   }),
 });
 

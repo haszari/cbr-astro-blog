@@ -14,12 +14,12 @@
   bandcamp: acidpolice92
   lastReleaseYear: 2020
   styles:
-  - ambient 
-  - drone 
-  - dub 
-  - electronic 
-  - noise 
-  - psychedelic 
+  - ambient
+  - drone
+  - dub
+  - electronic
+  - noise
+  - psychedelic
   - Techno
   - Dunedin
 - slug: actual
@@ -90,6 +90,10 @@
   - Uk Garage
   locations:
   - Auckland
+  links:
+    bandcamp: https://andwahn.bandcamp.com
+    soundcloud: https://soundcloud.com/andwahn
+    spotify: https://open.spotify.com/artist/1NMb6dNIp0dLrijf2MdiFR?si=rZYG3P7VSamkj1gF0ykS4g
 - slug: andy-crump
   name: Andy Crump
 - slug: angela-fisken
@@ -254,7 +258,7 @@
   name: Axiomata
 - slug: azure
   name: Azure
-  lastReleaseYear: 2010
+  lastReleaseYear: 2021
   styles:
   - Ebm
   - Edm
@@ -267,6 +271,9 @@
   - Techno
   locations:
   - Norway
+  links:
+    spotify: https://open.spotify.com/artist/7by3zi8SgYYKYmoOLi33vB?si=SrBQGZZnR2KKaj-Gk0cumQ
+    bandcamp: https://echotrainer.bandcamp.com/album/waterfalls-ep-ech006
 - slug: baby-zionov
   name: Baby Zionov
   lastReleaseYear: 2025
@@ -336,8 +343,8 @@
   name: Beat Mafia
 - slug: benee
   name: BENEE
-- slug: benson-feat-willie-c
-  name: Benson (feat. Willie C)
+- slug: benson
+  name: Benson
 - slug: blaze-tripp
   name: Blaze Tripp
 - slug: blem
@@ -363,6 +370,13 @@
   - Unsigned
   locations:
   - New Zealand
+  links:
+    soundcloud: https://soundcloud.com/bombdylantechno
+    bandcamp: https://bombdylan.bandcamp.com
+    instagram: https://www.instagram.com/bomb_dylan_nz/
+    spotify: https://open.spotify.com/artist/5PgECrYDSaWuiJydxfrn4U
+    youtube: https://www.youtube.com/channel/UCKsEtXCU94MF3F2fvKJ3Udg
+    chain: https://linktr.ee/bombdylantechno
 - slug: borderline
   name: Borderline
   lastReleaseYear: 2011
@@ -429,6 +443,8 @@
   - Orchestral
   locations:
   - Sydney
+  links:
+    bandcamp: https://carrier-nz.bandcamp.com/
 - slug: caru
   name: Caru
 - slug: cavell
@@ -685,6 +701,8 @@
   - Wellington
 - slug: cusp
   name: Cusp
+  aliases:
+    - Suspectsystem
   lastReleaseYear: 2016
   styles:
   - Alternative
@@ -808,6 +826,8 @@
   - Synthpop
   locations:
   - New Zealand
+  links:
+    bandcamp: https://diemredux.bandcamp.com
 - slug: ditto
   name: Ditto
 - slug: dj-hat
@@ -892,6 +912,11 @@
   lastReleaseYear: 2018
   styles:
   - Techno
+  links:
+    facebook: https://www.facebook.com/weareduoalias/
+    soundcloud: https://soundcloud.com/weareduoalias
+    bandcamp: https://keepweird.bandcamp.com
+    spotify: https://open.spotify.com/artist/4aGAo5zRCHY48kgrp0pvjL?si=6Fr779iRTRy2SRsjH1OhWA
 - slug: durez
   name: Durez
   lastReleaseYear: 2011
@@ -910,6 +935,8 @@
   - Minimal
   - Progressive
   - Techno
+  links:
+    spotify: https://open.spotify.com/artist/0LChezWWQe3vvCI2B28k62
 - slug: eavesdrop
   name: Eavesdrop
   lastReleaseYear: 2012
@@ -1011,6 +1038,11 @@
   name: Frank Booker
   styles:
   - House
+  links:
+    bandcamp: https://frankbooker.bandcamp.com
+    spotify: https://open.spotify.com/artist/4YRVEzWxX3wUH29czw0IiU
+    soundcloud: https://soundcloud.com/frankbooker
+    chain: https://frankbooker.net
 - slug: frost
   name: Frost
   lastReleaseYear: 2024
@@ -1030,14 +1062,6 @@
   - The Pineapple Thief
   locations:
   - United Kingdom
-- slug: funk-n-slo-cuts
-  name: Funk 'n' Slo Cuts
-  lastReleaseYear: 2014
-  styles:
-  - Breaks
-  - Electronic
-  locations:
-  - Nelson
 - slug: funknslocuts
   name: Funk'n'SloCuts
   lastReleaseYear: 2014
@@ -1155,7 +1179,7 @@
   name: Grouch
 - slug: harvo
   name: Harvo
-  lastReleaseYear: 2014
+  lastReleaseYear: 2022
   styles:
   - Ep
   - Indie
@@ -1167,6 +1191,12 @@
   locations:
   - Mexico City
   - Texcoco
+  links:
+    bandcamp: https://harv0.bandcamp.com/?fbclid=IwAR0B_54yRL9LW0nf7OF6RyWJW0UgaqK0iHB3TiMNU1_tnbo_yIWPSkE9Y2A
+    spotify: https://l.facebook.com/l.php?u=https%3A%2F%2Fopen.spotify.com%2Fartist%2F6eVE5lgyy1xyZSdfk3BVWZ%3Fsi%3DVYdfjTGSTb2gLhqkFwYW-Q%26fbclid%3DIwAR1ADAOEr7PvZ4nRFswm3U81DhJgBNSsYVMQjNlMytrgS78rwM12y5P3X2Y\u0026h=AT3HJcHwwtCVq-Ne0drCl4X0R8k2JfpzH1MFHtRAfGj3A1klqxz5dHGnsRCcVC_MbP9bOn08Nx7prI1E6uQGVwFoJ6iVfB_HxOYELZJzHH7Nk7drUlL4-r35eNZLTz76XLA4kPxia9487tQUbCRWaUtQ
+    facebook: https://www.facebook.com/harvomusic/
+    chain: https://www.beatport.com/artist/harvo-nz/901504
+    soundcloud: https://soundcloud.com/harv0
 - slug: haszari
   name: Haszari
   lastReleaseYear: 2026
@@ -1320,6 +1350,10 @@
   - Electronica
   - Minimal
   - Techno
+  links:
+    soundcloud: https://soundcloud.com/user-599994400
+    spotify: https://open.spotify.com/artist/0Wr1L3ckW5JYZetfzrB12e?si=xDDWN4HKT6CLtWrU-gCEVg
+    chain: https://www.soundclick.com/artist/default.cfm?bandID=425508
 - slug: jacq
   name: jACQ
   lastReleaseYear: 2017
@@ -1336,6 +1370,10 @@
   - Breakbeat
   - Electronica
   - Techno
+  links:
+    bandcamp: https://jagatunes.bandcamp.com
+    spotify: https://open.spotify.com/artist/4fseVP3jjY2pYucontvc82?si=xjvqaVKMQEOy0IeIFuGJOg
+    soundcloud: https://soundcloud.com/jagabeast
 - slug: jamie-doesnt-like-salad
   name: Jamie Doesn't Like Salad
 - slug: jarna
@@ -1433,6 +1471,10 @@
   locations:
   - Christchurch
   - New Zealand
+  links:
+    bandcamp: https://junusorca.bandcamp.com
+    spotify: https://open.spotify.com/artist/6FOHPBlEEJnIWiShmioUPq?si=AoOadUHWSqelPbypGDhmtw
+    soundcloud: https://soundcloud.com/junusorca
 - slug: k-lab
   name: K-Lab
   lastReleaseYear: 2018
@@ -1525,6 +1567,8 @@
   styles:
   - Acid
   - Techno
+  links:
+    spotify: https://open.spotify.com/artist/4pSowxoZVdsKUyTkhU9ebC?si=gH34S-ViR-a9-J2rdeKdVg
 - slug: kane-spindler
   name: Kane Spindler
 - slug: keanu-raves
@@ -1538,7 +1582,7 @@
   - Rave
   locations:
   - Portland
-- slug: k-du-carl
+- slug: kedu-carlo
   name: Kédu Carlö
   styles:
   - House
@@ -1549,8 +1593,9 @@
   - Techno
 - slug: kennedy
   name: Kennedy
-- slug: kennedy-aka-gene-kennedy
-  name: Kennedy (aka Gene Kennedy)
+  aliases:
+    - Gene Kennedy
+    - Moon Stepper
   styles:
   - House
 - slug: kidz-in-space
@@ -1638,8 +1683,6 @@
   - Pop
   locations:
   - New Zealand
-- slug: laugh-n-gas
-  name: Laugh 'n' Gas
 - slug: laughin-gas
   name: Laughin’ Gas
   lastReleaseYear: 2022
@@ -1699,6 +1742,10 @@
   locations:
   - Auckland
   - Damascus
+  links:
+    bandcamp: https://lowquid.bandcamp.com
+    spotify: https://open.spotify.com/artist/3nYo8AoqZH3CuPXxFlUaBm?si=Wkg9nZjBSsmhBqH9CuEVRA
+    soundcloud: https://soundcloud.com/lowquid
 - slug: lucien-johnson
   name: Lucien Johnson
   lastReleaseYear: 2024
@@ -1742,6 +1789,9 @@
   - Rock
   locations:
   - Philadelphia
+  links:
+    bandcamp: https://lutherl.bandcamp.com
+    soundcloud: https://soundcloud.com/lu-ther
 - slug: lxtricity
   name: LXTricity
   lastReleaseYear: 2024
@@ -2192,6 +2242,10 @@
   styles:
   - House
   - Minimal
+  links:
+    instagram: https://www.instagram.com/patellanz
+    soundcloud: https://soundcloud.com/patella_nz
+  lastReleaseYear: 2023
 - slug: peace-division
   name: Peace Division
 - slug: pearly
@@ -2221,6 +2275,10 @@
   name: Philippa McIntyre
   styles:
   - House
+  links:
+    bandcamp: https://philippa.bandcamp.com
+    spotify: https://open.spotify.com/artist/4EJbiuIFj2HwW8NJe1ttIX?si=UrOfQh-LS5G4wTqT8QNAnQ
+    soundcloud: https://soundcloud.com/djphilippa
 - slug: piecemeal
   name: Piecemeal
   lastReleaseYear: 2025
@@ -2452,8 +2510,10 @@
   name: Timmy Schumacher
 - slug: sentient
   name: Sentient
-- slug: serpico-aka-serpico-beats
-  name: Serpico (aka Serpico Beats)
+- slug: serpico
+  name: Serpico
+  aliases:
+   - Serpico Beats
   styles:
   - Breakbeat
   - House
@@ -2763,8 +2823,6 @@
   name: Sunship
 - slug: supergroove
   name: Supergroove
-- slug: suspectsystem-cusp
-  name: Suspectsystem (Cusp
 - slug: swidt
   name: SWIDT
 - slug: syzygy
@@ -2813,6 +2871,8 @@
   - Wave
   locations:
   - Glasgow
+  links:
+    bandcamp: https://cutcross.bandcamp.com/album/cxt004-ebb-x-texture
 - slug: the-adults
   name: The Adults
 - slug: the-bats
@@ -2980,6 +3040,9 @@
   - World
   locations:
   - Chile
+  links:
+    facebook: https://www.facebook.com/toronjamusic
+    bandcamp: https://clubunique.bandcamp.com/album/pace-raider-cu012
 - slug: tourist
   name: Tourist
 - slug: trei
