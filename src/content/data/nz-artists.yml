@@ -778,18 +778,6 @@
   name: Deadset
 - slug: deceptikonz
   name: Deceptikonz
-- slug: deepchild
-  name: Deepchild
-  lastReleaseYear: 2001
-  styles:
-  - Ambient
-  - Dub
-  - Electronic
-  - Electronica
-  - House
-  - Techno
-  locations:
-  - Berlin
 - slug: deepstate
   name: deepState
   lastReleaseYear: 2023
@@ -1302,6 +1290,16 @@
   - Auckland
 - slug: hyan
   name: Hyan
+  styles:
+  - Dubstep
+  - UKG
+- slug: okty
+  name: Okty
+  styles:
+  - Breakbeat
+  - Jungle
+  locations:
+  - Auckland
 - slug: ike-zwanniken
   name: Ike Zwanniken
   styles:
@@ -1759,21 +1757,6 @@
   name: Lukas
 - slug: luke-walker
   name: Luke Walker
-- slug: luna-city-express
-  name: Luna City Express
-  lastReleaseYear: 2024
-  styles:
-  - Deep House
-  - Deep House Music
-  - Downbeat
-  - Drum Bass
-  - Electronic
-  - House
-  - Progressive House
-  - Tech House
-  - Techno
-  locations:
-  - Berlin
 - slug: luther
   name: Luther
   lastReleaseYear: 2014
