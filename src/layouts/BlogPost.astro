@@ -8,14 +8,14 @@ type Props = CollectionEntry<'blog'>['data'] & {
 	teaser?: string;
 }
 
-const { title, description, heroImage, headerImage, teaser } = Astro.props;
+const { title, heroImage, headerImage, teaser } = Astro.props;
 const { url } = Astro;
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={teaser || description || ""} image={heroImage || headerImage} />
+		<BaseHead title={title} description={teaser || ""} image={heroImage || headerImage} />
 	</head>
 
 	<body>

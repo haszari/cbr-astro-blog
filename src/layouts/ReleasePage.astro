@@ -17,7 +17,7 @@ type Props = CollectionEntry<'release'>['data'];
 // spotify: z.string().optional().or(z.null()),
 // apple: z.string().optional().or(z.null()),
 
-const { slug, artist, title, releaseDate, cover, listenLinks, description, blurb, colours } = Astro.props;
+const { slug, artist, title, releaseDate, cover, listenLinks, teaser, blurb, colours } = Astro.props;
 
 // Pluck custom page/content colours (or defaults) out of props into const for use in styles below.
 // The defaults are also double defined in _globals.scss.
@@ -31,7 +31,7 @@ const accentText = colours?.accentText ?? 'black';
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} image={cover} />
+		<BaseHead title={title} description={teaser || ""} image={cover} />
 
 		<style define:vars={{ background, text, accent, accentText }}>
 			/* Define CSS vars for custom page colours. */

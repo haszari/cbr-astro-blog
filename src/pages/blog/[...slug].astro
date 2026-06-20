@@ -14,7 +14,7 @@ type Props = CollectionEntry<'blog'>;
 
 const post = Astro.props;
 const { Content } = await render(post);
-const teaser = getTeaser(post);
+const teaser = post.data.teaser || getTeaser(post.body);
 ---
 
 <BlogPost {...post.data} teaser={teaser}>

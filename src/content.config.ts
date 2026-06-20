@@ -8,7 +8,6 @@ const blog = defineCollection({
 	schema: ({ image }) =>
 		z.object({
 			title: z.string(),
-			description: z.string().optional(),
 			teaser: z.string().optional(),
 			// Transform string to Date object
 			pubDate: z.coerce.date(),
@@ -44,7 +43,7 @@ const releases = defineCollection({
 				apple: z.string().optional().or(z.null()),
 			}).optional(),
 
-			description: z.string().optional(),
+			teaser: z.string().optional(),
 			blurb: z.string().optional(),
 		})
 });
