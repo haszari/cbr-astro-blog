@@ -1,14 +1,18 @@
 import { defineCollection, z } from 'astro:content';
 import { glob, file } from 'astro/loaders';
 
+// Common metadata shared by all content types
+const commonMetadata = z.object({
+	title: z.string(),
+	teaser: z.string().optional(),
+});
+
 const blog = defineCollection({
 	// Load Markdown and MDX files in the `src/content/blog/` directory.
 	loader: glob({ base: './src/content/blog', pattern: '**/*.{md,mdx}' }),
 	// Type-check frontmatter using a schema
 	schema: ({ image }) =>
-		z.object({
-			title: z.string(),
-			teaser: z.string().optional(),
+		commonMetadata.extend({
 			// Transform string to Date object
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
@@ -22,9 +26,8 @@ const blog = defineCollection({
 const releases = defineCollection({
   loader: file("src/content/data/releases.yml"),
   schema: ({ image }) => 
-		z.object({
+		commonMetadata.extend({
 			artist: z.string(),
-			title: z.string(),
 			releaseDate: z.coerce.date(),
 			cover: image().optional(),
 			colours: z.object({
@@ -43,7 +46,6 @@ const releases = defineCollection({
 				apple: z.string().optional().or(z.null()),
 			}).optional(),
 
-			teaser: z.string().optional(),
 			blurb: z.string().optional(),
 		})
 });
