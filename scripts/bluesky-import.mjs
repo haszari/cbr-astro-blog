@@ -61,6 +61,11 @@ function imageFilename(fullsizeUrl) {
   return last.replace('@', '.')
 }
 
+function blueskyUrl(uri) {
+  const parts = uri.replace('at://', '').split('/')
+  return `https://bsky.app/profile/${parts[0]}/post/${parts[2]}`
+}
+
 async function downloadImage(url, dest) {
   const response = await fetch(url)
   if (!response.ok) throw new Error(`HTTP ${response.status}`)
@@ -99,6 +104,7 @@ function generateFrontmatter(title, pubDate, blueskyUri) {
     `pubDate: "${dateStr}"`,
     'bluesky:',
     `  uri: "${blueskyUri}"`,
+    `  url: "${blueskyUrl(blueskyUri)}"`,
     '---',
     '',
   ].join('\n')

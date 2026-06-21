@@ -8,7 +8,7 @@ type Props = CollectionEntry<'blog'>['data'] & {
 	teaser?: string;
 }
 
-const { title, heroImage, headerImage, teaser } = Astro.props;
+const { title, heroImage, headerImage, teaser, bluesky } = Astro.props;
 const { url } = Astro;
 ---
 
@@ -26,6 +26,11 @@ const { url } = Astro;
 					</div>
 					<slot />
 				</div>
+				{bluesky && (
+					<a href={bluesky.url} class="PlatformIcon" title="View on Bluesky">
+						<span class="icon-bluesky"></span>
+					</a>
+				)}
 			</article>
 		</main>
 		<Footer />

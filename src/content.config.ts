@@ -20,6 +20,7 @@ const blog = defineCollection({
 			headerImage: image().optional(),
 			bluesky: z.object({
 				uri: z.string(),
+				url: z.string(),
 				// CID intentionally omitted — uri is sufficient for dedup.
 				// Add cid field later if edit detection is needed.
 			}).optional(),
