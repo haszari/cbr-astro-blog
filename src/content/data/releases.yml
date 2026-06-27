@@ -13,7 +13,8 @@
     "Minimal, unnerving, amen-powered low-budget horror movie breakbeat."
   listenLinks:
     bandcamp: https://haszari.bandcamp.com/album/wet-paint
-    soundcloud: https://soundcloud.com/haszari/sets/wet-paint-ep
+    # soundcloud: https://soundcloud.com/haszari/sets/wet-paint-ep
+    soundcloud: https://soundcloud.com/haszari-music/sets/wet-paint-9
     youtube: https://youtube.com/playlist?list=OLAK5uy_mtAdR-FDAtR4_PL-UNf1JaXc60sG_J_9g&si=lPrJ1OcPNe0Gi6vM
     apple: https://music.apple.com/nz/album/wet-paint-single/1874668444
     beatport: https://www.beatport.com/release/wet-paint/5886068
@@ -33,7 +34,8 @@
     "An acid-drenched squelchy & deep tech chugger, perfect for your hot sunny afternoon festival set."
   listenLinks:
     bandcamp: https://haszari.bandcamp.com/album/kip-kapsalon
-    soundcloud: https://soundcloud.com/haszari/sets/kip-kapsalon
+    # soundcloud: https://soundcloud.com/haszari/sets/kip-kapsalon
+    soundcloud: https://soundcloud.com/haszari-music/sets/kip-kapsalon
     youtube: https://www.youtube.com/watch?v=O13xWkNk2Lk&list=OLAK5uy_n5hVBrif0vvfaJ7cBrpRrGLd4uqGcC-CQ
     apple: https://music.apple.com/nz/album/kip-kapsalon-single/1856335953
     beatport: https://www.beatport.com/release/kip-kapsalon/5654991
@@ -71,7 +73,8 @@
     accent: "#4a0a04"
     accentText: white
   listenLinks:
-    soundcloud: https://soundcloud.com/haszari/galley-listing
+    # soundcloud: https://soundcloud.com/haszari/galley-listing
+    soundcloud: https://soundcloud.com/haszari-music/sets/galley-listing
     bandcamp: https://haszari.bandcamp.com/album/galley-listing
     youtube: https://www.youtube.com/watch?v=0w1eabnixOA
     beatport: https://www.beatport.com/release/galley-listing/5185001
@@ -97,7 +100,7 @@
     apple: https://music.apple.com/nz/album/sinking-galley-foison-remix-single/1793414532
     spotify: https://open.spotify.com/album/4vcNmPIPjpG0GqsO8IvmXS
     beatport: https://www.beatport.com/release/sinking-galley-foison-remix/4916728
-    soundcloud: ""
+    soundcloud: https://soundcloud.com/haszari-music/sets/sinking-galley-foison-remix
     youtube: ""
 
 - slug: "cbr018"
@@ -115,7 +118,7 @@
     apple: "https://music.apple.com/nz/album/photic-reflex/1767698565"
     spotify: "https://open.spotify.com/track/493A8LZIcc9lHH12FFg41x"
     youtube: "https://www.youtube.com/watch?v=jvwrGqgitQY"
-    soundcloud: "https://soundcloud.com/haszari/sets/photic-reflex"
+    soundcloud: https://soundcloud.com/haszari-music/sets/photic-reflex-middlemarch
     beatport: "https://www.beatport.com/release/photic-reflex/4728557"
 
 - slug: "cbr017"
@@ -135,6 +138,7 @@
     youtube: ""
     beatport: "https://www.beatport.com/release/gumdrop/4668330"
     soundcloud: "https://soundcloud.com/haszari/gumdrop"
+    # soundcloud: need a nudge on Symphonic??
 
 - slug: "cbr016"
   artist: "Haszari"
@@ -151,7 +155,7 @@
     apple: "https://music.apple.com/nz/album/parkplatz-schlurfen-single/1738651266"
     spotify: "https://open.spotify.com/track/4vNzgGgjFgqH0ednZYXGu4"
     youtube: "https://www.youtube.com/watch?v=pigBaeAeopY"
-    soundcloud: "https://soundcloud.com/haszari/parkplatz-schlurfen"
+    soundcloud: https://soundcloud.com/haszari-music/parkplatz-schlurfen
     beatport: ""
 
 - slug: "cbr015"
@@ -169,7 +173,7 @@
     apple: "https://music.apple.com/nz/album/sinking-galley-single/1738027420"
     spotify: "https://open.spotify.com/album/7E6THW1fuTtlbKVyFiB4nR"
     beatport: ""
-    soundcloud: "https://soundcloud.com/haszari/sets/sinking-galley"
+    soundcloud: https://soundcloud.com/haszari-music/sets/sinking-galley-1
     youtube: "https://www.youtube.com/playlist?list=OLAK5uy_l0dMdedamavdwNSF3LwvF5fa5ipFSWgJw"
 
 - slug: "cbr014"
@@ -205,7 +209,7 @@
     bandcamp: "https://haszari.bandcamp.com/track/mivova"
     spotify: "https://open.spotify.com/track/1LT74dnJv99LnD4imbfiun"
     beatport: ""
-    soundcloud: "https://soundcloud.com/haszari/mivova"
+    soundcloud: https://soundcloud.com/haszari-music/mivova
     apple: "https://music.apple.com/nz/album/mivova/1726131737"
     youtube: "https://www.youtube.com/watch?v=kLNKjf87-XQ"
 
@@ -224,7 +228,7 @@
     apple: "https://apple.co/3YMc0It"
     spotify: "https://open.spotify.com/album/3pbxP8blS5TgZNBSgwyTtZ"
     youtube: "https://www.youtube.com/watch?v=6BTpManfZR4&list=OLAK5uy_lGSLvT4fOiL0kVxrvkUoxg5whtfGhxJls"
-    soundcloud: "https://soundcloud.com/haszari/it-was-coming-on?in=haszari/sets/tracks"
+    soundcloud: https://soundcloud.com/haszari-music/sets/it-was-coming-on
 
 - slug: "cbr011"
   artist: "Sharkweek"
@@ -240,7 +244,7 @@
     bandcamp: ""
     spotify: https://open.spotify.com/album/1T8BcpycDs3G3m9o2YFxBt
     beatport: https://www.beatport.com/release/sumiyoshi/4675507
-    soundcloud: ""
+    soundcloud: https://soundcloud.com/sharkweek-scmusic/sets/sumiyoshi
     apple: https://music.apple.com/nz/album/sumiyoshi-ep/1760394720
     youtube: "https://youtube.com/playlist?list=OLAK5uy_lCYqnXPKIplrrJd7HRQPO5SidUFDf924M&si=u9isiy1EpqqzeyMz"
 
@@ -259,7 +263,7 @@
     apple: https://music.apple.com/nz/album/like-so-ep/1735285069
     spotify: https://open.spotify.com/album/0FLrP3bllGVrraM3rLhrNW
     beatport: ""
-    soundcloud: ""
+    soundcloud: https://soundcloud.com/haszari-music/sets/like-so-2
     youtube: "https://youtube.com/playlist?list=OLAK5uy_k4VMckd4D4kZ7l26Da8PRhpAfHkJzW3FE"
 
 - slug: "cbr009"
@@ -278,7 +282,7 @@
     apple: https://music.apple.com/nz/album/foundation-slab-ep/1726749663
     youtube: https://youtube.com/playlist?list=OLAK5uy_n1Yg3g28nxfywGzHEEwDoI_wz3UziIqsU
     beatport: ""
-    soundcloud: ""
+    soundcloud: https://soundcloud.com/haszari-music/sets/foundation-slab-1
 
 - slug: "cbr008"
   artist: "Haszari"
@@ -294,7 +298,7 @@
     bandcamp: ""
     spotify: https://open.spotify.com/album/2BYP241jHsFNjUdnw7vc8i
     beatport: https://www.beatport.com/release/redline-train/4675503"
-    soundcloud: ""
+    soundcloud: https://soundcloud.com/haszari-music/sets/redline-train
     apple: https://music.apple.com/nz/album/redline-train-ep/1760398672
     youtube: https://youtube.com/playlist?list=OLAK5uy_lKMJsc62Cs91gNdw9SEDqwhvrFKc0AZrc
 
@@ -312,7 +316,7 @@
     bandcamp:
     spotify: https://open.spotify.com/album/2G1FNR11Vw2LBILc67LsIS
     beatport:
-    soundcloud:
+    soundcloud: https://soundcloud.com/haszari-music/sets/eggs-for-tea
     apple: https://music.apple.com/nz/album/eggs-for-tea-single/1708819054
     youtube: https://youtube.com/playlist?list=OLAK5uy_mBCthYPhvPm3Hxn5kjBJdYPGh7r6BLfG4
 
@@ -332,7 +336,7 @@
     bandcamp:
     spotify: https://open.spotify.com/album/5f5oj0sO5R21JXFrkj6FbI
     beatport: https://www.beatport.com/release/other-people-are-having-breakfast/4704688
-    soundcloud:
+    soundcloud: https://soundcloud.com/haszari-music/sets/other-people-are-having
     apple: https://music.apple.com/nz/album/other-people-are-having-breakfast-single/1759495645
     youtube: https://youtube.com/playlist?list=OLAK5uy_lGmLcDJ_AvEUEAi-RIN-cT48vEnfRYeko
 
@@ -355,6 +359,7 @@
     youtube: "https://youtube.com/playlist?list=OLAK5uy_mEqyLRJCUIDDaJq9LIQwVFhB9ofXE3puQ"
     amazon: "http://www.amazon.com/gp/product/B01NAYTDLW"
     beatport: "https://www.beatport.com/release/padded-cell/4704690"
+    soundcloud: https://soundcloud.com/haszari-music/sets/padded-cell-3
 
 - slug: "cbr005a"
   title: "Fuzzy Motion"
@@ -375,6 +380,7 @@
     youtube: "https://youtube.com/playlist?list=OLAK5uy_m9ZAeSClLxKcTKaRreJc9hxY5_mNo9EOY"
     amazon: "https://www.amazon.com/Fuzzy-Motion-Nikolozi/dp/B01N16H5TX"
     beatport: "https://www.beatport.com/release/fuzzy-motion/4707419"
+    soundcloud: https://soundcloud.com/nikolozi-music/sets/fuzzy-motion
 
 - slug: "cbr004b"
   title: "RE: Memory"
@@ -395,6 +401,7 @@
     youtube: "https://www.youtube.com/playlist?list=OLAK5uy_k69kCfaYUp5OTpXIvl874hB85a7dbtlgU"
     amazon: "http://www.amazon.com/gp/product/B01N04D2Z0"
     beatport: "https://www.beatport.com/release/re-memory/4707409"
+    soundcloud: https://soundcloud.com/sonicsmith-music/sets/re-memory-1
 
 - slug: "cbr004a"
   title: "Blood Orange"
@@ -415,6 +422,7 @@
     youtube: "https://www.youtube.com/playlist?list=OLAK5uy_mkRzWGa5ArL3yG0-QHYrljvJYhi1PJYDs"
     amazon: "http://www.amazon.com/gp/product/B01MYLP58L"
     beatport: "https://www.beatport.com/release/blood-orange/4720098"
+    soundcloud: https://soundcloud.com/haszari-music/sets/blood-orange-388552533
 
 - slug: "cbr003b"
   title: "Neutron Star MMX"
@@ -437,6 +445,7 @@
     youtube: "https://www.youtube.com/playlist?list=OLAK5uy_mBLjBfGiguaUtUwJAA5uxvxEIQQk9CWJU"
     amazon: "http://www.amazon.com/gp/product/B01N04D5JD"
     beatport: https://www.beatport.com/release/neutron-star-mmx/4756558
+    soundcloud: https://soundcloud.com/nsu/sets/its-not-real-neutron-star-mmx
 
 - slug: "cbr003a"
   title: "It's Not Real"
@@ -459,6 +468,7 @@
     youtube: "https://www.youtube.com/playlist?list=OLAK5uy_lQVDJ9dTt3lP5rMiC-q_K9UQB-2LvN-_s"
     amazon: "http://www.amazon.com/gp/product/B01N3RF0T7"
     beatport: https://www.beatport.com/release/its-not-real/4760875
+    soundcloud: https://soundcloud.com/haszari-music/sets/its-not-real-6
 
 - slug: "cbr002b"
   title: "Small Firm Peppermints"
@@ -478,6 +488,7 @@
     apple: "https://itunes.apple.com/us/album/small-firm-peppermints-single/id1175777746?uo=4&app=music"
     youtube: "https://youtube.com/playlist?list=OLAK5uy_kvnNMWEKBpj1tiSNx5ugy0rfnj5Fxfpp8&si=8YzXjsHDyUVGiEcn"
     amazon: "http://www.amazon.com/gp/product/B01MYLH0I4"
+    soundcloud: https://soundcloud.com/sharkweek-scmusic/sets/small-firm-peppermints
 
 - slug: "cbr002a"
   title: "Wii Break"
@@ -498,6 +509,7 @@
     youtube: "https://www.youtube.com/playlist?list=OLAK5uy_n_v0skUHSjYtEKqmUZzwcO4iIdtMSyUL8"
     amazon: "http://www.amazon.com/gp/product/B01MQHLRIJ"
     beatport: https://www.beatport.com/release/wii-break/4760872
+    soundcloud: https://soundcloud.com/sonicsmith-music/sets/wii-break
 
 
 - slug: "cbr001b"
@@ -520,6 +532,7 @@
     youtube: "https://www.youtube.com/playlist?list=OLAK5uy_kdQT1z0kS2d2dVa1M-pCZb9On0-tKj9oA"
     amazon: "http://www.amazon.com/gp/product/B01N3N9AOS"
     beatport: https://www.beatport.com/release/the-jacket/4786081
+    soundcloud: https://soundcloud.com/haszari-music/sets/the-jacket-3
 
 - slug: "cbr001a"
   title: "Ladies Style"
@@ -540,6 +553,7 @@
     youtube: "https://www.youtube.com/playlist?list=OLAK5uy_kcG2aUBh7dFlAJTerwL7C9u1tOgEQ8Sfw"
     amazon: "http://www.amazon.com/gp/product/B01MTM2XGC"
     beatport: https://www.beatport.com/release/ladies-style/4812352
+    soundcloud: https://soundcloud.com/sonicsmith-music/sets/ladies-style-1
 
 - slug: "GAMER004"
   title: "Bad Reception 2.0"
@@ -554,6 +568,7 @@
     apple: 'https://music.apple.com/nz/album/bad-reception-haszari-accoustic-handshake-remix/1803791528'
     spotify: 'https://open.spotify.com/track/0jyg8tR1w2MiadRq0GN9lU'
     beatport: 'https://www.beatport.com/release/bad-reception-20/5001155'
+    soundcloud: https://soundcloud.com/angry_suzy/angry-suzy-bad-reception
     youtube: ''
     amazon: ''
 
@@ -571,5 +586,6 @@
     apple: 'https://music.apple.com/nz/album/shed-out-ep/1714643509'
     spotify: 'https://open.spotify.com/album/6uZFuiv8aihvv1gH6MYxr0'
     beatport: 'https://www.beatport.com/release/shed-out/4325388'
+    soundcloud: https://soundcloud.com/gamer-music-records/sets/haszari-shed-out-ep
     youtube: ''
     amazon: ''
