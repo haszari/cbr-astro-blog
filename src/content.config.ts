@@ -18,6 +18,12 @@ const blog = defineCollection({
 			updatedDate: z.coerce.date().optional(),
 			heroImage: image().optional(),
 			headerImage: image().optional(),
+			bluesky: z.object({
+				uri: z.string(),
+				url: z.string(),
+				// CID intentionally omitted — uri is sufficient for dedup.
+				// Add cid field later if edit detection is needed.
+			}).optional(),
 		}),
 });
 
