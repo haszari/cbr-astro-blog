@@ -53,24 +53,25 @@ This second item is the tricky one - the AudioContext doesn't necessarily start 
 
 We can measure this difference by using the [high resolution time API](https://developer.mozilla.org/en-US/docs/Web/API/Window/performance), and comparing that to the current AudioContext time.
 
-<!-- wp:code -->
-<pre class="wp-block-code"><code>const perfNow = window.performance.now()
+```js
+const perfNow = window.performance.now()
 const audioNow = audioContext.currentTime;
-const audioContextOffsetSec = ( perfNow / 1000.0 ) - audioNow;</code></pre>
-<!-- /wp:code -->
+const audioContextOffsetSec = ( perfNow / 1000.0 ) - audioNow;
+```
 
 This tells us how *late* audio events are relative to MIDI or real time. (MIDI events are sent in close to real time.)
 
 So to sync we need to offset (delay) MIDI events by this latency:
 
-<!-- wp:code -->
-<pre class="wp-block-code"><code>const timestamp = ( startSeconds * 1000 );
+```js
+const timestamp = ( startSeconds * 1000 );
 const offset = ( audioContextOffsetSec * 1000 );
 midiOutPorts[0].send(
   [ 0x90 + 0, midiNote, 100 ],
   timestamp + offset
-);</code></pre>
-<!-- /wp:code -->
+);
+```
+
 
 *For a long time I had this backwards – I'd schedule my audio events earlier by audioContextOffsetSec, trying to account for the latency, but this breaks down when you are scheduling close to now. The AudioContext can only schedule so far in advance.*
 
