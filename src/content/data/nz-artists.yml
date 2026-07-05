@@ -650,6 +650,14 @@
   - Auckland
 - slug: corin
   name: Corin
+- slug: coswik
+  name: Coswik
+  styles: 
+  - Progressive House
+  - Tech House
+  links:
+    apple: https://music.apple.com/nz/artist/coswik/1532929810
+    instagram: https://www.instagram.com/coswik/
 - slug: cross-the-noughts
   name: Cross The Noughts
   lastReleaseYear: 2013
@@ -670,8 +678,6 @@
   - The
   locations:
   - Auckland
-- slug: crystal-fighters
-  name: Crystal Fighters
 - slug: ctfd
   name: CTFD
 - slug: current-bias
@@ -705,9 +711,8 @@
     - Suspectsystem
   lastReleaseYear: 2016
   styles:
-  - Alternative
-  locations:
-  - Mumbai
+  - Progressive House
+  - Tech House
 - slug: cyxqrd
   name: CYXQRD
   lastReleaseYear: 2025
@@ -2229,8 +2234,6 @@
     instagram: https://www.instagram.com/patellanz
     soundcloud: https://soundcloud.com/patella_nz
   lastReleaseYear: 2023
-- slug: peace-division
-  name: Peace Division
 - slug: pearly
   name: Pearly*
 - slug: perverse
@@ -2280,13 +2283,9 @@
   name: Pitch Black
   lastReleaseYear: 2025
   styles:
-  - Adrian Sherwood
-  - Alpha Steppa
   - Ambient Dub
   - Bass Music
   - Beam Up
-  - Bob Marley
-  - Bob Marley Cover
   - Crises
   - Downtempo
   - Downtempo Dub
@@ -2302,19 +2301,29 @@
   - Electronic
   - Electronica
   - Horns
-  - International Observer
   - Kaminanda
   - New Zealand Music
   - On U Sound
   - Peak_Shift
   - Post Dubstep
   - Radioactive Man
-  - Simon Flower
   - Steppers
-  - Tom Cosm
   locations:
   - Auckland
   - New Zealand
+- slug: pixie-lane
+  name: Pixie Lane
+  styles:
+  - House
+  - UKG 
+  - Speed Garage
+  - Tech House
+  - Trance
+  - Elecro House
+  links:
+    instagram: https://www.instagram.com/pixielane_/
+    spotify: https://open.spotify.com/artist/3Br6ncRU4z030LyHPpfflF
+    soundcloud: https://soundcloud.com/user-716806902
 - slug: placeholder
   name: Placeholder
 - slug: pnc
