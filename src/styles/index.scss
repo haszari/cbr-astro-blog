@@ -74,6 +74,18 @@ blockquote p {
   }
 }
 
+.Header-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+
+  a {
+    color: globals.$text;
+    display: flex;
+    align-items: center;
+  }
+}
+
 .Header .Header-menuBar-small {
   .SiteLogo {
     width: 2em;
@@ -170,6 +182,9 @@ blockquote p {
     gap: 1em;
   }
   .Footer .Menu a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
     padding: 1em 0.5em;
   }
 
