@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import { Disc3, BoomBox, Notebook } from '@lucide/astro';
 
 import { SITE_TITLE } from "../consts";
 const { title = SITE_TITLE, short, wide, image, titleUrl="/" } = Astro.props;
@@ -16,13 +17,18 @@ if (short) {
 <header class={outerClasses}>
   { image && <Image src={image} class="FullBleedImage" alt=""/> }
   <nav class={navClasses}>
-    <a href="/">
-      <img
-        class="SiteLogo"
-        src="/site-logo.png"
-        alt="Cartoon Beats Reality logo"
-      />
-		</a>
+    <div class="Header-brand">
+      <a href="/">
+        <img
+          class="SiteLogo"
+          src="/site-logo.png"
+          alt="Cartoon Beats Reality logo"
+        />
+      </a>
+      <a href="/"><Disc3 class="header-menu-icon" /></a>
+      <a href="/radio"><BoomBox class="header-menu-icon" /></a>
+      <a href="/blog"><Notebook class="header-menu-icon" /></a>
+    </div>
     <a class="Title" href={titleUrl}>{title}</a>
   </nav>
 </header>

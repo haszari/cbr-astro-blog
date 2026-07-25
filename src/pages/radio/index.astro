@@ -5,7 +5,7 @@ import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import Header from '../../components/Header.astro';
 
-const posts = (await getCollection('blog')).sort(
+const posts = (await getCollection('radio')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 ---
@@ -13,16 +13,16 @@ const posts = (await getCollection('blog')).sort(
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title="Blog" description="Blog posts, thoughts, photos, ideas, discoveries" />
+		<BaseHead title="Radio" description="Radio shows & mixes" />
 	</head>
 	<body>
-		<Header />
+		<Header title="Beats Reality Radio"/>
 		<main class="PageContent">
 			<section class="BlogGrid">
 				{
 					posts.map((post) => (
 						<div class="BlogGrid-postCard">
-							<a href={`/blog/${post.id}/`}>
+							<a href={`/radio/${post.id}/`}>
 								{post.data.heroImage && (
 									<Image src={post.data.heroImage} alt="" />
 								)}

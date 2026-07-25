@@ -13,7 +13,7 @@ $medium: 900px;
 // NOTE: These values are mirrored as default fallbacks in
 // `src/components/BaseHead.astro`. Keep them in sync when updating.
 $dark-bg-alt: #343433;
-$dark-bg: var(--site-backgroumd, #222626);
+$dark-bg: var(--site-bg, #222626);
 $text: var(--site-text, white);
 // Links AND buttons.
 $linkButton: var(--site-accent, #35ffe1);

@@ -4,12 +4,13 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import PageThemeStyles from '../components/PageThemeStyles.astro';
+import YouTubeEmbed from '../components/YouTubeEmbed.astro';
 
-type Props = CollectionEntry<'blog'>['data'] & {
+type Props = CollectionEntry<'radio'>['data'] & {
 	teaser?: string;
 }
 
-const { title, heroImage, headerImage, teaser, bluesky, colours } = Astro.props;
+const { title, heroImage, headerImage, teaser, tracklist, listenUrl, colours } = Astro.props;
 const { url } = Astro;
 ---
 
@@ -23,14 +24,28 @@ const { url } = Astro;
 	<body>
 		<Header short title={title} image={headerImage} titleUrl={url} />
 		<main class="PageContent">
-			<article>
+			<article class="RadioPost">
+				{listenUrl && <YouTubeEmbed url={listenUrl} />}
 				<div class="prose">
 					<slot />
 				</div>
-				{bluesky && (
-					<a href={bluesky.url} class="PlatformIcon" title="View on Bluesky">
-						<span class="icon-bluesky"></span>
-					</a>
+				{tracklist && tracklist.length > 0 && (
+					<>
+						<h3>Tracklist</h3>
+						<ul>
+							{tracklist.map((track) => {
+								if (typeof track === 'string') {
+									return <li>{track}</li>;
+								}
+
+								return (
+									<li>
+										<strong>{track.artist}</strong> – <em>{track.title}</em>
+									</li>
+								);
+							})}
+						</ul>
+					</>
 				)}
 			</article>
 		</main>

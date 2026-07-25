@@ -410,21 +410,13 @@
   - Auckland
 - slug: breaks-co-op
   name: Breaks Co-Op
-- slug: brondinski
-  name: Brondinski
-- slug: caldera
-  name: Caldera
-  lastReleaseYear: 2019
+- slug: caitlin-smith
+  name: Caitlin Smith
   styles:
-  - Atmospheric Sludge Metal
-  - Doom
-  - Metal
-  - Post Metal
-  - Post Rock
-  - Post Rock Instrumental
-  - Sludge
+  - Jazz
+  - Vocal
   locations:
-  - Athens
+  - Auckland
 - slug: campiz
   name: Campiz
 - slug: carrier
@@ -537,71 +529,8 @@
   name: Che Fu
 - slug: chores
   name: Chores
-- slug: church
-  name: Church
-  lastReleaseYear: 2016
-  styles:
-  - Alt
-  - Alternative
-  - Dark
-  - Folk
-  - Grunge
-  - Hardcore
-  - Hardcore Punk
-  - Indie
-  - Punk
-  - Rock Roll
-  - Songwriter
-  locations:
-  - Philadelphia
-- slug: cicada
-  name: Cicada
-  lastReleaseYear: 2025
-  styles:
-  - Acoustic
-  - Acoustic Guitar
-  - Cello
-  - Cello Sheet Music
-  - Chamber
-  - Chamber Music
-  - Chamber Pop
-  - Clarinet
-  - Classic
-  - Classical
-  - Guitar
-  - Indie
-  - Neo Classical
-  - Neoclassical
-  - New Classical
-  - Piano
-  - Piano Sheet Music
-  - Post Rock
-  - Postclassical
-  - Sheet Music
-  - Taiwanese Indie Rock
-  - Violin
-  - Violin Sheet Music
-  - Chamber Music
-  - Classical
-  - Taiwan
-  locations:
-  - Taiwan
 - slug: circuit
   name: Circuit
-  lastReleaseYear: 2020
-  styles:
-  - Alternative
-  - Blues
-  - Chill
-  - Classic Rock
-  - Hard
-  - Heavy
-  - Indie
-  - Psychedelic
-  - Punk
-  - Rock
-  locations:
-  - New York
 - slug: clay
   name: Clay
 - slug: clear-path-ensemble

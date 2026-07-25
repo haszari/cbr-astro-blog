@@ -1,10 +1,20 @@
 import { defineCollection, z } from 'astro:content';
 import { glob, file } from 'astro/loaders';
 
+// Page colour scheme override. Only background is required; remaining
+// colours are derived from a hierarchy (see PageThemeStyles.astro).
+const pageColours = z.object({
+	background: z.string().optional(),
+	text: z.string().optional(),
+	accent: z.string().optional(),
+	accentText: z.string().optional(),
+});
+
 // Common metadata shared by all content types
 const commonMetadata = z.object({
 	title: z.string(),
 	teaser: z.string().optional(),
+	colours: pageColours.optional(),
 });
 
 const blog = defineCollection({
@@ -27,6 +37,26 @@ const blog = defineCollection({
 		}),
 });
 
+const radio = defineCollection({
+	loader: glob({ base: './src/content/radio', pattern: '**/*.{md,mdx}' }),
+	schema: ({ image }) =>
+		commonMetadata.extend({
+			pubDate: z.coerce.date(),
+			updatedDate: z.coerce.date().optional(),
+			listenUrl: z.string().url().optional(),
+			tracklist: z.array(z.union([
+				z.string(),
+				z.object({ artist: z.string(), title: z.string() }),
+			])).optional(),
+			bluesky: z.object({
+				uri: z.string(),
+				url: z.string(),
+			}).optional(),
+			heroImage: image().optional(),
+			headerImage: image().optional(),
+		}),
+});
+
 // TODO could validate many of these as URLs, even verify domain.
 
 const releases = defineCollection({
@@ -36,12 +66,7 @@ const releases = defineCollection({
 			artist: z.string(),
 			releaseDate: z.coerce.date(),
 			cover: image().optional(),
-			colours: z.object({
-				background: z.string().optional(),
-				text: z.string().optional(),
-				accent: z.string().optional(),
-				accentText: z.string().optional(),
-			}).optional(),
+			colours: pageColours.optional(),
 
 			listenLinks: z.object({
 				soundcloud: z.string().optional().or(z.null()),
@@ -114,6 +139,7 @@ const nzArtists = defineCollection({
 
 export const collections = { 
 	blog,
+	radio,
 	releases,
 	artists,
 	nzArtists

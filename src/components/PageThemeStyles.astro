@@ -1,0 +1,84 @@
+---
+// Page colour scheme override.
+//
+// Only background is required. Remaining colours are derived — the more you
+// specify, the more control you have. Undefined properties fall through to
+// site CSS defaults. See also src/lib/colour-utils.ts.
+//
+// "Dark or light to contrast X" means: if X is dark, pick the light theme
+// colour (#f3f1f3); if X is light, pick the dark theme colour (#222626).
+//
+// accent is used for links and buttons, accentText is text on those buttons.
+//
+// Derivation hierarchy:
+//   bg only            → text = contrast bg, accent = rotateHue(text, x), accentText = bg
+//   bg + text          → accent = rotateHue(text, x), accentText = bg
+//   bg + text + accent → accentText = contrast accent
+//   all four           → used as-is
+
+import { themeForeground, isLightColour, rotateHue } from '../lib/colour-utils';
+
+interface ColourValues {
+	background?: string;
+	text?: string;
+	accent?: string;
+	accentText?: string;
+}
+
+interface Props {
+	colours?: ColourValues;
+}
+
+const { colours } = Astro.props;
+const hasColours = colours && (colours.background || colours.text || colours.accent || colours.accentText);
+
+const accentHueRotateAmount = -45;
+
+let background = '', text = '', accent = '', accentText = '';
+
+if (hasColours && colours.background) {
+	background = colours.background;
+
+	if (colours.text) {
+		text = colours.text;
+	} else {
+		text = themeForeground(background);
+	}
+
+	if (colours.accent) {
+		accent = colours.accent;
+	} else {
+		accent = rotateHue(text, accentHueRotateAmount);
+	}
+
+	if (colours.accentText) {
+		accentText = colours.accentText;
+	} else if (colours.accent) {
+		accentText = isLightColour(accent) ? '#222626' : '#f3f1f3';
+	} else {
+		accentText = background;
+	}
+}
+
+const themeCss = hasColours ? `
+	:root {
+		--site-bg: ${background};
+		--site-text: ${text};
+		--site-accent: ${accent};
+		--site-accent-text: ${accentText};
+	}
+	html, body {
+		background-color: var(--site-bg);
+		color: var(--site-text);
+	}
+	a {
+		color: var(--site-accent);
+	}
+` : '';
+
+// Render a comment of all (possibly generated) colours, for reference or to tweak.
+const colourComment = hasColours ? `<!-- page-colour-scheme background: ${background} text: ${text} accent: ${accent} accentText: ${accentText} -->` : '';
+---
+
+{hasColours && <style is:global set:html={themeCss}></style>}
+{hasColours && <Fragment set:html={colourComment} />}

@@ -71,6 +71,31 @@ blockquote p {
   .Title {
     font-size: 1.4em;
     font-weight: bold;
+    text-align: right;
+  }
+}
+
+.Header-brand {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+
+  a {
+    color: globals.$text;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-menu-icon {
+    width: 1.5em;
+    height: 1.5em;
+  }
+}
+
+@media only screen and (min-width: globals.$small) {
+  .Header-brand .header-menu-icon {
+    width: 2.5em;
+    height: 2.5em;
   }
 }
 
@@ -81,6 +106,10 @@ blockquote p {
   .Title {
     font-size: 1em;
   }
+  .header-menu-icon {
+    width: 1em;
+    height: 1em;
+  }
 
   @media only screen and (min-width: globals.$small) {
     .SiteLogo {
@@ -88,6 +117,10 @@ blockquote p {
     };
     .Title {
       font-size: 1.4em;
+    }
+    .header-menu-icon {
+      width: 1.4em;
+      height: 1.4em;
     }
   }
 }
@@ -138,6 +171,7 @@ blockquote p {
     
   .SiteLogo {
     width: 3em;
+    min-width: 4em;
   };
 
   @media only screen and (min-width: globals.$small) {
@@ -169,8 +203,16 @@ blockquote p {
     display: flex;
     gap: 1em;
   }
-  .Footer .Menu a {
+  .Menu a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
     padding: 1em 0.5em;
+
+    .header-menu-icon {
+      width: 1em;
+      height: 1em;
+    }
   }
 
   .Footer-slant {
@@ -217,6 +259,10 @@ blockquote p {
   .PlatformIcon {
     font-size: 1.5em;
   }
+}
+
+.RadioPost .Media.YouTube {
+  margin-top: 1em;
 }
 
 .Media.YouTube {
