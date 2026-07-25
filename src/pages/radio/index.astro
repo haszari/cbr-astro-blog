@@ -1,0 +1,38 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+
+const posts = (await getCollection('radio')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="Radio" />
+	</head>
+	<body>
+		<Header />
+		<main class="PageContent">
+			<section class="BlogGrid">
+				{
+					posts.map((post) => (
+						<div class="BlogGrid-postCard">
+							<a href={`/radio/${post.id}/`}>
+								{post.data.heroImage && (
+									<Image src={post.data.heroImage} alt="" />
+								)}
+								<h4 class="title">{post.data.title}</h4>
+							</a>
+						</div>
+					))
+				}
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

@@ -27,6 +27,26 @@ const blog = defineCollection({
 		}),
 });
 
+const radio = defineCollection({
+	loader: glob({ base: './src/content/radio', pattern: '**/*.{md,mdx}' }),
+	schema: ({ image }) =>
+		commonMetadata.extend({
+			pubDate: z.coerce.date(),
+			updatedDate: z.coerce.date().optional(),
+			listenUrl: z.string().url().optional(),
+			tracklist: z.array(z.union([
+				z.string(),
+				z.object({ artist: z.string(), title: z.string() }),
+			])).optional(),
+			bluesky: z.object({
+				uri: z.string(),
+				url: z.string(),
+			}).optional(),
+			heroImage: image().optional(),
+			headerImage: image().optional(),
+		}),
+});
+
 // TODO could validate many of these as URLs, even verify domain.
 
 const releases = defineCollection({
@@ -114,6 +134,7 @@ const nzArtists = defineCollection({
 
 export const collections = { 
 	blog,
+	radio,
 	releases,
 	artists,
 	nzArtists
