@@ -24,7 +24,7 @@ const { url } = Astro;
 	<body>
 		<Header short title={title} image={headerImage} titleUrl={url} />
 		<main class="PageContent">
-			<article>
+			<article class="RadioPost">
 				{listenUrl && <YouTubeEmbed url={listenUrl} />}
 				<div class="prose">
 					<slot />
