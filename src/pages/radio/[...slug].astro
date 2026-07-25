@@ -15,7 +15,7 @@ type Props = CollectionEntry<'radio'>;
 
 const post = Astro.props;
 const { Content } = await render(post);
-const teaser = post.data.teaser || getTeaser(post.body);
+const teaser = post.data.teaser || getTeaser(post.body ?? '');
 ---
 
 <RadioPost {...post.data} teaser={teaser}>
