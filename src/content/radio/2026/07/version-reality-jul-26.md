@@ -5,6 +5,7 @@ listenUrl: "https://www.youtube.com/live/-cievHQoUTM"
 colours:
   background: "#031600"
   text: "#9cbe2d"
+heroImage: ./nine-wells.jpg
 tracklist:
   - artist: "JakoJako"
     title: "Perzeption"
