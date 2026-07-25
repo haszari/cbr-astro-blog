@@ -3,18 +3,6 @@
 const THEME_LIGHT = '#f3f1f3';
 const THEME_DARK = '#222626';
 
-// Named CSS colours used in content (hex only otherwise).
-const NAMED_COLOURS: Record<string, string> = {
-	white: '#ffffff',
-	black: '#000000',
-};
-
-// Resolve any colour string (hex or named) to hex. Returns null if unparseable.
-function resolveColour(colour: string): string | null {
-	if (colour.startsWith('#')) return parseHexColour(colour) ? colour : null;
-	return NAMED_COLOURS[colour.toLowerCase()] ?? null;
-}
-
 // Parse a hex colour string like "#ff0000" into RGB components.
 function parseHexColour(hex: string): { r: number; g: number; b: number } | null {
 	const match = hex.replace('#', '').match(/^([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i);
@@ -85,11 +73,10 @@ function hslToHex(h: number, s: number, l: number): string {
 	return '#' + [r, g, b].map(c => c.toString(16).padStart(2, '0')).join('');
 }
 
-// Rotate the hue of a colour by the given degrees. Handles hex and named colours.
+// Rotate the hue of a colour by the given degrees. Accepts hex strings.
+// Non-hex input (e.g. named colours) passes through unchanged.
 export function rotateHue(colour: string, degrees: number): string {
-	const hex = resolveColour(colour);
-	if (!hex) return colour;
-	const hsl = hexToHsl(hex);
+	const hsl = hexToHsl(colour);
 	if (!hsl) return colour;
 	const h = ((hsl.h + degrees) % 360 + 360) % 360;
 	return hslToHex(h, hsl.s, hsl.l);

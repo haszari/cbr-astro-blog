@@ -58,8 +58,6 @@ if (hasColours && colours.background) {
 	} else {
 		accentText = background;
 	}
-
-	console.log(`PageThemeStyles: colours=`, colours, `→ bg=${background} text=${text} accent=${accent} accentText=${accentText}`);
 }
 
 const themeCss = hasColours ? `
@@ -77,6 +75,10 @@ const themeCss = hasColours ? `
 		color: var(--site-accent);
 	}
 ` : '';
+
+// Render a comment of all (possibly generated) colours, for reference or to tweak.
+const colourComment = hasColours ? `<!-- page-colour-scheme background: ${background} text: ${text} accent: ${accent} accentText: ${accentText} -->` : '';
 ---
 
 {hasColours && <style is:global set:html={themeCss}></style>}
+{hasColours && <Fragment set:html={colourComment} />}
