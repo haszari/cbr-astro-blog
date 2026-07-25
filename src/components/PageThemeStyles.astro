@@ -11,12 +11,12 @@
 // accent is used for links and buttons, accentText is text on those buttons.
 //
 // Derivation hierarchy:
-//   bg only            → text = contrast bg, accent = text, accentText = bg
-//   bg + text          → accent = text, accentText = bg
+//   bg only            → text = contrast bg, accent = rotateHue(text, x), accentText = bg
+//   bg + text          → accent = rotateHue(text, x), accentText = bg
 //   bg + text + accent → accentText = contrast accent
 //   all four           → used as-is
 
-import { themeForeground, isLightColour } from '../lib/colour-utils';
+import { themeForeground, isLightColour, rotateHue } from '../lib/colour-utils';
 
 interface ColourValues {
 	background?: string;
@@ -32,6 +32,8 @@ interface Props {
 const { colours } = Astro.props;
 const hasColours = colours && (colours.background || colours.text || colours.accent || colours.accentText);
 
+const accentHueRotateAmount = -45;
+
 let background = '', text = '', accent = '', accentText = '';
 
 if (hasColours && colours.background) {
@@ -46,7 +48,7 @@ if (hasColours && colours.background) {
 	if (colours.accent) {
 		accent = colours.accent;
 	} else {
-		accent = text;
+		accent = rotateHue(text, accentHueRotateAmount);
 	}
 
 	if (colours.accentText) {
