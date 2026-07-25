@@ -1,7 +1,7 @@
 ---
 title: "Version Reality | July '26"
 pubDate: 2026-07-25T01:11:46.752Z
-listenUrl: "https://www.youtube.com/live/-cievHQoUTM"
+listenUrl: https://youtu.be/8vfvAQUJK4g
 colours:
   background: "#031600"
   text: "#9cbe2d"
@@ -67,5 +67,6 @@ tracklist:
     title: "once upon"
 ---
 
-Thanks to [Radio Version](https://radio.version.nz/) for hosting me! Threw down some very ambient, sparse minimal atmospherics and worked my way up through deep house and a wee techno jaunt for the finish.
+Threw down some very ambient, sparse minimal atmospherics, worked my way up through deep house and a wee techno jaunt for the finish. Thanks to [Radio Version](https://radio.version.nz/) for hosting.
 
+Video is from a little moment in Nine Wells, a magical forest I used to visit as a kid.
