@@ -1,10 +1,18 @@
 import { defineCollection, z } from 'astro:content';
 import { glob, file } from 'astro/loaders';
 
+const pageColours = z.object({
+	background: z.string().optional(),
+	text: z.string().optional(),
+	accent: z.string().optional(),
+	accentText: z.string().optional(),
+});
+
 // Common metadata shared by all content types
 const commonMetadata = z.object({
 	title: z.string(),
 	teaser: z.string().optional(),
+	colours: pageColours.optional(),
 });
 
 const blog = defineCollection({
@@ -56,12 +64,7 @@ const releases = defineCollection({
 			artist: z.string(),
 			releaseDate: z.coerce.date(),
 			cover: image().optional(),
-			colours: z.object({
-				background: z.string().optional(),
-				text: z.string().optional(),
-				accent: z.string().optional(),
-				accentText: z.string().optional(),
-			}).optional(),
+			colours: pageColours.optional(),
 
 			listenLinks: z.object({
 				soundcloud: z.string().optional().or(z.null()),

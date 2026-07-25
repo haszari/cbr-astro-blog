@@ -5,6 +5,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 
+import PageThemeStyles from '../components/PageThemeStyles.astro';
 import VerticalStackRelease from '../components/VerticalStackRelease.jsx';
 
 type Props = CollectionEntry<'release'>['data'];
@@ -19,12 +20,6 @@ type Props = CollectionEntry<'release'>['data'];
 
 const { slug, artist, title, releaseDate, cover, listenLinks, teaser, blurb, colours } = Astro.props;
 
-// Pluck custom page/content colours (or defaults) out of props into const for use in styles below.
-// The defaults are also double defined in _globals.scss.
-const background = colours?.background ?? '#222626';
-const text = colours?.text ?? '#f3f1f3';
-const accent = colours?.accent ?? '#35ffe1';
-const accentText = colours?.accentText ?? 'black';
 
 ---
 
@@ -32,23 +27,7 @@ const accentText = colours?.accentText ?? 'black';
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={teaser || ""} image={cover} />
-
-		<style define:vars={{ background, text, accent, accentText }}>
-			/* Define CSS vars for custom page colours. */
-			:root {
-				--site-bg: var(--background); 
-				--site-text: var(--text);
-				--site-accent: var(--accent); 
-				--site-accent-text: var(--accentText); 
-			}
-
-			/* Tweak page styles with custom page colours. These variables can also be used in general or component styles to make them "page theme aware". */
-			html, body {
-				background-color: var(--site-bg);
-				color: var(--site-text);
-			}
-			a { color: var(--site-accent); }
-		</style>
+		<PageThemeStyles colours={colours} />
 
 	</head>
 

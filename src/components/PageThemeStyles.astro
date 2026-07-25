@@ -1,0 +1,40 @@
+---
+interface ColourValues {
+	background?: string;
+	text?: string;
+	accent?: string;
+	accentText?: string;
+}
+
+interface Props {
+	colours?: ColourValues;
+}
+
+const { colours } = Astro.props;
+const background = colours?.background ?? '#222626';
+const text = colours?.text ?? '#f3f1f3';
+const accent = colours?.accent ?? '#35ffe1';
+const accentText = colours?.accentText ?? 'black';
+
+console.log(`PageThemeStyles: colours=`, colours, `→ bg=${background} text=${text} accent=${accent} accentText=${accentText}`);
+
+const themeCss = `
+	:root {
+		--site-bg: ${background};
+		--site-text: ${text};
+		--site-accent: ${accent};
+		--site-accent-text: ${accentText};
+	}
+	html, body {
+		background-color: var(--site-bg);
+		color: var(--site-text);
+	}
+	a {
+		color: var(--site-accent);
+	}
+`;
+---
+
+<!-- PageThemeStyles: bg=${background} text=${text} accent=${accent} accentText=${accentText} -->
+
+<style is:global set:html={themeCss}></style>

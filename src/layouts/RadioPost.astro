@@ -3,13 +3,14 @@ import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import PageThemeStyles from '../components/PageThemeStyles.astro';
 import YouTubeEmbed from '../components/YouTubeEmbed.astro';
 
 type Props = CollectionEntry<'radio'>['data'] & {
 	teaser?: string;
 }
 
-const { title, heroImage, headerImage, teaser, tracklist, listenUrl } = Astro.props;
+const { title, heroImage, headerImage, teaser, tracklist, listenUrl, colours } = Astro.props;
 const { url } = Astro;
 ---
 
@@ -17,6 +18,7 @@ const { url } = Astro;
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={teaser || ""} image={heroImage || headerImage} />
+		<PageThemeStyles colours={colours} />
 	</head>
 
 	<body>
