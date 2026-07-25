@@ -1,0 +1,44 @@
+---
+interface Props {
+  url?: string;
+}
+
+// Renders a YouTube embed for common YouTube URL formats.
+// Usage: <YouTubeEmbed url={listenUrl} />
+// This component only uses its props and does not depend on globals.
+const { url = '' }: Props = Astro.props;
+
+function getYouTubeId(input?: string | null) {
+  if (!input) return null;
+
+  const trimmed = input.trim();
+  const regexes = [
+    /(?:youtube\.com\/watch\?v=|youtube\.com\/shorts\/|youtu\.be\/|youtube\.com\/live\/)([a-zA-Z0-9_-]{11})/,
+    /youtube\.com\/embed\/([a-zA-Z0-9_-]{11})/
+  ];
+
+  for (const regex of regexes) {
+    const match = trimmed.match(regex);
+    if (match) {
+      return match[1];
+    }
+  }
+
+  return null;
+}
+
+const videoId = getYouTubeId(url);
+---
+
+{videoId && (
+  <div class="Media YouTube">
+    <iframe
+      src={`https://www.youtube.com/embed/${videoId}`}
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      loading="lazy"
+    />
+  </div>
+)}
