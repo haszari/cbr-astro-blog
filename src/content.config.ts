@@ -1,6 +1,8 @@
 import { defineCollection, z } from 'astro:content';
 import { glob, file } from 'astro/loaders';
 
+// Page colour scheme override. Only background is required; remaining
+// colours are derived from a hierarchy (see PageThemeStyles.astro).
 const pageColours = z.object({
 	background: z.string().optional(),
 	text: z.string().optional(),
