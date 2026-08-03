@@ -9,6 +9,88 @@ colours:
   accentText: "#c9c4b8"
 ---
 
+export const PerformerLinks = ({ items }) => {
+  if (!items?.length) return null;
+
+  return (
+    <div className="SocialIcons">
+      <div className="Icons">
+        {items.map(({ platform, url }) =>
+          url ? (
+            <a
+              key={`${platform}-${url}`}
+              className="PlatformIcon"
+              href={url}
+              title={`View ${platform}`}
+            >
+              <span className={`icon-${platform}`} />
+            </a>
+          ) : null
+        )}
+      </div>
+    </div>
+  );
+};
+
+export const PerformerList = ({ performers }) => (
+  <ul>
+    {performers.map(({ name, links = [], website }) => (
+      <li key={name} style={{ marginBottom: '0.4rem' }}>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
+          {website ? (
+            <a href={website}>
+              <strong>{name}</strong>
+            </a>
+          ) : (
+            <strong>{name}</strong>
+          )}
+          {links.length > 0 && (
+            <span>
+              <PerformerLinks items={links} />
+            </span>
+          )}
+        </span>
+      </li>
+    ))}
+  </ul>
+);
+
+export const performers = [
+  {
+    name: 'aBraille',
+    links: [
+      { platform: 'instagram', url: 'https://www.instagram.com/abr4ille' },
+      { platform: 'youtube', url: 'https://www.youtube.com/watch?v=7PCY-t2vQh0' },
+    ],
+  },
+  {
+    name: 'Creassault',
+    website: 'https://www.creassault.com',
+    links: [
+      { platform: 'instagram', url: 'https://www.instagram.com/creassault/' },
+    ],
+  },
+  {
+    name: 'Haszari',
+    website: '/haszari',
+    links: [
+      { platform: 'instagram', url: 'https://www.instagram.com/haszari' },
+      { platform: 'soundcloud', url: 'https://soundcloud.com/haszari' },
+      { platform: 'youtube', url: 'https://www.youtube.com/haszaritube' },
+    ],
+  },
+];
+
+export const visualPerformers = [
+  {
+    name: 'NeuroWinter',
+    website: 'https://neurowinter.com',
+    links: [
+      { platform: 'instagram', url: 'https://www.instagram.com/neurowinter/' },
+    ],
+  },
+];
+
 Experimental, live electronic music - modular, laptop, hybrid - and some interesting DJ sets.  
 
 Join the circle…
@@ -21,12 +103,10 @@ Join the circle…
 
 ### who's playing?
 #### *live*
-- [**aBraille**](https://www.youtube.com/watch?v=7PCY-t2vQh0)
-- [**Creassault**](https://www.creassault.com/)
-- [**Haszari**](https://cartoonbeats.com/haszari/)
+<PerformerList performers={performers} />
 
 #### *visual*
-- **NeuroWinter**
+<PerformerList performers={visualPerformers} />
 
 ### links
 - [Resident Advisor](https://ra.co/events/2500618)
