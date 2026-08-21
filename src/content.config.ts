@@ -46,7 +46,11 @@ const radio = defineCollection({
 			listenUrl: z.string().url().optional(),
 			tracklist: z.array(z.union([
 				z.string(),
-				z.object({ artist: z.string(), title: z.string() }),
+				z.object({
+					artist: z.string(),
+					title: z.string(),
+					nz: z.boolean().optional(),
+				}),
 			])).optional(),
 			bluesky: z.object({
 				uri: z.string(),

@@ -2,6 +2,8 @@ import { loadEnvFile } from 'node:process'
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { Agent, RichText } from '@atproto/api'
+import { slugify } from './lib/slugify.mjs'
+import { yamlStr } from './lib/yaml.mjs'
 
 loadEnvFile()
 
@@ -31,16 +33,6 @@ function saveState(state) {
 }
 
 // --- Helpers ---
-
-function slugify(text) {
-  return text
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/[\s_]+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .slice(0, 60)
-}
 
 function extractTitle(text) {
   const firstLine = text.split('\n')[0].trim()
@@ -100,7 +92,7 @@ function generateFrontmatter(title, pubDate, blueskyUri) {
   const dateStr = pubDate.toISOString().replace(/\.\d{3}Z$/, '')
   return [
     '---',
-    `title: "${title.replace(/"/g, '\\"')}"`,
+    `title: ${yamlStr(title)}`,
     `pubDate: "${dateStr}"`,
     'bluesky:',
     `  uri: "${blueskyUri}"`,
@@ -152,7 +144,7 @@ async function main() {
     // --- Process new post ---
     const year = pubDate.getFullYear().toString()
     const title = extractTitle(record.text)
-    let slug = slugify(title) || `post-${post.uri.split('/').pop()}`
+    let slug = slugify(title, 60) || `post-${post.uri.split('/').pop()}`
     let postDir = join(BLOG_BASE, year, slug)
 
     // Handle slug collision
