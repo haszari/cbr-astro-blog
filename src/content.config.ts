@@ -6,6 +6,7 @@ import { glob, file } from 'astro/loaders';
 const pageColours = z.object({
 	background: z.string().optional(),
 	text: z.string().optional(),
+	headerText: z.string().optional(),
 	accent: z.string().optional(),
 	accentText: z.string().optional(),
 });
@@ -46,7 +47,11 @@ const radio = defineCollection({
 			listenUrl: z.string().url().optional(),
 			tracklist: z.array(z.union([
 				z.string(),
-				z.object({ artist: z.string(), title: z.string() }),
+				z.object({
+					artist: z.string(),
+					title: z.string(),
+					nz: z.boolean().optional(),
+				}),
 			])).optional(),
 			bluesky: z.object({
 				uri: z.string(),

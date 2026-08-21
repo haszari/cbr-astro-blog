@@ -72,6 +72,7 @@ blockquote p {
     font-size: 1.4em;
     font-weight: bold;
     text-align: right;
+    color: globals.$headerText;
   }
 }
 
@@ -81,7 +82,7 @@ blockquote p {
   gap: 1em;
 
   a {
-    color: globals.$text;
+    color: globals.$headerText;
     display: flex;
     align-items: center;
   }
@@ -163,10 +164,9 @@ blockquote p {
   font-family: 'Hedvig Letters Serif';
   color: globals.$text;
 
-
   a {
-    // Override header links to look like regular text.
-    color: globals.$text;
+    // Override header links to use the configured header colour.
+    color: globals.$headerText;
   }
     
   .SiteLogo {
@@ -182,6 +182,10 @@ blockquote p {
       font-size: 2em;
     }
   }
+}
+
+.Footer a {
+  color: globals.$text;
 }
 
 .Footer {

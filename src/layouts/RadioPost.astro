@@ -40,7 +40,7 @@ const { url } = Astro;
 
 								return (
 									<li>
-										<strong>{track.artist}</strong> – <em>{track.title}</em>
+										<strong>{track.artist}</strong> – <em>{track.title}</em>{track.nz && ' [NZ]'}
 									</li>
 								);
 							})}

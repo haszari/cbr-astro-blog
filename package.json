@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "import:bluesky": "node scripts/bluesky-import.mjs",
+    "scaffold:posts-from-bluesky": "node scripts/scaffold-posts-from-bluesky.mjs",
+    "scaffold:radio-from-csv": "node scripts/scaffold-radio-from-csv.mjs",
     "astro": "astro"
   },
   "dependencies": {
