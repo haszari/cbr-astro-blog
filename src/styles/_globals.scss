@@ -15,6 +15,7 @@ $medium: 900px;
 $dark-bg-alt: #343433;
 $dark-bg: var(--site-bg, #222626);
 $text: var(--site-text, white);
+$headerText: var(--site-header-text, $text);
 // Links AND buttons.
 $linkButton: var(--site-accent, #35ffe1);
 // Text on buttons might need to be a different colour

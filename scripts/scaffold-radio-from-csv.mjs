@@ -89,8 +89,8 @@ function buildFrontmatter({ title, pubDate, tracklist }) {
     `pubDate: ${pubDate.toISOString()}`,
     '# listenUrl: paste your link here',
     '# colours:',
-    '#   background: "#......"',
-    '#   text: "#......"',
+    '#   background: "#010101"',
+    '#   text: "#f0f0f0"',
     '# heroImage: ./your-photo.jpg',
     'tracklist:',
   ];

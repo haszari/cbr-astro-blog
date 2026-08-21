@@ -6,6 +6,7 @@ import { glob, file } from 'astro/loaders';
 const pageColours = z.object({
 	background: z.string().optional(),
 	text: z.string().optional(),
+	headerText: z.string().optional(),
 	accent: z.string().optional(),
 	accentText: z.string().optional(),
 });

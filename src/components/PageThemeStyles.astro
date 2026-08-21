@@ -21,6 +21,7 @@ import { themeForeground, isLightColour, rotateHue } from '../lib/colour-utils';
 interface ColourValues {
 	background?: string;
 	text?: string;
+	headerText?: string;
 	accent?: string;
 	accentText?: string;
 }
@@ -30,11 +31,11 @@ interface Props {
 }
 
 const { colours } = Astro.props;
-const hasColours = colours && (colours.background || colours.text || colours.accent || colours.accentText);
+const hasColours = colours && (colours.background || colours.text || colours.headerText || colours.accent || colours.accentText);
 
 const accentHueRotateAmount = -45;
 
-let background = '', text = '', accent = '', accentText = '';
+let background = '', text = '', headerText = '', accent = '', accentText = '';
 
 if (hasColours && colours.background) {
 	background = colours.background;
@@ -44,6 +45,7 @@ if (hasColours && colours.background) {
 	} else {
 		text = themeForeground(background);
 	}
+	headerText = colours.headerText || text;
 
 	if (colours.accent) {
 		accent = colours.accent;
@@ -64,6 +66,7 @@ const themeCss = hasColours ? `
 	:root {
 		--site-bg: ${background};
 		--site-text: ${text};
+		--site-header-text: ${headerText};
 		--site-accent: ${accent};
 		--site-accent-text: ${accentText};
 	}
@@ -77,7 +80,7 @@ const themeCss = hasColours ? `
 ` : '';
 
 // Render a comment of all (possibly generated) colours, for reference or to tweak.
-const colourComment = hasColours ? `<!-- page-colour-scheme background: ${background} text: ${text} accent: ${accent} accentText: ${accentText} -->` : '';
+const colourComment = hasColours ? `<!-- page-colour-scheme background: ${background} text: ${text} headerText: ${headerText} accent: ${accent} accentText: ${accentText} -->` : '';
 ---
 
 {hasColours && <style is:global set:html={themeCss}></style>}
