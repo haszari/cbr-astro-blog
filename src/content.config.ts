@@ -102,6 +102,7 @@ const artists = defineCollection({
 				
 				bluesky: z.string().optional().or(z.null()),
 				instagram: z.string().optional().or(z.null()),
+				github: z.string().optional().or(z.null()),
 				tiktok: z.string().optional().or(z.null()),
 				facebook: z.string().optional().or(z.null()),
 				mastodon: z.string().optional().or(z.null()),

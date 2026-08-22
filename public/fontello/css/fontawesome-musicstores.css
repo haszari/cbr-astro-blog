@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontawesome-musicstores';
-  src: url('../font/fontawesome-musicstores.eot?24949854');
-  src: url('../font/fontawesome-musicstores.eot?24949854#iefix') format('embedded-opentype'),
-       url('../font/fontawesome-musicstores.woff2?24949854') format('woff2'),
-       url('../font/fontawesome-musicstores.woff?24949854') format('woff'),
-       url('../font/fontawesome-musicstores.ttf?24949854') format('truetype'),
-       url('../font/fontawesome-musicstores.svg?24949854#fontawesome-musicstores') format('svg');
+  src: url('../font/fontawesome-musicstores.eot?55940561');
+  src: url('../font/fontawesome-musicstores.eot?55940561#iefix') format('embedded-opentype'),
+       url('../font/fontawesome-musicstores.woff2?55940561') format('woff2'),
+       url('../font/fontawesome-musicstores.woff?55940561') format('woff'),
+       url('../font/fontawesome-musicstores.ttf?55940561') format('truetype'),
+       url('../font/fontawesome-musicstores.svg?55940561#fontawesome-musicstores') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontawesome-musicstores';
-    src: url('../font/fontawesome-musicstores.svg?24949854#fontawesome-musicstores') format('svg');
+    src: url('../font/fontawesome-musicstores.svg?55940561#fontawesome-musicstores') format('svg');
   }
 }
 */
@@ -62,6 +62,8 @@
 .icon-residentadvisor:before { content: '\e80a'; } /* '' */
 .icon-soundcloud:before { content: '\f089'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-github-circled:before { content: '\f09b'; } /* '' */
+.icon-github:before { content: '\f113'; } /* '' */
 .icon-youtube:before { content: '\f16a'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-apple:before { content: '\f179'; } /* '' */
