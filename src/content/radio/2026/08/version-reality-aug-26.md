@@ -6,8 +6,8 @@ colours:
   background: "#162c30"
   text: "#cdc3c7"
   headerText: black
-heroImage: ./cover.jpg
-headerImage: ./header.jpg
+heroImage: ./version/cover.jpg
+headerImage: ./version/header.jpg
 tracklist:
   - artist: "O/Y"
     title: "Roads"
