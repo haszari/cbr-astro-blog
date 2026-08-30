@@ -7,8 +7,8 @@
   colours:
     background: "#02305f"
     text: "#d8dfcf"
-    accent: "#fe0000"
-    accentText: "#dce2e5"
+    # accent: "#fe0000"
+    # accentText: "#dce2e5"
   blurb:
     "The tense push & pull of human communication expressed as a crunchy jackin' basement-house track. Forthcoming - 11 Sept 2026. With clean-room acid tech remix from Haszari."
   # listenLinks:
