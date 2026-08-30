@@ -1,4 +1,24 @@
 
+- slug: "cbr023"
+  artist: "PocketLipps"
+  title: "What Did You Say"
+  cover: "./covers/cbr023.jpg"
+  releaseDate: 2026-09-11
+  colours:
+    background: "#02305f"
+    text: "#d8dfcf"
+    accent: "#fe0000"
+    accentText: "#dce2e5"
+  blurb:
+    "The tense push & pull of human communication expressed as a crunchy jackin' basement-house track. Forthcoming - 11 Sept 2026. With clean-room acid tech remix from Haszari."
+  # listenLinks:
+  #   bandcamp: 
+  #   soundcloud: 
+  #   youtube: 
+  #   apple: 
+  #   beatport: 
+  #   spotify: 
+
 - slug: "cbr022"
   artist: "Haszari"
   title: "Wet Paint"
