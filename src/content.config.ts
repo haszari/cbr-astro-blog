@@ -54,7 +54,7 @@ const radio = defineCollection({
 				}),
 			])).optional(),
 			bluesky: z.object({
-				uri: z.string(),
+				uri: z.string().optional(),
 				url: z.string(),
 			}).optional(),
 			heroImage: image().optional(),
