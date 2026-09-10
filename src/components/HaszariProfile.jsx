@@ -114,7 +114,7 @@ const HaszariPage = ({data}) => {
 
       <div className="Row-flip">
         <div className="Media YouTube">
-          <iframe width="480" src="https://www.youtube.com/embed/RQ6fk0km2xM?si=yVRQyJa-RGZQXHLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="480" src="https://www.youtube.com/embed/hnVit1kh8Ig?si=3DvLcoHADm1aEj9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div className="Copy">
           <p>I’m obsessed with the challenge of playing electronic music live.</p>
