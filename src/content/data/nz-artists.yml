@@ -780,6 +780,16 @@
   - World
   locations:
   - London
+- slug: dream-chambers
+  name: Dream Chambers aka Jess Chambers
+  styles:
+  - Electronic
+  - Modular
+  - Ambient
+  - Dreamn Pop
+  - Experimental
+  links:
+    bandcamp: https://dreamchambers.bandcamp.com
 - slug: dr-love-gland
   name: Dr. Love Gland
   styles:
@@ -1411,48 +1421,9 @@
   name: K-Lab
   lastReleaseYear: 2018
   styles:
-  - Ambient
-  - Bird
-  - Chill
-  - Classic House
-  - Deep House
-  - Dj Klab
-  - Electro
+  - Dance
   - Electronic
-  - Female Vocals
-  - House
-  - Instrumental
-  - Original Mix
-  - Summer
-  - Sun
-  - Techno
-  - Violon
-  - Vocal
-  locations:
-  - Lyon
-- slug: k-lab
-  name: K+Lab
-  lastReleaseYear: 2018
-  styles:
-  - Ambient
-  - Bird
-  - Chill
-  - Classic House
-  - Deep House
-  - Dj Klab
-  - Electro
-  - Electronic
-  - Female Vocals
-  - House
-  - Instrumental
-  - Original Mix
-  - Summer
-  - Sun
-  - Techno
-  - Violon
-  - Vocal
-  locations:
-  - Lyon
+  - Glitch Hop
 - slug: kadyn-webster
   name: Kadyn Webster
   lastReleaseYear: 2023
